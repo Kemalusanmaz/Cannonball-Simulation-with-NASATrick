@@ -1,0 +1,2653 @@
+In file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:38:
+In file included from /usr/include/c++/11/iosfwd:40:
+In file included from /usr/include/c++/11/bits/postypes.h:40:
+In file included from /usr/include/c++/11/cwchar:44:
+[1m/usr/include/wchar.h:155:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_free;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:566:5: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+    __attr_dealloc_free;
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:570:14: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __THROW __attr_dealloc (reallocarray, 1);
+[0;1;32m             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:799:6: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __attr_dealloc_free __wur;
+[0;1;32m     ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:189:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:201:25: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                        ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:223:39: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __THROW __attribute_malloc__ __wur __attr_dealloc_free;
+[0;1;32m                                      ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:260:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:285:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:294:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:303:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:309:32: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __THROW __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                               ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:315:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:322:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:830:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc (pclose, 1) __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0m/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_analytic.c:9:5: error: conflicting types for ‘cannon_analytic’; have ‘int(CANNON *, FAILURE *)’
+    9 | int cannon_analytic( CANNON* C, FAILURE* F ) {
+      |     ^~~~~~~~~~~~~~~
+In file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_analytic.c:6:
+/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/../include/cannon_analytic.h:10:5: note: previous declaration of ‘cannon_analytic’ with type ‘int(CANNON *)’
+   10 | int cannon_analytic(CANNON*) ;
+      |     ^~~~~~~~~~~~~~~
+In file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:38:
+In file included from /usr/include/c++/11/iosfwd:40:
+In file included from /usr/include/c++/11/bits/postypes.h:40:
+In file included from /usr/include/c++/11/cwchar:44:
+[1m/usr/include/wchar.h:155:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_free;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:566:5: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+    __attr_dealloc_free;
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:570:14: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __THROW __attr_dealloc (reallocarray, 1);
+[0;1;32m             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:799:6: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __attr_dealloc_free __wur;
+[0;1;32m     ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:189:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:201:25: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                        ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:223:39: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __THROW __attribute_malloc__ __wur __attr_dealloc_free;
+[0;1;32m                                      ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:260:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:285:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:294:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:303:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:309:32: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __THROW __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                               ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:315:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:322:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:830:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc (pclose, 1) __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0m[1m/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:843:9: [0m[0;1;31merror: [0m[1munknown type name 'FAILURE'[0m
+        FAILURE failure;
+[0;1;32m        ^
+[0m[1m/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:847:19: [0m[0;1;31merror: [0m[1mcannot initialize object parameter of type 'Trick::SimObject' with an expression of type 'CannonSimObject'[0m
+            job = this->add_job(0, 0, "default_data", NULL, 1, "cannon_default_data", "", 60000) ;
+[0;1;32m                  ^~~~
+[0m[1m/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:848:19: [0m[0;1;31merror: [0m[1mcannot initialize object parameter of type 'Trick::SimObject' with an expression of type 'CannonSimObject'[0m
+            job = this->add_job(0, 1, "default_data", NULL, 1, "failure_default_data", "", 60000) ;
+[0;1;32m                  ^~~~
+[0m[1m/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:849:19: [0m[0;1;31merror: [0m[1mcannot initialize object parameter of type 'Trick::SimObject' with an expression of type 'CannonSimObject'[0m
+            job = this->add_job(0, 2, "initialization", NULL, 1, "cannon_init", "", 60000) ;
+[0;1;32m                  ^~~~
+[0m[1m/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:850:19: [0m[0;1;31merror: [0m[1mcannot initialize object parameter of type 'Trick::SimObject' with an expression of type 'CannonSimObject'[0m
+            job = this->add_job(0, 3, "scheduled", NULL, 0.01, "cannon_analytic", "", 60000) ;
+[0;1;32m                  ^~~~
+[0m[1m/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:851:19: [0m[0;1;31merror: [0m[1mcannot initialize object parameter of type 'Trick::SimObject' with an expression of type 'CannonSimObject'[0m
+            job = this->add_job(0, 4, "shutdown", NULL, 1, "cannon_shutdown", "", 60000) ;
+[0;1;32m                  ^~~~
+[0mIn file included from build/S_source.cpp:3:
+build/../S_source.hh:843:9: error: ‘FAILURE’ does not name a type; did you mean ‘VALUE’?
+  843 |         FAILURE failure;
+      |         ^~~~~~~
+      |         VALUE
+build/S_source.cpp: In member function ‘virtual int CannonSimObject::call_function(Trick::JobData*)’:
+build/S_source.cpp:1019:13: error: ‘failure_default_data’ was not declared in this scope; did you mean ‘cannon_default_data’?
+ 1019 |             failure_default_data( &cannon ) ;
+      |             ^~~~~~~~~~~~~~~~~~~~
+      |             cannon_default_data
+In file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:38:
+In file included from /usr/include/c++/11/iosfwd:40:
+In file included from /usr/include/c++/11/bits/postypes.h:40:
+In file included from /usr/include/c++/11/cwchar:44:
+[1m/usr/include/wchar.h:155:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_free;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:566:5: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+    __attr_dealloc_free;
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:570:14: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __THROW __attr_dealloc (reallocarray, 1);
+[0;1;32m             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:799:6: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __attr_dealloc_free __wur;
+[0;1;32m     ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:189:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:201:25: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                        ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:223:39: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __THROW __attribute_malloc__ __wur __attr_dealloc_free;
+[0;1;32m                                      ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:260:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:285:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:294:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:303:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:309:32: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __THROW __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                               ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:315:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:322:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:830:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc (pclose, 1) __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0m[1m/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:843:9: [0m[0;1;31merror: [0m[1munknown type name 'FAILURE'[0m
+        FAILURE failure;
+[0;1;32m        ^
+[0m[1m/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:847:19: [0m[0;1;31merror: [0m[1mcannot initialize object parameter of type 'Trick::SimObject' with an expression of type 'CannonSimObject'[0m
+            job = this->add_job(0, 0, "default_data", NULL, 1, "cannon_default_data", "", 60000) ;
+[0;1;32m                  ^~~~
+[0m[1m/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:848:19: [0m[0;1;31merror: [0m[1mcannot initialize object parameter of type 'Trick::SimObject' with an expression of type 'CannonSimObject'[0m
+            job = this->add_job(0, 1, "default_data", NULL, 1, "failure_default_data", "", 60000) ;
+[0;1;32m                  ^~~~
+[0m[1m/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:849:19: [0m[0;1;31merror: [0m[1mcannot initialize object parameter of type 'Trick::SimObject' with an expression of type 'CannonSimObject'[0m
+            job = this->add_job(0, 2, "initialization", NULL, 1, "cannon_init", "", 60000) ;
+[0;1;32m                  ^~~~
+[0m[1m/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:850:19: [0m[0;1;31merror: [0m[1mcannot initialize object parameter of type 'Trick::SimObject' with an expression of type 'CannonSimObject'[0m
+            job = this->add_job(0, 3, "scheduled", NULL, 0.01, "cannon_analytic", "", 60000) ;
+[0;1;32m                  ^~~~
+[0m[1m/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:851:19: [0m[0;1;31merror: [0m[1mcannot initialize object parameter of type 'Trick::SimObject' with an expression of type 'CannonSimObject'[0m
+            job = this->add_job(0, 4, "shutdown", NULL, 1, "cannon_shutdown", "", 60000) ;
+[0;1;32m                  ^~~~
+[0mIn file included from build/S_source.cpp:3:
+build/../S_source.hh:843:9: error: ‘FAILURE’ does not name a type; did you mean ‘VALUE’?
+  843 |         FAILURE failure;
+      |         ^~~~~~~
+      |         VALUE
+build/S_source.cpp: In member function ‘virtual int CannonSimObject::call_function(Trick::JobData*)’:
+build/S_source.cpp:1019:36: error: ‘failure’ was not declared in this scope
+ 1019 |             failure_default_data( &failure ) ;
+      |                                    ^~~~~~~
+build/S_source.cpp:1019:13: error: ‘failure_default_data’ was not declared in this scope; did you mean ‘cannon_default_data’?
+ 1019 |             failure_default_data( &failure ) ;
+      |             ^~~~~~~~~~~~~~~~~~~~
+      |             cannon_default_data
+In file included from build/S_source.cpp:3:
+build/../S_source.hh:843:9: error: ‘FAILURE’ does not name a type; did you mean ‘VALUE’?
+  843 |         FAILURE failure;
+      |         ^~~~~~~
+      |         VALUE
+build/S_source.cpp: In member function ‘virtual int CannonSimObject::call_function(Trick::JobData*)’:
+build/S_source.cpp:1019:36: error: ‘failure’ was not declared in this scope
+ 1019 |             failure_default_data( &failure ) ;
+      |                                    ^~~~~~~
+build/S_source.cpp:1019:13: error: ‘failure_default_data’ was not declared in this scope; did you mean ‘cannon_default_data’?
+ 1019 |             failure_default_data( &failure ) ;
+      |             ^~~~~~~~~~~~~~~~~~~~
+      |             cannon_default_data
+In file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:38:
+In file included from /usr/include/c++/11/iosfwd:40:
+In file included from /usr/include/c++/11/bits/postypes.h:40:
+In file included from /usr/include/c++/11/cwchar:44:
+[1m/usr/include/wchar.h:155:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_free;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:566:5: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+    __attr_dealloc_free;
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:570:14: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __THROW __attr_dealloc (reallocarray, 1);
+[0;1;32m             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:799:6: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __attr_dealloc_free __wur;
+[0;1;32m     ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:189:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:201:25: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                        ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:223:39: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __THROW __attribute_malloc__ __wur __attr_dealloc_free;
+[0;1;32m                                      ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:260:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:285:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:294:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:303:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:309:32: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __THROW __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                               ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:315:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:322:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:830:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc (pclose, 1) __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mcannot read $source_file_name at /home/fjolnirr/trick/libexec/trick/pm/get_lib_deps.pm line 179.
+build/S_source.cpp: In member function ‘virtual int CannonSimObject::call_function(Trick::JobData*)’:
+build/S_source.cpp:1016:32: error: too many arguments to function ‘int cannon_default_data(CANNON*)’
+ 1016 |             cannon_default_data( &cannon, &failure ) ;
+      |             ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+In file included from models/cannon/include/cannon_analytic.h:6,
+                 from build/../S_source.hh:99,
+                 from build/S_source.cpp:3:
+models/cannon/include/cannon.h:28:9: note: declared here
+   28 |     int cannon_default_data(CANNON*) ;
+      |         ^~~~~~~~~~~~~~~~~~~
+build/S_source.cpp:1019:13: error: ‘failure_default_data’ was not declared in this scope; did you mean ‘cannon_default_data’?
+ 1019 |             failure_default_data( &failure ) ;
+      |             ^~~~~~~~~~~~~~~~~~~~
+      |             cannon_default_data
+build/S_source.cpp:1022:24: error: too many arguments to function ‘int cannon_init(CANNON*)’
+ 1022 |             cannon_init( &cannon, &failure ) ;
+      |             ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+In file included from models/cannon/include/cannon_analytic.h:6,
+                 from build/../S_source.hh:99,
+                 from build/S_source.cpp:3:
+models/cannon/include/cannon.h:29:9: note: declared here
+   29 |     int cannon_init(CANNON*) ;
+      |         ^~~~~~~~~~~
+build/S_source.cpp:1028:28: error: too many arguments to function ‘int cannon_shutdown(CANNON*)’
+ 1028 |             cannon_shutdown( &cannon, &failure ) ;
+      |             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+In file included from models/cannon/include/cannon_analytic.h:6,
+                 from build/../S_source.hh:99,
+                 from build/S_source.cpp:3:
+models/cannon/include/cannon.h:30:9: note: declared here
+   30 |     int cannon_shutdown(CANNON*) ;
+      |         ^~~~~~~~~~~~~~~
+In file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:38:
+In file included from /usr/include/c++/11/iosfwd:40:
+In file included from /usr/include/c++/11/bits/postypes.h:40:
+In file included from /usr/include/c++/11/cwchar:44:
+[1m/usr/include/wchar.h:155:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_free;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:566:5: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+    __attr_dealloc_free;
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:570:14: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __THROW __attr_dealloc (reallocarray, 1);
+[0;1;32m             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:799:6: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __attr_dealloc_free __wur;
+[0;1;32m     ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:189:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:201:25: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                        ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:223:39: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __THROW __attribute_malloc__ __wur __attr_dealloc_free;
+[0;1;32m                                      ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:260:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:285:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:294:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:303:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:309:32: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __THROW __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                               ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:315:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:322:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:830:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc (pclose, 1) __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mbuild/S_source.cpp: In member function ‘virtual int CannonSimObject::call_function(Trick::JobData*)’:
+build/S_source.cpp:1019:13: error: ‘failure_default_data’ was not declared in this scope; did you mean ‘cannon_default_data’?
+ 1019 |             failure_default_data( &failure ) ;
+      |             ^~~~~~~~~~~~~~~~~~~~
+      |             cannon_default_data
+In file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:38:
+In file included from /usr/include/c++/11/iosfwd:40:
+In file included from /usr/include/c++/11/bits/postypes.h:40:
+In file included from /usr/include/c++/11/cwchar:44:
+[1m/usr/include/wchar.h:155:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_free;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:566:5: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+    __attr_dealloc_free;
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:570:14: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __THROW __attr_dealloc (reallocarray, 1);
+[0;1;32m             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:799:6: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __attr_dealloc_free __wur;
+[0;1;32m     ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:189:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:201:25: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                        ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:223:39: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __THROW __attribute_malloc__ __wur __attr_dealloc_free;
+[0;1;32m                                      ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:260:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:285:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:294:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:303:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:309:32: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __THROW __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                               ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:315:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:322:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:830:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc (pclose, 1) __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0m/usr/bin/ld: build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/failure/include/failure_py.o: in function `_wrap_failure':
+/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/failure/include/failure_py.cpp:4614: undefined reference to `failure'
+collect2: error: ld returned 1 exit status
+In file included from models/cannon/include/cannon.h:7,
+                 from models/cannon/include/cannon_analytic.h:6,
+                 from S_source.hh:99:
+models/cannon/include/../../failure/include/failure.h:4: error: unterminated #ifndef
+    4 | #ifndef FAILURE_H
+      | 
+In file included from models/cannon/include/cannon_analytic.h:7,
+                 from S_source.hh:99:
+models/cannon/include/../../failure/include/failure.h:4: error: unterminated #ifndef
+    4 | #ifndef FAILURE_H
+      | 
+In file included from S_source.hh:100:
+models/failure/include/failure.h:4: error: unterminated #ifndef
+    4 | #ifndef FAILURE_H
+      | 
+In file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:38:
+In file included from /usr/include/c++/11/iosfwd:40:
+In file included from /usr/include/c++/11/bits/postypes.h:40:
+In file included from /usr/include/c++/11/cwchar:44:
+[1m/usr/include/wchar.h:155:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_free;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:566:5: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+    __attr_dealloc_free;
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:570:14: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __THROW __attr_dealloc (reallocarray, 1);
+[0;1;32m             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:799:6: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __attr_dealloc_free __wur;
+[0;1;32m     ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:189:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:201:25: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                        ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:223:39: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __THROW __attribute_malloc__ __wur __attr_dealloc_free;
+[0;1;32m                                      ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:260:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:285:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:294:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:303:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:309:32: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __THROW __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                               ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:315:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:322:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:830:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc (pclose, 1) __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:99:
+In file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon_analytic.h:6:
+In file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon.h:7:
+[1m/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/../../failure/include/failure.h:4:2: [0m[0;1;31merror: [0m[1munterminated conditional directive[0m
+#ifndef FAILURE_H
+[0;1;32m ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:99:
+In file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon_analytic.h:7:
+[1m/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/../../failure/include/failure.h:4:2: [0m[0;1;31merror: [0m[1munterminated conditional directive[0m
+#ifndef FAILURE_H
+[0;1;32m ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:100:
+[1m/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/failure/include/failure.h:4:2: [0m[0;1;31merror: [0m[1munterminated conditional directive[0m
+#ifndef FAILURE_H
+[0;1;32m ^
+[0mIn file included from models/cannon/include/cannon.h:7,
+                 from models/cannon/include/cannon_analytic.h:6,
+                 from build/../S_source.hh:99,
+                 from build/S_source.cpp:3:
+models/cannon/include/../../failure/include/failure.h:4: error: unterminated #ifndef
+    4 | #ifndef FAILURE_H
+      | 
+In file included from models/cannon/include/cannon_analytic.h:7,
+                 from build/../S_source.hh:99,
+                 from build/S_source.cpp:3:
+models/cannon/include/../../failure/include/failure.h:4: error: unterminated #ifndef
+    4 | #ifndef FAILURE_H
+      | 
+In file included from build/../S_source.hh:100,
+                 from build/S_source.cpp:3:
+models/failure/include/failure.h:4: error: unterminated #ifndef
+    4 | #ifndef FAILURE_H
+      | 
+In file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:38:
+In file included from /usr/include/c++/11/iosfwd:40:
+In file included from /usr/include/c++/11/bits/postypes.h:40:
+In file included from /usr/include/c++/11/cwchar:44:
+[1m/usr/include/wchar.h:155:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_free;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:566:5: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+    __attr_dealloc_free;
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:570:14: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __THROW __attr_dealloc (reallocarray, 1);
+[0;1;32m             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:799:6: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __attr_dealloc_free __wur;
+[0;1;32m     ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:189:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:201:25: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                        ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:223:39: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __THROW __attribute_malloc__ __wur __attr_dealloc_free;
+[0;1;32m                                      ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:260:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:285:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:294:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:303:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:309:32: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __THROW __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                               ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:315:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:322:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:830:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc (pclose, 1) __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:38:
+In file included from /usr/include/c++/11/iosfwd:40:
+In file included from /usr/include/c++/11/bits/postypes.h:40:
+In file included from /usr/include/c++/11/cwchar:44:
+[1m/usr/include/wchar.h:155:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_free;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:566:5: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+    __attr_dealloc_free;
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:570:14: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __THROW __attr_dealloc (reallocarray, 1);
+[0;1;32m             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:799:6: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __attr_dealloc_free __wur;
+[0;1;32m     ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:189:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:201:25: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                        ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:223:39: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __THROW __attribute_malloc__ __wur __attr_dealloc_free;
+[0;1;32m                                      ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:260:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:285:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:294:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:303:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:309:32: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __THROW __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                               ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:315:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:322:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:830:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc (pclose, 1) __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0m

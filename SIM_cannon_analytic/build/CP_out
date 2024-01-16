@@ -1,0 +1,35 @@
+Output for /home/fjolnirr/trick/libexec/trick/configuration_processor version 19.7.0-beta- at Tue Jan 16 09:38:39 2024
+
+Parsing    S_define
+Warning    S_define
+           Could not find dependency "failure/src/failure.c"
+Processing S_define
+Processing /usr/include/stdc-predef.h
+Continuing S_define
+Processing /home/fjolnirr/trick/share/trick/sim_objects/default_trick_sys.sm
+Processing SysSimObject
+Processing MonteCarloSimObject
+Processing MemoryManagerSimObject
+Processing CheckPointRestartSimObject
+Processing SieSimObject
+Processing CommandLineArgumentsSimObject
+Processing MessageSimObject
+Processing JITSimObject
+Processing InputProcessorSimObject
+Processing ThreadProcessEventSimObject
+Processing EventManagerSimObject
+Processing VariableServerSimObject
+Processing DataRecordDispatcherSimObject
+Processing RTSyncSimObject
+Processing FrameLogSimObject
+Processing MasterSlaveSimObject
+Processing InstrumentationSimObject
+Processing InjectorExecSimObject
+Processing InjectorSimObject
+Processing ZeroconfSimObject
+Processing UnitTestSimObject
+Processing UdUnitsSimObject
+Continuing S_define
+Processing CannonSimObject
+Finished   S_define
+Writing    S_source.c
