@@ -5,6 +5,7 @@ PURPOSE: (Represent the state and initial conditions of a cannonball)
 #define CANNON_H
 #include "../../failure/include/failure.h"
 
+
 typedef struct {
 
     double vel0[2] ;    /* *i m Init velocity of cannonball */
@@ -25,11 +26,13 @@ typedef struct {
 
 } CANNON ;
 
+
 #ifdef __cplusplus
 extern "C" {
 #endif
     int cannon_default_data(CANNON*,FAILURE*) ;
     int cannon_init(CANNON*,FAILURE*) ;
+    int cannon_analytic(CANNON*, FAILURE*) ;
     int cannon_reset(CANNON*,FAILURE*) ;
     int cannon_shutdown(CANNON*) ;
 #ifdef __cplusplus

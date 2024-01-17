@@ -132,9 +132,9 @@ build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source_py.cpp: \
   /home/fjolnirr/trick/include/trick/montecarlo_c_intf.h \
   /home/fjolnirr/trick/include/trick/tc_proto.h \
   /home/fjolnirr/trick/include/trick/trick_tests.h \
-  build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon_analytic_py.i \
-  build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon_py.i \
-  build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/failure/include/failure_py.i 
+  build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/include/ball_py.i \
+  build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/failure/include/failure_py.i \
+  build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon_py.i 
 
 build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source_py.i:
 
@@ -402,8 +402,8 @@ build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source_py.i:
 
 /home/fjolnirr/trick/include/trick/trick_tests.h:
 
-build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon_analytic_py.i:
-
-build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon_py.i:
+build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/include/ball_py.i:
 
 build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/failure/include/failure_py.i:
+
+build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon_py.i:

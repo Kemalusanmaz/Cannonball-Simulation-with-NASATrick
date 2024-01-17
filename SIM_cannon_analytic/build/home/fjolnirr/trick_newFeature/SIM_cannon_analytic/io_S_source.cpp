@@ -2204,3 +2204,98 @@ struct UnitsMapCannonSimObject {
     }
 } umCannonSimObject;
 
+extern "C" {
+
+ATTRIBUTES attrBallSimObject[] = {
+{"name", "std::string", "1", "", "",
+  "",
+  15,TRICK_STRING, sizeof(std::string), 0, 0, Language_CPP, 4,
+  8, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"id", "int", "1", "", "",
+  "",
+  15,TRICK_INTEGER, sizeof(int), 0, 0, Language_CPP, 4,
+  40, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"object_disabled", "bool", "1", "", "",
+  "",
+  15,TRICK_BOOLEAN, sizeof(bool), 0, 0, Language_CPP, 4,
+  44, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"ball", "BALL", "1", "", "",
+  "",
+  15,TRICK_STRUCTURED, 0, 0, 0, Language_CPP, 0,
+  168, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"failure", "FAILURE", "1", "", "",
+  "",
+  15,TRICK_STRUCTURED, 0, 0, 0, Language_CPP, 0,
+  288, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"", "", "1", "", "",
+  "",
+  15,TRICK_VOID, 0, 0, 0, Language_CPP, 0,
+  0, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL} };
+
+} //extern "C"
+
+
+void init_attrBallSimObject() {
+
+    static int initialized ;
+    if (initialized) {
+        return;
+    }
+    initialized = 1;
+
+    trick_MM->add_attr_info(std::string(attrBallSimObject[3].type_name) , &attrBallSimObject[3], __FILE__ , __LINE__ ) ;
+    trick_MM->add_attr_info(std::string(attrBallSimObject[4].type_name) , &attrBallSimObject[4], __FILE__ , __LINE__ ) ;
+
+    ATTRIBUTES temp_attr ;
+
+    trick_MM->add_attr_info( std::string("Trick::SimObject"), &temp_attr , __FILE__ , __LINE__ ) ;
+}
+
+extern "C" {
+
+void init_attrBallSimObject_c_intf() {
+    init_attrBallSimObject() ;
+}
+
+size_t io_src_sizeof_BallSimObject() {
+    return sizeof(BallSimObject) ;
+}
+
+void* io_src_allocate_BallSimObject(int num) {
+    BallSimObject* temp = (BallSimObject*)calloc(num, sizeof(BallSimObject));
+    for (int ii = 0; ii < num; ++ii) {
+        new(&temp[ii]) BallSimObject();
+    }
+    return (void*)temp;
+}
+
+void io_src_destruct_BallSimObject(void* address __attribute__((unused)), int num __attribute__((unused))) {
+BallSimObject* temp = (BallSimObject*)address;
+    for (int ii = 0; ii < num; ++ii) {
+        temp[ii].~BallSimObject();
+    }
+}
+
+void io_src_delete_BallSimObject(void* address) {
+    delete (BallSimObject*)address;
+}
+
+} //extern "C"
+
+struct UnitsMapBallSimObject {
+    UnitsMapBallSimObject() {
+        Trick::UnitsMap* units_map_ptr = Trick::UnitsMap::units_map();
+        units_map_ptr->add_param("BallSimObject_name", "1") ;
+        units_map_ptr->add_param("BallSimObject_id", "1") ;
+        units_map_ptr->add_param("BallSimObject_object_disabled", "1") ;
+        units_map_ptr->add_param("BallSimObject_ball", "1") ;
+        units_map_ptr->add_param("BallSimObject_failure", "1") ;
+    }
+} umBallSimObject;
+

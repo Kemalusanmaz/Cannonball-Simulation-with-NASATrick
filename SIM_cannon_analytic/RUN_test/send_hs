@@ -1,9 +1,23 @@
-|L   1|2024/01/17,09:55:58|TrickDev| |T 0|0.000000| Freeze ON. Simulation time holding at 0.000000 seconds.
-|L   0|2024/01/17,09:56:20|TrickDev| |T 0|0.000000|     0.000000 pausing before trick_master_slave.master.freeze
-|L   0|2024/01/17,09:56:21|TrickDev| |T 0|0.000000|     0.000000 pausing before trick_master_slave.slave.freeze
-|L   1|2024/01/17,09:56:33|TrickDev| |T 0|0.000000| Freeze OFF.
-|L   1|2024/01/17,09:56:33|TrickDev| |T 0|0.100000| Freeze ON. Simulation time holding at 0.100000 seconds.
-|L   1|2024/01/17,09:56:36|TrickDev| |T 0|0.100000| Freeze OFF.
-|L   1|2024/01/17,09:56:43|TrickDev| |T 0|20.100000| Freeze ON. Simulation time holding at 20.100000 seconds.
-|L   1|2024/01/17,09:57:40|TrickDev| |T 0|20.100000| Freeze OFF.
-|L   1|2024/01/17,09:57:54|TrickDev| |T 0|34.600000| Freeze ON. Simulation time holding at 34.600000 seconds.
+|L   1|2024/01/17,15:14:49|TrickDev| |T 0|0.000000| Freeze ON. Simulation time holding at 0.000000 seconds.
+|L   1|2024/01/17,15:15:09|TrickDev| |T 0|0.000000| Freeze OFF.
+|L   0|2024/01/17,15:16:49|TrickDev| |T 0|100.000000| 
+     REALTIME SHUTDOWN STATS:
+     REALTIME TOTAL OVERRUNS:            3
+            ACTUAL INIT TIME:        0.259
+         ACTUAL ELAPSED TIME:      120.320
+|L   0|2024/01/17,15:16:51|TrickDev| |T 0|100.000000| 
+SIMULATION TERMINATED IN
+  PROCESS: 0
+  ROUTINE: Executive_loop_single_thread.cpp:98
+  DIAGNOSTIC: Reached termination time
+
+           SIMULATION START TIME:        0.000
+            SIMULATION STOP TIME:      100.000
+         SIMULATION ELAPSED TIME:      100.000
+              USER CPU TIME USED:        0.713
+            SYSTEM CPU TIME USED:        0.659
+           SIMULATION / CPU TIME:       72.848
+    INITIALIZATION USER CPU TIME:        0.209
+  INITIALIZATION SYSTEM CPU TIME:        0.035
+            SIMULATION RAM USAGE:       56.820MB
+      (External program RAM usage not included!)

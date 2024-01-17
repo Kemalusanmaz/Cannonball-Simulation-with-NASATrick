@@ -20,6 +20,7 @@
 #define CANNON_H
 %import "build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/failure/include/failure_py.i"
 
+
 typedef struct {
 
     double vel0[2] ;    
@@ -50,11 +51,13 @@ typedef struct {
 
 } CANNON ;
 
+
 #ifdef __cplusplus
 extern "C" {
 #endif
     int cannon_default_data(CANNON*,FAILURE*) ;
     int cannon_init(CANNON*,FAILURE*) ;
+    int cannon_analytic(CANNON*, FAILURE*) ;
     int cannon_reset(CANNON*,FAILURE*) ;
     int cannon_shutdown(CANNON*) ;
 #ifdef __cplusplus

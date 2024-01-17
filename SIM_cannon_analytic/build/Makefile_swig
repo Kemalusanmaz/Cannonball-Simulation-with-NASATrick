@@ -32,8 +32,8 @@ $(TRICK_FIXED_PYTHON): .trick/% : ${TRICK_HOME}/share/trick/swig/%
 
 SWIG_I = \
     build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source_py.i \
+    build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/include/ball_py.i \
     build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon_py.i \
-    build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon_analytic_py.i \
     build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/failure/include/failure_py.i
 
 define create_convert_swig_rule

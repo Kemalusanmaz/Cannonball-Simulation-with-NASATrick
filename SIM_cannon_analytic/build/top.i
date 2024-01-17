@@ -24,6 +24,7 @@ extern ZeroconfSimObject trick_zero_conf ;
 extern UnitTestSimObject trick_utest ;
 extern UdUnitsSimObject trick_udunits;
 extern CannonSimObject dyn ;
+extern BallSimObject dyn1 ;
 
 %}
 
@@ -50,3 +51,4 @@ extern ZeroconfSimObject trick_zero_conf ;
 extern UnitTestSimObject trick_utest ;
 extern UdUnitsSimObject trick_udunits;
 extern CannonSimObject dyn ;
+extern BallSimObject dyn1 ;

@@ -204,6 +204,9 @@ def cannon_default_data(*args):
 def cannon_init(*args):
     return _m945e1f079631c9de55bdd1d760eded56.cannon_init(*args)
 
+def cannon_analytic(*args):
+    return _m945e1f079631c9de55bdd1d760eded56.cannon_analytic(*args)
+
 def cannon_reset(*args):
     return _m945e1f079631c9de55bdd1d760eded56.cannon_reset(*args)
 

@@ -1,3 +1,7 @@
+build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/src/ball_analytic.o
+build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/src/ball_init.o
+build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/src/ball_reset.o
+build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/src/ball_shutdown.o
 build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_analytic.o
 build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_init.o
 build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_reset.o

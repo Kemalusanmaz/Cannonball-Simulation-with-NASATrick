@@ -16,4 +16,4 @@ log_frame_trickjobs	long_long	     s	JOB_trick_real_time.rt_sync.rt_monitor.13.0
 log_frame_trickjobs	long_long	     s	JOB_trick_master_slave.master.end_of_frame_status_from_slave.15.06(end_of_frame)
 log_frame_trickjobs	long_long	     s	JOB_trick_master_slave.master.end_of_frame_status_to_slave.15.07(end_of_frame)
 log_frame_trickjobs	long_long	     s	JOB_trick_master_slave.slave.end_of_frame.15.08(end_of_frame)
-log_frame_trickjobs	long_long	     s	JOB_trick_injector_executor_0.rtie.Exec.22.00(top_of_frame)
+log_frame_trickjobs	long_long	     s	JOB_trick_injector_executor_0.rtie.Exec.23.00(top_of_frame)

@@ -124,3 +124,9 @@
     alloc_memory_init="1">
   </top_level_object>
 
+  <top_level_object
+    name="dyn1"
+    type="BallSimObject"
+    alloc_memory_init="1">
+  </top_level_object>
+

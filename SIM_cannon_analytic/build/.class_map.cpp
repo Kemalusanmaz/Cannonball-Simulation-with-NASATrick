@@ -17,6 +17,9 @@ void populate_class_map() {
     // /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/failure/include/failure.h
     extern ATTRIBUTES  attrFAILURE[] ;
     class_attribute_map->add_attr("FAILURE" , attrFAILURE) ;
+    // /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/include/ball.h
+    extern ATTRIBUTES  attrBALL[] ;
+    class_attribute_map->add_attr("BALL" , attrBALL) ;
     // /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon.h
     extern ATTRIBUTES  attrCANNON[] ;
     class_attribute_map->add_attr("CANNON" , attrCANNON) ;
@@ -92,5 +95,8 @@ void populate_class_map() {
     // /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh
     extern ATTRIBUTES  attrCannonSimObject[] ;
     class_attribute_map->add_attr("CannonSimObject" , attrCannonSimObject) ;
+    // /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh
+    extern ATTRIBUTES  attrBallSimObject[] ;
+    class_attribute_map->add_attr("BallSimObject" , attrBallSimObject) ;
 }
 

@@ -36,6 +36,7 @@
 %trick_swig_class_typemap(UnitTestSimObject, UnitTestSimObject)
 %trick_swig_class_typemap(UdUnitsSimObject, UdUnitsSimObject)
 %trick_swig_class_typemap(CannonSimObject, CannonSimObject)
+%trick_swig_class_typemap(BallSimObject, BallSimObject)
 
 
 
@@ -127,7 +128,8 @@ extern "C" {
 %import(module="sim_services") "trick/memorymanager_c_intf.h"
 %import(module="sim_services") "trick/montecarlo_c_intf.h"
 %import(module="sim_services") "trick/trick_tests.h"
-%import "build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon_analytic_py.i"
+%import "build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/include/ball_py.i"
+%import "build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon_py.i"
 %import "build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/failure/include/failure_py.i"
 
 #ifdef __cplusplus
@@ -1058,6 +1060,34 @@ class CannonSimObject : public Trick::SimObject {
 };
 #define TRICK_SWIG_DEFINED_CannonSimObject
 
+class BallSimObject : public Trick::SimObject {
+#if SWIG_VERSION > 0x040000
+%pythoncode %{
+    __setattr__ = _swig_setattr_nondynamic_instance_variable(object.__setattr__)
+%}
+#endif
+
+
+    public:
+        BALL ball;
+        FAILURE failure;
+
+        BallSimObject() {
+            Trick::JobData * job __attribute__((unused)) ;
+            job = this->add_job(0, 0, "default_data", NULL, 1, "ball_default_data", "", 60000) ;
+            job = this->add_job(0, 1, "default_data", NULL, 1, "ball_reset", "", 60000) ;
+            job = this->add_job(0, 2, "initialization", NULL, 1, "ball_init", "", 60000) ;
+            job = this->add_job(0, 3, "scheduled", NULL, 0.01, "ball_analytic", "", 60000) ;
+            job = this->add_job(0, 4, "shutdown", NULL, 1, "ball_shutdown", "", 60000) ;
+        }
+
+    public:
+        virtual int call_function( Trick::JobData * curr_job ) ;
+        virtual double call_function_double( Trick::JobData * curr_job ) ;
+
+};
+#define TRICK_SWIG_DEFINED_BallSimObject
+
 #ifdef TRICK_ICG
 #endif
 
@@ -1083,6 +1113,7 @@ extern ZeroconfSimObject trick_zero_conf ;
 extern UnitTestSimObject trick_utest ;
 extern UdUnitsSimObject trick_udunits;
 extern CannonSimObject dyn ;
+extern BallSimObject dyn1 ;
 #endif
 
 
@@ -1159,4 +1190,7 @@ extern CannonSimObject dyn ;
 #endif
 #ifdef TRICK_SWIG_DEFINED_CannonSimObject
 %trick_cast_as(CannonSimObject, CannonSimObject)
+#endif
+#ifdef TRICK_SWIG_DEFINED_BallSimObject
+%trick_cast_as(BallSimObject, BallSimObject)
 #endif

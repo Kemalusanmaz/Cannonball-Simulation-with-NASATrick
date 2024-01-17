@@ -7,6 +7,7 @@ PURPOSE: (Set the initial data values)
 #include "../include/cannon.h"
 #include "../../failure/include/failure.h"
 
+
 /* default data job */
 int cannon_default_data( CANNON* C, FAILURE* F ) {
 

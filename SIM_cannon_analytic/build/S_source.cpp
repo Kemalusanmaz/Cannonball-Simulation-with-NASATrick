@@ -1,5 +1,5 @@
 
-/* Created 2024/01/17 09:38:46 fjolnirr $ */
+/* Created 2024/01/17 15:14:20 fjolnirr $ */
 #include "../S_source.hh"
 
 
@@ -1049,6 +1049,49 @@ double CannonSimObject::call_function_double ( Trick::JobData * curr_job ) {
     return(trick_ret) ;
 }
 
+int BallSimObject::call_function ( Trick::JobData * curr_job ) {
+
+    int trick_ret = 0 ;
+    if ( curr_job->disabled ) return (trick_ret) ;
+
+    switch ( curr_job->id ) {
+        case 0:
+            ball_default_data( &ball, &failure ) ;
+            break ;
+        case 1:
+            ball_reset( &ball, &failure ) ;
+            break ;
+        case 2:
+            ball_init( &ball, &failure ) ;
+            break ;
+        case 3:
+            ball_analytic( &ball, &failure ) ;
+            break ;
+        case 4:
+            ball_shutdown( &ball ) ;
+            break ;
+        default:
+            trick_ret = -1 ;
+            break ;
+    }
+
+    return(trick_ret) ;
+}
+
+double BallSimObject::call_function_double ( Trick::JobData * curr_job ) {
+
+    double trick_ret = 0.0 ;
+    if ( curr_job->disabled ) return (trick_ret) ;
+
+    switch ( curr_job->id ) {
+        default:
+            trick_ret = 0.0 ;
+            break ;
+    }
+
+    return(trick_ret) ;
+}
+
 
 // Instantiate stuff
 SysSimObject trick_sys ;
@@ -1072,6 +1115,7 @@ ZeroconfSimObject trick_zero_conf ;
 UnitTestSimObject trick_utest ;
 UdUnitsSimObject trick_udunits;
 CannonSimObject dyn ;
+BallSimObject dyn1 ;
 
 // Integration Loop Sim Object(s) JMP
 
@@ -1162,8 +1206,8 @@ Trick::ClassSizeCheck * Trick::ClassSizeCheck::pInstance = NULL ;
 void memory_init( void ) {
 
     ALLOC_INFO * ai ;
-    exec_set_version_date_tag( "@(#)CP Version 19.7.0-beta, Wed Jan 17 09:38:46 2024" ) ;
-    exec_set_build_date( "Wed Jan 17 09:38:46 2024" ) ;
+    exec_set_version_date_tag( "@(#)CP Version 19.7.0-beta, Wed Jan 17 15:14:20 2024" ) ;
+    exec_set_build_date( "Wed Jan 17 15:14:20 2024" ) ;
     exec_set_current_version( "19.7.0-beta" ) ;
 
     populate_sim_services_class_map() ;
@@ -1293,6 +1337,11 @@ void memory_init( void ) {
     exec_add_sim_object(&dyn, "dyn") ;
     TMM_declare_ext_var(&dyn, TRICK_STRUCTURED,"CannonSimObject", 0, "dyn", 0, NULL) ;
     if ( (ai = get_alloc_info_at(&dyn)) != NULL ) {
+        ai->alloced_in_memory_init = 1 ;
+    }
+    exec_add_sim_object(&dyn1, "dyn1") ;
+    TMM_declare_ext_var(&dyn1, TRICK_STRUCTURED,"BallSimObject", 0, "dyn1", 0, NULL) ;
+    if ( (ai = get_alloc_info_at(&dyn1)) != NULL ) {
         ai->alloced_in_memory_init = 1 ;
     }
     // Add Integration Loop Sim Object(s) JMP

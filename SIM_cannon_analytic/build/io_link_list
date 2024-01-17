@@ -1,4 +1,5 @@
 build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/io_S_source.o
+build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/include/io_ball.o
 build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/io_cannon.o
 build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/failure/include/io_failure.o
 build/class_map.o

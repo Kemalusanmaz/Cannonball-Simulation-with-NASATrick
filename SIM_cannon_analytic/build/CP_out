@@ -1,4 +1,4 @@
-Output for /home/fjolnirr/trick/libexec/trick/configuration_processor version 19.7.0-beta- at Wed Jan 17 09:38:46 2024
+Output for /home/fjolnirr/trick/libexec/trick/configuration_processor version 19.7.0-beta- at Wed Jan 17 15:14:20 2024
 
 Parsing    S_define
 Processing S_define
@@ -29,5 +29,6 @@ Processing UnitTestSimObject
 Processing UdUnitsSimObject
 Continuing S_define
 Processing CannonSimObject
+Processing BallSimObject
 Finished   S_define
 Writing    S_source.c

@@ -2701,141 +2701,143 @@ SWIGINTERN PyObject *SWIG_PyStaticMethod_New(PyObject *SWIGUNUSEDPARM(self), PyO
 #define SWIGTYPE_p_ADDRESS_OPERATOR swig_types[2]
 #define SWIGTYPE_p_ALLOC_INFO swig_types[3]
 #define SWIGTYPE_p_ATTRIBUTES_tag swig_types[4]
-#define SWIGTYPE_p_BC_INFO swig_types[5]
-#define SWIGTYPE_p_CANNON swig_types[6]
-#define SWIGTYPE_p_CannonSimObject swig_types[7]
-#define SWIGTYPE_p_CheckPointRestartSimObject swig_types[8]
-#define SWIGTYPE_p_CommandLineArgumentsSimObject swig_types[9]
-#define SWIGTYPE_p_DataRecordDispatcherSimObject swig_types[10]
-#define SWIGTYPE_p_ENUM_ATTR swig_types[11]
-#define SWIGTYPE_p_ENUM_LIST swig_types[12]
-#define SWIGTYPE_p_EQUIV_ATTRIBUTES swig_types[13]
-#define SWIGTYPE_p_EventManagerSimObject swig_types[14]
-#define SWIGTYPE_p_FAILURE swig_types[15]
-#define SWIGTYPE_p_FrameLogSimObject swig_types[16]
-#define SWIGTYPE_p_INDEX swig_types[17]
-#define SWIGTYPE_p_InjectorExecSimObject swig_types[18]
-#define SWIGTYPE_p_InjectorSimObject swig_types[19]
-#define SWIGTYPE_p_InputProcessorSimObject swig_types[20]
-#define SWIGTYPE_p_InstrumentationSimObject swig_types[21]
-#define SWIGTYPE_p_IntegLoopSimObject swig_types[22]
-#define SWIGTYPE_p_Integrator_type swig_types[23]
-#define SWIGTYPE_p_JITSimObject swig_types[24]
-#define SWIGTYPE_p_Language swig_types[25]
-#define SWIGTYPE_p_MESSAGE_TYPE swig_types[26]
-#define SWIGTYPE_p_MM_ERROR_TYPE swig_types[27]
-#define SWIGTYPE_p_MS_SIM_COMMAND swig_types[28]
-#define SWIGTYPE_p_MasterSlaveSimObject swig_types[29]
-#define SWIGTYPE_p_MemoryManagerSimObject swig_types[30]
-#define SWIGTYPE_p_MessageSimObject swig_types[31]
-#define SWIGTYPE_p_MonteCarloSimObject swig_types[32]
-#define SWIGTYPE_p_NAME_TO_ATTR swig_types[33]
-#define SWIGTYPE_p_REF2 swig_types[34]
-#define SWIGTYPE_p_REF_TYPE swig_types[35]
-#define SWIGTYPE_p_RTSyncSimObject swig_types[36]
-#define SWIGTYPE_p_SEND_ME swig_types[37]
-#define SWIGTYPE_p_SIM_COMMAND swig_types[38]
-#define SWIGTYPE_p_SIM_MODE swig_types[39]
-#define SWIGTYPE_p_SieSimObject swig_types[40]
-#define SWIGTYPE_p_SimEnvironment swig_types[41]
-#define SWIGTYPE_p_SimObjectVector swig_types[42]
-#define SWIGTYPE_p_SysSimObject swig_types[43]
-#define SWIGTYPE_p_TCCommBlocking swig_types[44]
-#define SWIGTYPE_p_TCCommFlag swig_types[45]
-#define SWIGTYPE_p_TCDevice swig_types[46]
-#define SWIGTYPE_p_TIME_OFFSET swig_types[47]
-#define SWIGTYPE_p_TRICK_ALLOC_TYPE swig_types[48]
-#define SWIGTYPE_p_TRICK_STCL swig_types[49]
-#define SWIGTYPE_p_TRICK_TYPE swig_types[50]
-#define SWIGTYPE_p_TSMDevice swig_types[51]
-#define SWIGTYPE_p_TagsIterator swig_types[52]
-#define SWIGTYPE_p_ThreadProcessEventSimObject swig_types[53]
-#define SWIGTYPE_p_TrickErrorLevel swig_types[54]
-#define SWIGTYPE_p_Trick__CheckPointRestart swig_types[55]
-#define SWIGTYPE_p_Trick__Clock swig_types[56]
-#define SWIGTYPE_p_Trick__CommandLineArguments swig_types[57]
-#define SWIGTYPE_p_Trick__DRBinary swig_types[58]
-#define SWIGTYPE_p_Trick__DataRecordDispatcher swig_types[59]
-#define SWIGTYPE_p_Trick__DataRecordGroup swig_types[60]
-#define SWIGTYPE_p_Trick__DebugPause swig_types[61]
-#define SWIGTYPE_p_Trick__EchoJobs swig_types[62]
-#define SWIGTYPE_p_Trick__Environment swig_types[63]
-#define SWIGTYPE_p_Trick__EventManager swig_types[64]
-#define SWIGTYPE_p_Trick__EventProcessor swig_types[65]
-#define SWIGTYPE_p_Trick__Executive swig_types[66]
-#define SWIGTYPE_p_Trick__FrameDataRecordGroup swig_types[67]
-#define SWIGTYPE_p_Trick__FrameLog swig_types[68]
-#define SWIGTYPE_p_Trick__GetTimeOfDayClock swig_types[69]
-#define SWIGTYPE_p_Trick__IPPython swig_types[70]
-#define SWIGTYPE_p_Trick__ITimer swig_types[71]
-#define SWIGTYPE_p_Trick__JITInputFile swig_types[72]
-#define SWIGTYPE_p_Trick__JobData swig_types[73]
-#define SWIGTYPE_p_Trick__MSSharedMemData swig_types[74]
-#define SWIGTYPE_p_Trick__MTV swig_types[75]
-#define SWIGTYPE_p_Trick__MalfunctionsTrickView swig_types[76]
-#define SWIGTYPE_p_Trick__Master swig_types[77]
-#define SWIGTYPE_p_Trick__MemoryManager swig_types[78]
-#define SWIGTYPE_p_Trick__MessageCout swig_types[79]
-#define SWIGTYPE_p_Trick__MessageCustomManager swig_types[80]
-#define SWIGTYPE_p_Trick__MessageHSFile swig_types[81]
-#define SWIGTYPE_p_Trick__MessagePublisher swig_types[82]
-#define SWIGTYPE_p_Trick__MessageTCDevice swig_types[83]
-#define SWIGTYPE_p_Trick__MessageThreadedCout swig_types[84]
-#define SWIGTYPE_p_Trick__MonteCarlo swig_types[85]
-#define SWIGTYPE_p_Trick__MonteMonitor swig_types[86]
-#define SWIGTYPE_p_Trick__MonteVarCalculated swig_types[87]
-#define SWIGTYPE_p_Trick__MonteVarFile swig_types[88]
-#define SWIGTYPE_p_Trick__MonteVarFixed swig_types[89]
-#define SWIGTYPE_p_Trick__MonteVarRandom swig_types[90]
-#define SWIGTYPE_p_Trick__PlaybackFile swig_types[91]
-#define SWIGTYPE_p_Trick__RealtimeSync swig_types[92]
-#define SWIGTYPE_p_Trick__RtiExec swig_types[93]
-#define SWIGTYPE_p_Trick__RtiStager swig_types[94]
-#define SWIGTYPE_p_Trick__Sie swig_types[95]
-#define SWIGTYPE_p_Trick__SimControlPanel swig_types[96]
-#define SWIGTYPE_p_Trick__SimObject swig_types[97]
-#define SWIGTYPE_p_Trick__Slave swig_types[98]
-#define SWIGTYPE_p_Trick__StripChart swig_types[99]
-#define SWIGTYPE_p_Trick__TrickView swig_types[100]
-#define SWIGTYPE_p_Trick__UdUnits swig_types[101]
-#define SWIGTYPE_p_Trick__UnitTest swig_types[102]
-#define SWIGTYPE_p_Trick__UnitsMap swig_types[103]
-#define SWIGTYPE_p_Trick__VarNameElement swig_types[104]
-#define SWIGTYPE_p_Trick__VarNameElementType swig_types[105]
-#define SWIGTYPE_p_Trick__VariableServer swig_types[106]
-#define SWIGTYPE_p_Trick__Zeroconf swig_types[107]
-#define SWIGTYPE_p_UdUnitsSimObject swig_types[108]
-#define SWIGTYPE_p_UnitTestSimObject swig_types[109]
-#define SWIGTYPE_p_VALUE swig_types[110]
-#define SWIGTYPE_p_VALUE_LIST swig_types[111]
-#define SWIGTYPE_p_VAR_DECLARE swig_types[112]
-#define SWIGTYPE_p_VAR_LIST swig_types[113]
-#define SWIGTYPE_p_VS_COPY_MODE swig_types[114]
-#define SWIGTYPE_p_VS_MESSAGE_TYPE swig_types[115]
-#define SWIGTYPE_p_VS_WRITE_MODE swig_types[116]
-#define SWIGTYPE_p_V_DATA swig_types[117]
-#define SWIGTYPE_p_VariableServerSimObject swig_types[118]
-#define SWIGTYPE_p_ZeroconfSimObject swig_types[119]
-#define SWIGTYPE_p__DLLIST swig_types[120]
-#define SWIGTYPE_p__DLLNODE swig_types[121]
-#define SWIGTYPE_p__TrickErrorHndlr swig_types[122]
-#define SWIGTYPE_p_allocator_type swig_types[123]
-#define SWIGTYPE_p_char swig_types[124]
-#define SWIGTYPE_p_difference_type swig_types[125]
-#define SWIGTYPE_p_size_type swig_types[126]
-#define SWIGTYPE_p_std__invalid_argument swig_types[127]
-#define SWIGTYPE_p_std__mapT_std__string_ALLOC_INFO_p_std__lessT_std__string_t_std__allocatorT_std__pairT_std__string_const_ALLOC_INFO_p_t_t_t swig_types[128]
-#define SWIGTYPE_p_std__mapT_std__string_ALLOC_INFO_p_std__lessT_std__string_t_std__allocatorT_std__pairT_std__string_const_ALLOC_INFO_p_t_t_t__const_iterator swig_types[129]
-#define SWIGTYPE_p_std__mapT_std__string_ENUM_ATTR_p_std__lessT_std__string_t_std__allocatorT_std__pairT_std__string_const_ENUM_ATTR_p_t_t_t swig_types[130]
-#define SWIGTYPE_p_std__mapT_void_p_ALLOC_INFO_p_std__greaterT_void_p_t_std__allocatorT_std__pairT_void_pconst_ALLOC_INFO_p_t_t_t swig_types[131]
-#define SWIGTYPE_p_std__mapT_void_p_ALLOC_INFO_p_std__greaterT_void_p_t_std__allocatorT_std__pairT_void_pconst_ALLOC_INFO_p_t_t_t__const_iterator swig_types[132]
-#define SWIGTYPE_p_std__vectorT_InjectorExecSimObject_p_std__allocatorT_InjectorExecSimObject_p_t_t swig_types[133]
-#define SWIGTYPE_p_std__vectorT_ThreadProcessEventSimObject_p_std__allocatorT_ThreadProcessEventSimObject_p_t_t swig_types[134]
-#define SWIGTYPE_p_std__vectorT_char_p_std__allocatorT_char_p_t_t swig_types[135]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[136]
-#define SWIGTYPE_p_v_tree swig_types[137]
-static swig_type_info *swig_types[139];
-static swig_module_info swig_module = {swig_types, 138, 0, 0, 0, 0};
+#define SWIGTYPE_p_BALL swig_types[5]
+#define SWIGTYPE_p_BC_INFO swig_types[6]
+#define SWIGTYPE_p_BallSimObject swig_types[7]
+#define SWIGTYPE_p_CANNON swig_types[8]
+#define SWIGTYPE_p_CannonSimObject swig_types[9]
+#define SWIGTYPE_p_CheckPointRestartSimObject swig_types[10]
+#define SWIGTYPE_p_CommandLineArgumentsSimObject swig_types[11]
+#define SWIGTYPE_p_DataRecordDispatcherSimObject swig_types[12]
+#define SWIGTYPE_p_ENUM_ATTR swig_types[13]
+#define SWIGTYPE_p_ENUM_LIST swig_types[14]
+#define SWIGTYPE_p_EQUIV_ATTRIBUTES swig_types[15]
+#define SWIGTYPE_p_EventManagerSimObject swig_types[16]
+#define SWIGTYPE_p_FAILURE swig_types[17]
+#define SWIGTYPE_p_FrameLogSimObject swig_types[18]
+#define SWIGTYPE_p_INDEX swig_types[19]
+#define SWIGTYPE_p_InjectorExecSimObject swig_types[20]
+#define SWIGTYPE_p_InjectorSimObject swig_types[21]
+#define SWIGTYPE_p_InputProcessorSimObject swig_types[22]
+#define SWIGTYPE_p_InstrumentationSimObject swig_types[23]
+#define SWIGTYPE_p_IntegLoopSimObject swig_types[24]
+#define SWIGTYPE_p_Integrator_type swig_types[25]
+#define SWIGTYPE_p_JITSimObject swig_types[26]
+#define SWIGTYPE_p_Language swig_types[27]
+#define SWIGTYPE_p_MESSAGE_TYPE swig_types[28]
+#define SWIGTYPE_p_MM_ERROR_TYPE swig_types[29]
+#define SWIGTYPE_p_MS_SIM_COMMAND swig_types[30]
+#define SWIGTYPE_p_MasterSlaveSimObject swig_types[31]
+#define SWIGTYPE_p_MemoryManagerSimObject swig_types[32]
+#define SWIGTYPE_p_MessageSimObject swig_types[33]
+#define SWIGTYPE_p_MonteCarloSimObject swig_types[34]
+#define SWIGTYPE_p_NAME_TO_ATTR swig_types[35]
+#define SWIGTYPE_p_REF2 swig_types[36]
+#define SWIGTYPE_p_REF_TYPE swig_types[37]
+#define SWIGTYPE_p_RTSyncSimObject swig_types[38]
+#define SWIGTYPE_p_SEND_ME swig_types[39]
+#define SWIGTYPE_p_SIM_COMMAND swig_types[40]
+#define SWIGTYPE_p_SIM_MODE swig_types[41]
+#define SWIGTYPE_p_SieSimObject swig_types[42]
+#define SWIGTYPE_p_SimEnvironment swig_types[43]
+#define SWIGTYPE_p_SimObjectVector swig_types[44]
+#define SWIGTYPE_p_SysSimObject swig_types[45]
+#define SWIGTYPE_p_TCCommBlocking swig_types[46]
+#define SWIGTYPE_p_TCCommFlag swig_types[47]
+#define SWIGTYPE_p_TCDevice swig_types[48]
+#define SWIGTYPE_p_TIME_OFFSET swig_types[49]
+#define SWIGTYPE_p_TRICK_ALLOC_TYPE swig_types[50]
+#define SWIGTYPE_p_TRICK_STCL swig_types[51]
+#define SWIGTYPE_p_TRICK_TYPE swig_types[52]
+#define SWIGTYPE_p_TSMDevice swig_types[53]
+#define SWIGTYPE_p_TagsIterator swig_types[54]
+#define SWIGTYPE_p_ThreadProcessEventSimObject swig_types[55]
+#define SWIGTYPE_p_TrickErrorLevel swig_types[56]
+#define SWIGTYPE_p_Trick__CheckPointRestart swig_types[57]
+#define SWIGTYPE_p_Trick__Clock swig_types[58]
+#define SWIGTYPE_p_Trick__CommandLineArguments swig_types[59]
+#define SWIGTYPE_p_Trick__DRBinary swig_types[60]
+#define SWIGTYPE_p_Trick__DataRecordDispatcher swig_types[61]
+#define SWIGTYPE_p_Trick__DataRecordGroup swig_types[62]
+#define SWIGTYPE_p_Trick__DebugPause swig_types[63]
+#define SWIGTYPE_p_Trick__EchoJobs swig_types[64]
+#define SWIGTYPE_p_Trick__Environment swig_types[65]
+#define SWIGTYPE_p_Trick__EventManager swig_types[66]
+#define SWIGTYPE_p_Trick__EventProcessor swig_types[67]
+#define SWIGTYPE_p_Trick__Executive swig_types[68]
+#define SWIGTYPE_p_Trick__FrameDataRecordGroup swig_types[69]
+#define SWIGTYPE_p_Trick__FrameLog swig_types[70]
+#define SWIGTYPE_p_Trick__GetTimeOfDayClock swig_types[71]
+#define SWIGTYPE_p_Trick__IPPython swig_types[72]
+#define SWIGTYPE_p_Trick__ITimer swig_types[73]
+#define SWIGTYPE_p_Trick__JITInputFile swig_types[74]
+#define SWIGTYPE_p_Trick__JobData swig_types[75]
+#define SWIGTYPE_p_Trick__MSSharedMemData swig_types[76]
+#define SWIGTYPE_p_Trick__MTV swig_types[77]
+#define SWIGTYPE_p_Trick__MalfunctionsTrickView swig_types[78]
+#define SWIGTYPE_p_Trick__Master swig_types[79]
+#define SWIGTYPE_p_Trick__MemoryManager swig_types[80]
+#define SWIGTYPE_p_Trick__MessageCout swig_types[81]
+#define SWIGTYPE_p_Trick__MessageCustomManager swig_types[82]
+#define SWIGTYPE_p_Trick__MessageHSFile swig_types[83]
+#define SWIGTYPE_p_Trick__MessagePublisher swig_types[84]
+#define SWIGTYPE_p_Trick__MessageTCDevice swig_types[85]
+#define SWIGTYPE_p_Trick__MessageThreadedCout swig_types[86]
+#define SWIGTYPE_p_Trick__MonteCarlo swig_types[87]
+#define SWIGTYPE_p_Trick__MonteMonitor swig_types[88]
+#define SWIGTYPE_p_Trick__MonteVarCalculated swig_types[89]
+#define SWIGTYPE_p_Trick__MonteVarFile swig_types[90]
+#define SWIGTYPE_p_Trick__MonteVarFixed swig_types[91]
+#define SWIGTYPE_p_Trick__MonteVarRandom swig_types[92]
+#define SWIGTYPE_p_Trick__PlaybackFile swig_types[93]
+#define SWIGTYPE_p_Trick__RealtimeSync swig_types[94]
+#define SWIGTYPE_p_Trick__RtiExec swig_types[95]
+#define SWIGTYPE_p_Trick__RtiStager swig_types[96]
+#define SWIGTYPE_p_Trick__Sie swig_types[97]
+#define SWIGTYPE_p_Trick__SimControlPanel swig_types[98]
+#define SWIGTYPE_p_Trick__SimObject swig_types[99]
+#define SWIGTYPE_p_Trick__Slave swig_types[100]
+#define SWIGTYPE_p_Trick__StripChart swig_types[101]
+#define SWIGTYPE_p_Trick__TrickView swig_types[102]
+#define SWIGTYPE_p_Trick__UdUnits swig_types[103]
+#define SWIGTYPE_p_Trick__UnitTest swig_types[104]
+#define SWIGTYPE_p_Trick__UnitsMap swig_types[105]
+#define SWIGTYPE_p_Trick__VarNameElement swig_types[106]
+#define SWIGTYPE_p_Trick__VarNameElementType swig_types[107]
+#define SWIGTYPE_p_Trick__VariableServer swig_types[108]
+#define SWIGTYPE_p_Trick__Zeroconf swig_types[109]
+#define SWIGTYPE_p_UdUnitsSimObject swig_types[110]
+#define SWIGTYPE_p_UnitTestSimObject swig_types[111]
+#define SWIGTYPE_p_VALUE swig_types[112]
+#define SWIGTYPE_p_VALUE_LIST swig_types[113]
+#define SWIGTYPE_p_VAR_DECLARE swig_types[114]
+#define SWIGTYPE_p_VAR_LIST swig_types[115]
+#define SWIGTYPE_p_VS_COPY_MODE swig_types[116]
+#define SWIGTYPE_p_VS_MESSAGE_TYPE swig_types[117]
+#define SWIGTYPE_p_VS_WRITE_MODE swig_types[118]
+#define SWIGTYPE_p_V_DATA swig_types[119]
+#define SWIGTYPE_p_VariableServerSimObject swig_types[120]
+#define SWIGTYPE_p_ZeroconfSimObject swig_types[121]
+#define SWIGTYPE_p__DLLIST swig_types[122]
+#define SWIGTYPE_p__DLLNODE swig_types[123]
+#define SWIGTYPE_p__TrickErrorHndlr swig_types[124]
+#define SWIGTYPE_p_allocator_type swig_types[125]
+#define SWIGTYPE_p_char swig_types[126]
+#define SWIGTYPE_p_difference_type swig_types[127]
+#define SWIGTYPE_p_size_type swig_types[128]
+#define SWIGTYPE_p_std__invalid_argument swig_types[129]
+#define SWIGTYPE_p_std__mapT_std__string_ALLOC_INFO_p_std__lessT_std__string_t_std__allocatorT_std__pairT_std__string_const_ALLOC_INFO_p_t_t_t swig_types[130]
+#define SWIGTYPE_p_std__mapT_std__string_ALLOC_INFO_p_std__lessT_std__string_t_std__allocatorT_std__pairT_std__string_const_ALLOC_INFO_p_t_t_t__const_iterator swig_types[131]
+#define SWIGTYPE_p_std__mapT_std__string_ENUM_ATTR_p_std__lessT_std__string_t_std__allocatorT_std__pairT_std__string_const_ENUM_ATTR_p_t_t_t swig_types[132]
+#define SWIGTYPE_p_std__mapT_void_p_ALLOC_INFO_p_std__greaterT_void_p_t_std__allocatorT_std__pairT_void_pconst_ALLOC_INFO_p_t_t_t swig_types[133]
+#define SWIGTYPE_p_std__mapT_void_p_ALLOC_INFO_p_std__greaterT_void_p_t_std__allocatorT_std__pairT_void_pconst_ALLOC_INFO_p_t_t_t__const_iterator swig_types[134]
+#define SWIGTYPE_p_std__vectorT_InjectorExecSimObject_p_std__allocatorT_InjectorExecSimObject_p_t_t swig_types[135]
+#define SWIGTYPE_p_std__vectorT_ThreadProcessEventSimObject_p_std__allocatorT_ThreadProcessEventSimObject_p_t_t swig_types[136]
+#define SWIGTYPE_p_std__vectorT_char_p_std__allocatorT_char_p_t_t swig_types[137]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[138]
+#define SWIGTYPE_p_v_tree swig_types[139]
+static swig_type_info *swig_types[141];
+static swig_module_info swig_module = {swig_types, 140, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -4067,6 +4069,27 @@ SWIGINTERN PyObject *CannonSimObject___len__(CannonSimObject *self){
         // get_size only works if "self" was an allocated pointer
         return PyInt_FromLong(get_size((char *)self)) ;
     }
+SWIGINTERN PyObject *BallSimObject___getitem__(BallSimObject *self,int ii){
+
+        PyObject *resultobj ;
+        int array_size = (int) get_size((char *)self) ;
+
+        if ( ii < 0 ) {
+            ii += array_size ;
+        }
+
+        if ( (array_size > 0) and (ii > array_size) ) {
+            return NULL ;
+        }
+
+        //std::cout << "HERE in class __getitem__!!!" << std::endl ;
+        resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(&self[ii]), SWIG_TypeQuery("BallSimObject *"), 0);
+        return(resultobj) ;
+    }
+SWIGINTERN PyObject *BallSimObject___len__(BallSimObject *self){
+        // get_size only works if "self" was an allocated pointer
+        return PyInt_FromLong(get_size((char *)self)) ;
+    }
 
 /* castAs##SimEnvironment casts incoming ptrs as the target type.  Takes incoming object and tests if it
    is a compatible type, a void *, or an integer (raw pointer value).  If it is any of these
@@ -4711,6 +4734,33 @@ CannonSimObject * castAsCannonSimObject( PyObject * obj1 ) {
         //std::cout << "we are using incoming value as address " << PyInt_AsLong(obj1) << std::endl ;
     } else {
         std::cout << "Cast to CannonSimObject failed." << std::endl ;
+    }
+    return ret ;
+}
+
+
+/* castAs##BallSimObject casts incoming ptrs as the target type.  Takes incoming object and tests if it
+   is a compatible type, a void *, or an integer (raw pointer value).  If it is any of these
+   types it returns the incoming value as a pointer to the outgoing type.  The integer
+   conversion is used by the input processor to associate named allocations in the
+   memory manager to names in pyton space.
+ */
+BallSimObject * castAsBallSimObject( PyObject * obj1 ) {
+    void *argp = NULL ;
+    BallSimObject * ret = (BallSimObject *)NULL ;
+
+    //std::cout << "calling __cast_as" << std::endl ;
+    if ( SWIG_IsOK(SWIG_ConvertPtr(obj1,&argp,SWIG_TypeQuery("BallSimObject *"),SWIG_POINTER_DISOWN)) ) {
+        //std::cout << "we can cast to BallSimObject! " << argp << std::endl ;
+        ret = reinterpret_cast< BallSimObject *>(argp) ;
+    } else if (SWIG_IsOK(SWIG_ConvertPtr(obj1, &argp,SWIG_TypeQuery("void *"), 0 ))) {
+        //std::cout << "we can cast (wrapped void *) to BallSimObject! " << argp << std::endl ;
+        ret = reinterpret_cast< BallSimObject *>(argp) ;
+    } else if ( PyInt_Check(obj1) ) {
+        ret = reinterpret_cast< BallSimObject *>( PyInt_AsLong(obj1) ) ;
+        //std::cout << "we are using incoming value as address " << PyInt_AsLong(obj1) << std::endl ;
+    } else {
+        std::cout << "Cast to BallSimObject failed." << std::endl ;
     }
     return ret ;
 }
@@ -15324,6 +15374,467 @@ SWIGINTERN PyObject *CannonSimObject_swiginit(PyObject *SWIGUNUSEDPARM(self), Py
   return SWIG_Python_InitShadowInstance(args);
 }
 
+SWIGINTERN PyObject *_wrap_BallSimObject_ball_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  BallSimObject *arg1 = (BallSimObject *) 0 ;
+  BALL *arg2 = (BALL *) 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "BallSimObject_ball_set", 2, 2, swig_obj)) SWIG_fail;
+  {
+    // BallSimObject *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_BallSimObject, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< BallSimObject * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< BallSimObject * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< BallSimObject * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< BallSimObject * >(temp_ptr) ;
+    }
+  }
+  {
+    // BALL *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIGTYPE_p_BALL, SWIG_POINTER_DISOWN)) ) {
+      arg2 = reinterpret_cast< BALL * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg2 = reinterpret_cast< BALL * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg2 = reinterpret_cast< BALL * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg2 = reinterpret_cast< BALL * >(temp_ptr) ;
+    }
+  }
+  if (arg1) (arg1)->ball = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_BallSimObject_ball_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  BallSimObject *arg1 = (BallSimObject *) 0 ;
+  PyObject *swig_obj[1] ;
+  BALL *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  {
+    // BallSimObject *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_BallSimObject, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< BallSimObject * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< BallSimObject * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< BallSimObject * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< BallSimObject * >(temp_ptr) ;
+    }
+  }
+  result = (BALL *)& ((arg1)->ball);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_BALL, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_BallSimObject_failure_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  BallSimObject *arg1 = (BallSimObject *) 0 ;
+  FAILURE *arg2 = (FAILURE *) 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "BallSimObject_failure_set", 2, 2, swig_obj)) SWIG_fail;
+  {
+    // BallSimObject *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_BallSimObject, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< BallSimObject * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< BallSimObject * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< BallSimObject * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< BallSimObject * >(temp_ptr) ;
+    }
+  }
+  {
+    // FAILURE *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIGTYPE_p_FAILURE, SWIG_POINTER_DISOWN)) ) {
+      arg2 = reinterpret_cast< FAILURE * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg2 = reinterpret_cast< FAILURE * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg2 = reinterpret_cast< FAILURE * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg2 = reinterpret_cast< FAILURE * >(temp_ptr) ;
+    }
+  }
+  if (arg1) (arg1)->failure = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_BallSimObject_failure_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  BallSimObject *arg1 = (BallSimObject *) 0 ;
+  PyObject *swig_obj[1] ;
+  FAILURE *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  {
+    // BallSimObject *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_BallSimObject, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< BallSimObject * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< BallSimObject * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< BallSimObject * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< BallSimObject * >(temp_ptr) ;
+    }
+  }
+  result = (FAILURE *)& ((arg1)->failure);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_FAILURE, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_BallSimObject(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  BallSimObject *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "new_BallSimObject", 0, 0, 0)) SWIG_fail;
+  result = (BallSimObject *)new BallSimObject();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_BallSimObject, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_BallSimObject_call_function(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  BallSimObject *arg1 = (BallSimObject *) 0 ;
+  Trick::JobData *arg2 = (Trick::JobData *) 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  int result;
+  
+  if (!SWIG_Python_UnpackTuple(args, "BallSimObject_call_function", 2, 2, swig_obj)) SWIG_fail;
+  {
+    // BallSimObject *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_BallSimObject, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< BallSimObject * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< BallSimObject * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< BallSimObject * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< BallSimObject * >(temp_ptr) ;
+    }
+  }
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_Trick__JobData, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "BallSimObject_call_function" "', argument " "2"" of type '" "Trick::JobData *""'"); 
+  }
+  arg2 = reinterpret_cast< Trick::JobData * >(argp2);
+  result = (int)(arg1)->call_function(arg2);
+  {
+    // INT OUT
+    std::string temp_name ;
+    swig_int * t = new swig_int ;
+    t->value = (long long)result ;
+    temp_name = "BallSimObject_call_function" ;
+    temp_name.erase(temp_name.length() - 4) ;
+    //cout << "swig_int out looking for param " << temp_name << std::endl ;
+    t->units = Trick::UnitsMap::units_map()->get_units(temp_name) ;
+    //cout << "swig_int out found units " << t->units << std::endl ;
+    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(t), SWIG_TypeQuery("_p_swig_int"), SWIG_POINTER_OWN);
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_BallSimObject_call_function_double(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  BallSimObject *arg1 = (BallSimObject *) 0 ;
+  Trick::JobData *arg2 = (Trick::JobData *) 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  double result;
+  
+  if (!SWIG_Python_UnpackTuple(args, "BallSimObject_call_function_double", 2, 2, swig_obj)) SWIG_fail;
+  {
+    // BallSimObject *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_BallSimObject, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< BallSimObject * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< BallSimObject * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< BallSimObject * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< BallSimObject * >(temp_ptr) ;
+    }
+  }
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_Trick__JobData, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "BallSimObject_call_function_double" "', argument " "2"" of type '" "Trick::JobData *""'"); 
+  }
+  arg2 = reinterpret_cast< Trick::JobData * >(argp2);
+  result = (double)(arg1)->call_function_double(arg2);
+  {
+    // DOUBLE OUT
+    std::string temp_name ;
+    swig_double * t = new swig_double ;
+    t->value = (double)result ;
+    temp_name = "BallSimObject_call_function_double" ;
+    temp_name.erase(temp_name.length() - 4) ;
+    //cout << "swig_double out looking for param " << temp_name << std::endl ;
+    t->units = Trick::UnitsMap::units_map()->get_units(temp_name) ;
+    //cout << "swig_double out found units " << t->units << std::endl ;
+    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(t), SWIG_TypeQuery("_p_swig_double"), SWIG_POINTER_OWN);
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_BallSimObject___getitem__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  BallSimObject *arg1 = (BallSimObject *) 0 ;
+  int arg2 ;
+  PyObject *swig_obj[2] ;
+  PyObject *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "BallSimObject___getitem__", 2, 2, swig_obj)) SWIG_fail;
+  {
+    // BallSimObject *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_BallSimObject, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< BallSimObject * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< BallSimObject * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< BallSimObject * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< BallSimObject * >(temp_ptr) ;
+    }
+  }
+  {
+    int ret ;
+    ret = typemap_in_scalar<int >( arg2 , swig_obj[1] , "BallSimObject___getitem__") ;
+    if ( ret != 0 ) {
+      SWIG_exception_fail(SWIG_TypeError,"Right hand side could not be converted proper scalar type");
+    }
+  }
+  result = (PyObject *)BallSimObject___getitem__(arg1,arg2);
+  resultobj = result;
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_BallSimObject___len__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  BallSimObject *arg1 = (BallSimObject *) 0 ;
+  PyObject *swig_obj[1] ;
+  PyObject *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  {
+    // BallSimObject *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_BallSimObject, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< BallSimObject * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< BallSimObject * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< BallSimObject * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< BallSimObject * >(temp_ptr) ;
+    }
+  }
+  result = (PyObject *)BallSimObject___len__(arg1);
+  resultobj = result;
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_BallSimObject(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  BallSimObject *arg1 = (BallSimObject *) 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  {
+    // BallSimObject *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_BallSimObject, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< BallSimObject * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< BallSimObject * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< BallSimObject * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< BallSimObject * >(temp_ptr) ;
+    }
+  }
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *BallSimObject_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_BallSimObject, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *BallSimObject_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
 SWIGINTERN PyObject *_wrap_castAsSimEnvironment(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   PyObject *arg1 = (PyObject *) 0 ;
@@ -15732,6 +16243,23 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_castAsBallSimObject(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  PyObject *arg1 = (PyObject *) 0 ;
+  PyObject *swig_obj[1] ;
+  BallSimObject *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  arg1 = swig_obj[0];
+  result = (BallSimObject *)castAsBallSimObject(arg1);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_BallSimObject, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 static PyMethodDef SwigMethods[] = {
 	 { "SWIG_PyInstanceMethod_New", SWIG_PyInstanceMethod_New, METH_O, NULL},
 	 { "delete_SwigPyIterator", _wrap_delete_SwigPyIterator, METH_O, NULL},
@@ -16029,6 +16557,18 @@ static PyMethodDef SwigMethods[] = {
 	 { "delete_CannonSimObject", _wrap_delete_CannonSimObject, METH_O, NULL},
 	 { "CannonSimObject_swigregister", CannonSimObject_swigregister, METH_O, NULL},
 	 { "CannonSimObject_swiginit", CannonSimObject_swiginit, METH_VARARGS, NULL},
+	 { "BallSimObject_ball_set", _wrap_BallSimObject_ball_set, METH_VARARGS, NULL},
+	 { "BallSimObject_ball_get", _wrap_BallSimObject_ball_get, METH_O, NULL},
+	 { "BallSimObject_failure_set", _wrap_BallSimObject_failure_set, METH_VARARGS, NULL},
+	 { "BallSimObject_failure_get", _wrap_BallSimObject_failure_get, METH_O, NULL},
+	 { "new_BallSimObject", _wrap_new_BallSimObject, METH_NOARGS, NULL},
+	 { "BallSimObject_call_function", _wrap_BallSimObject_call_function, METH_VARARGS, NULL},
+	 { "BallSimObject_call_function_double", _wrap_BallSimObject_call_function_double, METH_VARARGS, NULL},
+	 { "BallSimObject___getitem__", _wrap_BallSimObject___getitem__, METH_VARARGS, NULL},
+	 { "BallSimObject___len__", _wrap_BallSimObject___len__, METH_O, NULL},
+	 { "delete_BallSimObject", _wrap_delete_BallSimObject, METH_O, NULL},
+	 { "BallSimObject_swigregister", BallSimObject_swigregister, METH_O, NULL},
+	 { "BallSimObject_swiginit", BallSimObject_swiginit, METH_VARARGS, NULL},
 	 { "castAsSimEnvironment", _wrap_castAsSimEnvironment, METH_O, NULL},
 	 { "castAsSysSimObject", _wrap_castAsSysSimObject, METH_O, NULL},
 	 { "castAsMonteCarloSimObject", _wrap_castAsMonteCarloSimObject, METH_O, NULL},
@@ -16053,6 +16593,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "castAsUnitTestSimObject", _wrap_castAsUnitTestSimObject, METH_O, NULL},
 	 { "castAsUdUnitsSimObject", _wrap_castAsUdUnitsSimObject, METH_O, NULL},
 	 { "castAsCannonSimObject", _wrap_castAsCannonSimObject, METH_O, NULL},
+	 { "castAsBallSimObject", _wrap_castAsBallSimObject, METH_O, NULL},
 	 { NULL, NULL, 0, NULL }
 };
 
@@ -16147,6 +16688,9 @@ static void *_p_UdUnitsSimObjectTo_p_Trick__SimObject(void *x, int *SWIGUNUSEDPA
 static void *_p_CannonSimObjectTo_p_Trick__SimObject(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((Trick::SimObject *)  ((CannonSimObject *) x));
 }
+static void *_p_BallSimObjectTo_p_Trick__SimObject(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((Trick::SimObject *)  ((BallSimObject *) x));
+}
 static void *_p_SimEnvironmentTo_p_Trick__Environment(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((Trick::Environment *)  ((SimEnvironment *) x));
 }
@@ -16155,7 +16699,9 @@ static swig_type_info _swigt__p_ADDRESS_OPERAND = {"_p_ADDRESS_OPERAND", "ADDRES
 static swig_type_info _swigt__p_ADDRESS_OPERATOR = {"_p_ADDRESS_OPERATOR", "enum ADDRESS_OPERATOR *|ADDRESS_OPERATOR *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ALLOC_INFO = {"_p_ALLOC_INFO", "ALLOC_INFO *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ATTRIBUTES_tag = {"_p_ATTRIBUTES_tag", "ATTRIBUTES_tag *|ATTRIBUTES *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_BALL = {"_p_BALL", "BALL *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_BC_INFO = {"_p_BC_INFO", "BC_INFO *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_BallSimObject = {"_p_BallSimObject", "BallSimObject *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_CANNON = {"_p_CANNON", "CANNON *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_CannonSimObject = {"_p_CannonSimObject", "CannonSimObject *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_CheckPointRestartSimObject = {"_p_CheckPointRestartSimObject", "CheckPointRestartSimObject *", 0, 0, (void*)0, 0};
@@ -16295,7 +16841,9 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_ADDRESS_OPERATOR,
   &_swigt__p_ALLOC_INFO,
   &_swigt__p_ATTRIBUTES_tag,
+  &_swigt__p_BALL,
   &_swigt__p_BC_INFO,
+  &_swigt__p_BallSimObject,
   &_swigt__p_CANNON,
   &_swigt__p_CannonSimObject,
   &_swigt__p_CheckPointRestartSimObject,
@@ -16435,7 +16983,9 @@ static swig_cast_info _swigc__p_ADDRESS_OPERAND[] = {  {&_swigt__p_ADDRESS_OPERA
 static swig_cast_info _swigc__p_ADDRESS_OPERATOR[] = {  {&_swigt__p_ADDRESS_OPERATOR, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ALLOC_INFO[] = {  {&_swigt__p_ALLOC_INFO, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ATTRIBUTES_tag[] = {  {&_swigt__p_ATTRIBUTES_tag, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_BALL[] = {  {&_swigt__p_BALL, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_BC_INFO[] = {  {&_swigt__p_BC_INFO, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_BallSimObject[] = {  {&_swigt__p_BallSimObject, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_CANNON[] = {  {&_swigt__p_CANNON, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_CannonSimObject[] = {  {&_swigt__p_CannonSimObject, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_CheckPointRestartSimObject[] = {  {&_swigt__p_CheckPointRestartSimObject, 0, 0, 0},{0, 0, 0, 0}};
@@ -16527,7 +17077,7 @@ static swig_cast_info _swigc__p_Trick__FrameDataRecordGroup[] = {{&_swigt__p_Tri
 static swig_cast_info _swigc__p_Trick__DataRecordGroup[] = {{&_swigt__p_Trick__DataRecordGroup, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_IntegLoopSimObject[] = {{&_swigt__p_IntegLoopSimObject, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Trick__DRBinary[] = {{&_swigt__p_Trick__DRBinary, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_Trick__SimObject[] = {  {&_swigt__p_Trick__FrameDataRecordGroup, _p_Trick__FrameDataRecordGroupTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_Trick__DataRecordGroup, _p_Trick__DataRecordGroupTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_ThreadProcessEventSimObject, _p_ThreadProcessEventSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_InputProcessorSimObject, _p_InputProcessorSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_JITSimObject, _p_JITSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_MessageSimObject, _p_MessageSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_CommandLineArgumentsSimObject, _p_CommandLineArgumentsSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_SieSimObject, _p_SieSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_CheckPointRestartSimObject, _p_CheckPointRestartSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_MemoryManagerSimObject, _p_MemoryManagerSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_MonteCarloSimObject, _p_MonteCarloSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_SysSimObject, _p_SysSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_IntegLoopSimObject, _p_IntegLoopSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_Trick__SimObject, 0, 0, 0},  {&_swigt__p_Trick__DRBinary, _p_Trick__DRBinaryTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_EventManagerSimObject, _p_EventManagerSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_VariableServerSimObject, _p_VariableServerSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_DataRecordDispatcherSimObject, _p_DataRecordDispatcherSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_RTSyncSimObject, _p_RTSyncSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_FrameLogSimObject, _p_FrameLogSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_MasterSlaveSimObject, _p_MasterSlaveSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_InstrumentationSimObject, _p_InstrumentationSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_InjectorExecSimObject, _p_InjectorExecSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_InjectorSimObject, _p_InjectorSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_ZeroconfSimObject, _p_ZeroconfSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_UnitTestSimObject, _p_UnitTestSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_UdUnitsSimObject, _p_UdUnitsSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_CannonSimObject, _p_CannonSimObjectTo_p_Trick__SimObject, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_Trick__SimObject[] = {  {&_swigt__p_Trick__FrameDataRecordGroup, _p_Trick__FrameDataRecordGroupTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_Trick__DataRecordGroup, _p_Trick__DataRecordGroupTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_ThreadProcessEventSimObject, _p_ThreadProcessEventSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_InputProcessorSimObject, _p_InputProcessorSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_JITSimObject, _p_JITSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_MessageSimObject, _p_MessageSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_CommandLineArgumentsSimObject, _p_CommandLineArgumentsSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_SieSimObject, _p_SieSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_CheckPointRestartSimObject, _p_CheckPointRestartSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_MemoryManagerSimObject, _p_MemoryManagerSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_MonteCarloSimObject, _p_MonteCarloSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_SysSimObject, _p_SysSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_IntegLoopSimObject, _p_IntegLoopSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_Trick__SimObject, 0, 0, 0},  {&_swigt__p_Trick__DRBinary, _p_Trick__DRBinaryTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_EventManagerSimObject, _p_EventManagerSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_VariableServerSimObject, _p_VariableServerSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_DataRecordDispatcherSimObject, _p_DataRecordDispatcherSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_RTSyncSimObject, _p_RTSyncSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_FrameLogSimObject, _p_FrameLogSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_MasterSlaveSimObject, _p_MasterSlaveSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_InstrumentationSimObject, _p_InstrumentationSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_InjectorExecSimObject, _p_InjectorExecSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_InjectorSimObject, _p_InjectorSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_ZeroconfSimObject, _p_ZeroconfSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_UnitTestSimObject, _p_UnitTestSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_UdUnitsSimObject, _p_UdUnitsSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_CannonSimObject, _p_CannonSimObjectTo_p_Trick__SimObject, 0, 0},  {&_swigt__p_BallSimObject, _p_BallSimObjectTo_p_Trick__SimObject, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Trick__Slave[] = {  {&_swigt__p_Trick__Slave, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Trick__StripChart[] = {  {&_swigt__p_Trick__StripChart, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Trick__TrickView[] = {  {&_swigt__p_Trick__TrickView, 0, 0, 0},{0, 0, 0, 0}};
@@ -16575,7 +17125,9 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_ADDRESS_OPERATOR,
   _swigc__p_ALLOC_INFO,
   _swigc__p_ATTRIBUTES_tag,
+  _swigc__p_BALL,
   _swigc__p_BC_INFO,
+  _swigc__p_BallSimObject,
   _swigc__p_CANNON,
   _swigc__p_CannonSimObject,
   _swigc__p_CheckPointRestartSimObject,

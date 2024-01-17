@@ -96,7 +96,8 @@ extern "C" {
 #include "trick/memorymanager_c_intf.h"
 #include "trick/montecarlo_c_intf.h"
 #include "trick/trick_tests.h"
-#include "cannon/include/cannon_analytic.h"
+#include "ball/include/ball.h"
+#include "cannon/include/cannon.h"
 #include "failure/include/failure.h"
 
 #ifdef __cplusplus
@@ -858,6 +859,27 @@ class CannonSimObject : public Trick::SimObject {
 
 } ;
 
+class BallSimObject : public Trick::SimObject {
+
+    public:
+        BALL ball;
+        FAILURE failure;
+
+        BallSimObject() {
+            Trick::JobData * job __attribute__((unused)) ;
+            job = this->add_job(0, 0, "default_data", NULL, 1, "ball_default_data", "", 60000) ;
+            job = this->add_job(0, 1, "default_data", NULL, 1, "ball_reset", "", 60000) ;
+            job = this->add_job(0, 2, "initialization", NULL, 1, "ball_init", "", 60000) ;
+            job = this->add_job(0, 3, "scheduled", NULL, 0.01, "ball_analytic", "", 60000) ;
+            job = this->add_job(0, 4, "shutdown", NULL, 1, "ball_shutdown", "", 60000) ;
+        }
+
+    public:
+        virtual int call_function( Trick::JobData * curr_job ) ;
+        virtual double call_function_double( Trick::JobData * curr_job ) ;
+
+} ;
+
 #ifdef TRICK_ICG
 #endif
 
@@ -883,6 +905,7 @@ extern ZeroconfSimObject trick_zero_conf ;
 extern UnitTestSimObject trick_utest ;
 extern UdUnitsSimObject trick_udunits;
 extern CannonSimObject dyn ;
+extern BallSimObject dyn1 ;
 #endif
 
 

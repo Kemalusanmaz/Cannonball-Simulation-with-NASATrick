@@ -155,9 +155,9 @@ def _swig_setattr(self,class_type,name,value):
     return _swig_setattr_nondynamic(self,class_type,name,value,1)
 
 import sim_services
-import m35dc9d2d496f9f76fb0b82f92b100ff3
-import m945e1f079631c9de55bdd1d760eded56
+import m603684d0070f1ec4ddac5f3ffee06468
 import m221c37067f1f2af7f60b6148345ae2f7
+import m945e1f079631c9de55bdd1d760eded56
 class SimEnvironment(sim_services.Environment):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -1200,6 +1200,49 @@ class CannonSimObject(sim_services.SimObject):
 # Register CannonSimObject in _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd:
 _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.CannonSimObject_swigregister(CannonSimObject)
 
+class BallSimObject(sim_services.SimObject):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    __setattr__ = _swig_setattr_nondynamic_instance_variable(object.__setattr__)
+
+    ball = property(_m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_ball_get, _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_ball_set)
+    failure = property(_m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_failure_get, _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_failure_set)
+
+    def __init__(self, **kwargs):
+        import _sim_services
+        this = _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.new_BallSimObject()
+        try: self.this.append(this)
+        except: self.this = this
+        if 'TMMName' in kwargs:
+            self.this.own(0)
+            isThisInMM = _sim_services.get_alloc_info_at(this)
+            if isThisInMM:
+                _sim_services.set_alloc_name_at(this, kwargs['TMMName'])
+            else:
+                _sim_services.TMM_declare_ext_var(this, _sim_services.TRICK_STRUCTURED, "BallSimObject", 0, kwargs['TMMName'], 0, None)
+            alloc_info = _sim_services.get_alloc_info_at(this)
+            alloc_info.stcl = _sim_services.TRICK_LOCAL
+            alloc_info.alloc_type = _sim_services.TRICK_ALLOC_NEW
+
+
+
+    def call_function(self, *args):
+        return _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_call_function(self, *args)
+
+    def call_function_double(self, *args):
+        return _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_call_function_double(self, *args)
+
+    def __getitem__(self, *args):
+        return _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject___getitem__(self, *args)
+
+    def __len__(self, *args):
+        return _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject___len__(self, *args)
+    __swig_destroy__ = _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.delete_BallSimObject
+
+# Register BallSimObject in _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd:
+_m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_swigregister(BallSimObject)
+
 
 def castAsSimEnvironment(*args):
     return _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.castAsSimEnvironment(*args)
@@ -1272,5 +1315,8 @@ def castAsUdUnitsSimObject(*args):
 
 def castAsCannonSimObject(*args):
     return _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.castAsCannonSimObject(*args)
+
+def castAsBallSimObject(*args):
+    return _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.castAsBallSimObject(*args)
 
 

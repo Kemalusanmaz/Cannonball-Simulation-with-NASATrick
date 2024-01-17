@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "failure.h": "c",
-        "cannon.h": "c"
+        "cannon.h": "c",
+        "cannon_analytic.h": "c"
     }
 }
