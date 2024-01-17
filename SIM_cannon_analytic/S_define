@@ -6,7 +6,7 @@ LIBRARY DEPENDENCIES:
       (cannon/src/cannon_init.c)
       (cannon/src/cannon_analytic.c)
       (cannon/src/cannon_shutdown.c)
-      (failure/src/failure.c)
+      (cannon/src/cannon_reset.c)
     )
 *************************************************************/
 
@@ -21,11 +21,11 @@ class CannonSimObject : public Trick::SimObject {
         FAILURE failure;
 
         CannonSimObject() {
-            ("default_data") cannon_default_data( &cannon, &failure ) ;
-            // ("default_data") failure_default_data( &failure ) ;
+            ("default_data") cannon_default_data( &cannon, &failure ) ;    
+            ("default_data") cannon_reset( &cannon, &failure ) ;
             ("initialization") cannon_init( &cannon, &failure ) ;
             (0.01, "scheduled") cannon_analytic( &cannon, &failure ) ;
-            ("shutdown") cannon_shutdown( &cannon, &failure ) ;
+            ("shutdown") cannon_shutdown( &cannon ) ;
         }
 } ;
 

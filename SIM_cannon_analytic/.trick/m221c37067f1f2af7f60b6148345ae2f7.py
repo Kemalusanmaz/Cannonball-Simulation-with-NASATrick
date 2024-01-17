@@ -165,6 +165,7 @@ class FAILURE(object):
         return _m221c37067f1f2af7f60b6148345ae2f7.FAILURE___len__(self, *args)
     isBroken = property(_m221c37067f1f2af7f60b6148345ae2f7.FAILURE_isBroken_get, _m221c37067f1f2af7f60b6148345ae2f7.FAILURE_isBroken_set)
     isOpen = property(_m221c37067f1f2af7f60b6148345ae2f7.FAILURE_isOpen_get, _m221c37067f1f2af7f60b6148345ae2f7.FAILURE_isOpen_set)
+    isReset = property(_m221c37067f1f2af7f60b6148345ae2f7.FAILURE_isReset_get, _m221c37067f1f2af7f60b6148345ae2f7.FAILURE_isReset_set)
 
     def __init__(self, **kwargs):
         import _sim_services

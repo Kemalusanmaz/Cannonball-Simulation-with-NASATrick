@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "failure.h": "c"
+        "failure.h": "c",
+        "cannon.h": "c"
     }
 }

@@ -1,5 +1,5 @@
 
-/* Created 2024/01/16 09:38:39 fjolnirr $ */
+/* Created 2024/01/17 09:38:46 fjolnirr $ */
 #include "../S_source.hh"
 
 
@@ -1016,13 +1016,16 @@ int CannonSimObject::call_function ( Trick::JobData * curr_job ) {
             cannon_default_data( &cannon, &failure ) ;
             break ;
         case 1:
-            cannon_init( &cannon, &failure ) ;
+            cannon_reset( &cannon, &failure ) ;
             break ;
         case 2:
-            cannon_analytic( &cannon, &failure ) ;
+            cannon_init( &cannon, &failure ) ;
             break ;
         case 3:
-            cannon_shutdown( &cannon, &failure ) ;
+            cannon_analytic( &cannon, &failure ) ;
+            break ;
+        case 4:
+            cannon_shutdown( &cannon ) ;
             break ;
         default:
             trick_ret = -1 ;
@@ -1159,8 +1162,8 @@ Trick::ClassSizeCheck * Trick::ClassSizeCheck::pInstance = NULL ;
 void memory_init( void ) {
 
     ALLOC_INFO * ai ;
-    exec_set_version_date_tag( "@(#)CP Version 19.7.0-beta, Tue Jan 16 09:38:39 2024" ) ;
-    exec_set_build_date( "Tue Jan 16 09:38:39 2024" ) ;
+    exec_set_version_date_tag( "@(#)CP Version 19.7.0-beta, Wed Jan 17 09:38:46 2024" ) ;
+    exec_set_build_date( "Wed Jan 17 09:38:46 2024" ) ;
     exec_set_current_version( "19.7.0-beta" ) ;
 
     populate_sim_services_class_map() ;

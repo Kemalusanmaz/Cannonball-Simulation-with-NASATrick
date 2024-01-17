@@ -3,7 +3,6 @@ PURPOSE: (Represent the state and initial conditions of a cannonball)
 **************************************************************************/
 #ifndef CANNON_H
 #define CANNON_H
-#include <stdbool.h>
 #include "../../failure/include/failure.h"
 
 typedef struct {
@@ -31,7 +30,8 @@ extern "C" {
 #endif
     int cannon_default_data(CANNON*,FAILURE*) ;
     int cannon_init(CANNON*,FAILURE*) ;
-    int cannon_shutdown(CANNON*,FAILURE*) ;
+    int cannon_reset(CANNON*,FAILURE*) ;
+    int cannon_shutdown(CANNON*) ;
 #ifdef __cplusplus
 }
 #endif

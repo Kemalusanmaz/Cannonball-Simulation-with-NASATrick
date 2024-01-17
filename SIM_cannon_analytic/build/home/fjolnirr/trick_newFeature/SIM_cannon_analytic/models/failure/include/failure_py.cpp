@@ -4518,6 +4518,101 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_FAILURE_isReset_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  FAILURE *arg1 = (FAILURE *) 0 ;
+  bool arg2 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "FAILURE_isReset_set", 2, 2, swig_obj)) SWIG_fail;
+  {
+    // FAILURE *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_FAILURE, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< FAILURE * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< FAILURE * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< FAILURE * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< FAILURE * >(temp_ptr) ;
+    }
+  }
+  {
+    int ret ;
+    ret = typemap_in_scalar<bool >( arg2 , swig_obj[1] , "FAILURE_isReset_set") ;
+    if ( ret != 0 ) {
+      SWIG_exception_fail(SWIG_TypeError,"Right hand side could not be converted proper scalar type");
+    }
+  }
+  if (arg1) (arg1)->isReset = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FAILURE_isReset_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  FAILURE *arg1 = (FAILURE *) 0 ;
+  PyObject *swig_obj[1] ;
+  bool result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  {
+    // FAILURE *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_FAILURE, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< FAILURE * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< FAILURE * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< FAILURE * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< FAILURE * >(temp_ptr) ;
+    }
+  }
+  result = (bool) ((arg1)->isReset);
+  {
+    // INT OUT
+    std::string temp_name ;
+    swig_int * t = new swig_int ;
+    t->value = (long long)result ;
+    temp_name = "FAILURE_isReset_get" ;
+    temp_name.erase(temp_name.length() - 4) ;
+    //cout << "swig_int out looking for param " << temp_name << std::endl ;
+    t->units = Trick::UnitsMap::units_map()->get_units(temp_name) ;
+    //cout << "swig_int out found units " << t->units << std::endl ;
+    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(t), SWIG_TypeQuery("_p_swig_int"), SWIG_POINTER_OWN);
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_new_FAILURE(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   FAILURE *result = 0 ;
@@ -4606,6 +4701,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "FAILURE_isBroken_get", _wrap_FAILURE_isBroken_get, METH_O, NULL},
 	 { "FAILURE_isOpen_set", _wrap_FAILURE_isOpen_set, METH_VARARGS, NULL},
 	 { "FAILURE_isOpen_get", _wrap_FAILURE_isOpen_get, METH_O, NULL},
+	 { "FAILURE_isReset_set", _wrap_FAILURE_isReset_set, METH_VARARGS, NULL},
+	 { "FAILURE_isReset_get", _wrap_FAILURE_isReset_get, METH_O, NULL},
 	 { "new_FAILURE", _wrap_new_FAILURE, METH_NOARGS, NULL},
 	 { "delete_FAILURE", _wrap_delete_FAILURE, METH_O, NULL},
 	 { "FAILURE_swigregister", FAILURE_swigregister, METH_O, NULL},

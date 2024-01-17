@@ -31,6 +31,11 @@ ATTRIBUTES attrFAILURE[] = {
   15,TRICK_BOOLEAN, sizeof(bool), 0, 0, Language_CPP, 0,
   1, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
   NULL, NULL, NULL, NULL},
+{"isReset", "bool", "1", "", "",
+  "",
+  15,TRICK_BOOLEAN, sizeof(bool), 0, 0, Language_CPP, 0,
+  2, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
 {"", "", "1", "", "",
   "",
   15,TRICK_VOID, 0, 0, 0, Language_CPP, 0,
@@ -77,6 +82,7 @@ struct UnitsMapFAILURE {
         Trick::UnitsMap* units_map_ptr = Trick::UnitsMap::units_map();
         units_map_ptr->add_param("FAILURE_isBroken", "1") ;
         units_map_ptr->add_param("FAILURE_isOpen", "1") ;
+        units_map_ptr->add_param("FAILURE_isReset", "1") ;
     }
 } umFAILURE;
 

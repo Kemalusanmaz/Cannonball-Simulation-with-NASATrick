@@ -7,7 +7,7 @@
 ################################################################################
 # Creation:
 #    Author: Trick Configuration Processor - trick-CP Version 19.7.0-beta
-#    Date:   Tue Jan 16 09:34:47 2024
+#    Date:   Wed Jan 17 09:10:01 2024
 #
 ################################################################################
 
@@ -49,6 +49,7 @@ FIND_MODEL_OBJECTS = $(foreach PATH, $1, $(filter $(addprefix build, $(addsuffix
 MODEL_OBJECTS.c := \
     build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_analytic.o \
     build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_init.o \
+    build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_reset.o \
     build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_shutdown.o
 
 MODEL_OBJECTS := ${MODEL_OBJECTS.c}

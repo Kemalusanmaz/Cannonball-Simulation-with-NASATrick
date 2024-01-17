@@ -1,8 +1,6 @@
-Output for /home/fjolnirr/trick/libexec/trick/configuration_processor version 19.7.0-beta- at Tue Jan 16 09:38:39 2024
+Output for /home/fjolnirr/trick/libexec/trick/configuration_processor version 19.7.0-beta- at Wed Jan 17 09:38:46 2024
 
 Parsing    S_define
-Warning    S_define
-           Could not find dependency "failure/src/failure.c"
 Processing S_define
 Processing /usr/include/stdc-predef.h
 Continuing S_define

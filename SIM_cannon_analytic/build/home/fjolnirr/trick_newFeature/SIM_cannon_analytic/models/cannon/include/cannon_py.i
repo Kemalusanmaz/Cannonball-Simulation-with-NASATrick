@@ -55,12 +55,14 @@ extern "C" {
 #endif
     int cannon_default_data(CANNON*,FAILURE*) ;
     int cannon_init(CANNON*,FAILURE*) ;
-    int cannon_shutdown(CANNON*,FAILURE*) ;
+    int cannon_reset(CANNON*,FAILURE*) ;
+    int cannon_shutdown(CANNON*) ;
 #ifdef __cplusplus
 }
 #endif
 
 #endif
+
 #ifdef TRICK_SWIG_DEFINED_CANNON
 %trick_cast_as(CANNON, CANNON)
 #endif

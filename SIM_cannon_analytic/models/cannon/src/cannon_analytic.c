@@ -4,7 +4,7 @@ PURPOSE:    ( Analytical Cannon )
 #include <stdio.h>
 #include <math.h>
 #include "../include/cannon_analytic.h"
-#include "../models/failure/include/failure.h"
+#include "../../failure/include/failure.h"
 
 int cannon_analytic( CANNON* C, FAILURE* F ) {
 
@@ -27,19 +27,22 @@ int cannon_analytic( CANNON* C, FAILURE* F ) {
     }
 
     
-    int flag = 0;
-    if (flag == 0 && C->time > 7.0)
-    {
-        F->isBroken = true;
-        F->isOpen = false;
-        flag = 1;
-    }
+    // int flag = 0;
+    // if (flag == 0 && C->time > 7.0)
+    // {
+    //     F->isBroken = true;
+    //     F->isOpen = false;
+    //     flag = 1;
+    // }
     
     /*
      * Increment time by the time delta associated with this job
      * Note that the 0.01 matches the frequency of this job
      * as specified in the S_define.
      */
-    C->time += 0.01 ;
+    C->time += 0.1 ;
+
+    cannon_reset(C,F);
+
     return 0 ;
 }

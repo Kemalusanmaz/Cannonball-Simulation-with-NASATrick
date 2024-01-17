@@ -1045,9 +1045,10 @@ class CannonSimObject : public Trick::SimObject {
         CannonSimObject() {
             Trick::JobData * job __attribute__((unused)) ;
             job = this->add_job(0, 0, "default_data", NULL, 1, "cannon_default_data", "", 60000) ;
-            job = this->add_job(0, 1, "initialization", NULL, 1, "cannon_init", "", 60000) ;
-            job = this->add_job(0, 2, "scheduled", NULL, 0.01, "cannon_analytic", "", 60000) ;
-            job = this->add_job(0, 3, "shutdown", NULL, 1, "cannon_shutdown", "", 60000) ;
+            job = this->add_job(0, 1, "default_data", NULL, 1, "cannon_reset", "", 60000) ;
+            job = this->add_job(0, 2, "initialization", NULL, 1, "cannon_init", "", 60000) ;
+            job = this->add_job(0, 3, "scheduled", NULL, 0.01, "cannon_analytic", "", 60000) ;
+            job = this->add_job(0, 4, "shutdown", NULL, 1, "cannon_shutdown", "", 60000) ;
         }
 
     public:

@@ -3,11 +3,10 @@ PURPOSE: (Print the final cannon ball state.)
 *************************************************************************/
 #include <stdio.h>
 #include "../include/cannon.h"
-#include "../../failure/include/failure.h"
 #include "trick/exec_proto.h"
 
 
-int cannon_shutdown( CANNON* C, FAILURE* H ){
+int cannon_shutdown( CANNON* C){
     double t = exec_get_sim_time();
     printf( "========================================\n");
     printf( "      Cannon Ball State at Shutdown     \n");

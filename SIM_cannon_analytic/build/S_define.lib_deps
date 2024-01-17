@@ -1,3 +1,4 @@
 /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_init.c
 /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_analytic.c
 /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_shutdown.c
+/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_reset.c

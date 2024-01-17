@@ -8,7 +8,7 @@ PURPOSE: (Set the initial data values)
 #include "../../failure/include/failure.h"
 
 /* default data job */
-int cannon_default_data( CANNON* C, FAILURE* H ) {
+int cannon_default_data( CANNON* C, FAILURE* F ) {
 
     C->acc[0] = 0.0;
     C->acc[1] = -9.81;
@@ -22,15 +22,24 @@ int cannon_default_data( CANNON* C, FAILURE* H ) {
     C->impact = 0 ;
     C->impactTime = 0.0 ;
 
-    H->isBroken = false;
-    H->isOpen = true;
+    
+    F->isBroken = false;
+    F->isOpen = true;
+    F->isReset = false;
+    
 
     return 0 ;
 }
 
+
+
 /* initialization job */
-int cannon_init( CANNON* C, FAILURE* H) {
+int cannon_init( CANNON* C, FAILURE* F) {
    
+    F->isBroken = false;
+    F->isOpen = true;
+    F->isReset = false;
+    
     C->vel0[0] = C->init_speed*cos(C->init_angle);
     C->vel0[1] = C->init_speed*sin(C->init_angle);
 
@@ -40,8 +49,10 @@ int cannon_init( CANNON* C, FAILURE* H) {
     C->impactTime = 0.0;
     C->impact = 0.0;
 
-    H->isBroken = false;
-    H->isOpen = true;
+    cannon_reset(C,F);   
 
     return 0 ; 
 }
+
+
+
