@@ -1,23 +1,24 @@
-|L   1|2024/01/17,15:14:49|TrickDev| |T 0|0.000000| Freeze ON. Simulation time holding at 0.000000 seconds.
-|L   1|2024/01/17,15:15:09|TrickDev| |T 0|0.000000| Freeze OFF.
-|L   0|2024/01/17,15:16:49|TrickDev| |T 0|100.000000| 
+|L   1|2024/01/23,10:30:21|TrickDev| |T 0|0.000000| Freeze ON. Simulation time holding at 0.000000 seconds.
+|L   1|2024/01/23,10:31:07|TrickDev| |T 0|0.000000| Freeze OFF.
+|L   1|2024/01/23,10:31:51|TrickDev| |T 0|44.400000| Freeze ON. Simulation time holding at 44.400000 seconds.
+|L   0|2024/01/23,10:31:52|TrickDev| |T 0|44.400000| 
      REALTIME SHUTDOWN STATS:
-     REALTIME TOTAL OVERRUNS:            3
-            ACTUAL INIT TIME:        0.259
-         ACTUAL ELAPSED TIME:      120.320
-|L   0|2024/01/17,15:16:51|TrickDev| |T 0|100.000000| 
+     REALTIME TOTAL OVERRUNS:            5
+            ACTUAL INIT TIME:        0.245
+         ACTUAL ELAPSED TIME:       91.686
+|L   0|2024/01/23,10:31:53|TrickDev| |T 0|44.400000| 
 SIMULATION TERMINATED IN
   PROCESS: 0
-  ROUTINE: Executive_loop_single_thread.cpp:98
-  DIAGNOSTIC: Reached termination time
+  ROUTINE: Executive_freeze_loop.cpp:85
+  DIAGNOSTIC: Sim control Shutdown
 
            SIMULATION START TIME:        0.000
-            SIMULATION STOP TIME:      100.000
-         SIMULATION ELAPSED TIME:      100.000
-              USER CPU TIME USED:        0.713
-            SYSTEM CPU TIME USED:        0.659
-           SIMULATION / CPU TIME:       72.848
-    INITIALIZATION USER CPU TIME:        0.209
-  INITIALIZATION SYSTEM CPU TIME:        0.035
-            SIMULATION RAM USAGE:       56.820MB
+            SIMULATION STOP TIME:       44.400
+         SIMULATION ELAPSED TIME:       44.400
+              USER CPU TIME USED:        0.462
+            SYSTEM CPU TIME USED:        0.352
+           SIMULATION / CPU TIME:       54.550
+    INITIALIZATION USER CPU TIME:        0.210
+  INITIALIZATION SYSTEM CPU TIME:        0.025
+            SIMULATION RAM USAGE:       54.984MB
       (External program RAM usage not included!)

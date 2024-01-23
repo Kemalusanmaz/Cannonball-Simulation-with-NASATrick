@@ -7,7 +7,7 @@
 ################################################################################
 # Creation:
 #    Author: Trick Configuration Processor - trick-CP Version 19.7.0-beta
-#    Date:   Wed Jan 17 15:14:21 2024
+#    Date:   Fri Jan 19 08:17:36 2024
 #
 ################################################################################
 
@@ -47,14 +47,12 @@ build/S_source.d: ;
 FIND_MODEL_OBJECTS = $(foreach PATH, $1, $(filter $(addprefix build, $(addsuffix %, $(PATH))), $(MODEL_OBJECTS)))
 
 MODEL_OBJECTS.c := \
-    build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/src/ball_analytic.o \
-    build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/src/ball_init.o \
-    build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/src/ball_reset.o \
-    build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/src/ball_shutdown.o \
-    build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_analytic.o \
-    build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_init.o \
-    build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_reset.o \
-    build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_shutdown.o
+    build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/wrappers/src/ballWrapper.o \
+    build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/wrappers/src/cannonWrapper.o \
+    build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon.o \
+    build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_FDIR.o \
+    build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/src/ball.o \
+    build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/src/ball_FDIR.o
 
 MODEL_OBJECTS := ${MODEL_OBJECTS.c}
 

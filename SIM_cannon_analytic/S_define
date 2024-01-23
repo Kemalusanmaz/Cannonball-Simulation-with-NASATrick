@@ -3,35 +3,37 @@ PURPOSE:
     (S_define file for SIM_cannon_analytic)
 LIBRARY DEPENDENCIES:
     (
-      (cannon/src/cannon_init.c)
-      (cannon/src/cannon_analytic.c)
-      (cannon/src/cannon_shutdown.c)
-      (cannon/src/cannon_reset.c)
-      (ball/src/ball_init.c)
-      (ball/src/ball_analytic.c)
-      (ball/src/ball_shutdown.c)
-      (ball/src/ball_reset.c)
-      
+      (ball/src/ball.c)
+      (cannon/src/cannon.c)
+      (wrappers/src/ballWrapper.c)
+      (wrappers/src/cannonWrapper.c)
+      (cannon/src/cannon_FDIR.c)
+      (ball/src/ball_FDIR.c)
+
     )
 *************************************************************/
 
 #include "sim_objects/default_trick_sys.sm"
-##include "cannon/include/cannon.h"
 ##include "ball/include/ball.h"
-##include "failure/include/failure.h"
+##include "cannon/include/cannon.h"
+##include "FDIR/include/ballFDIR.h"
+##include "FDIR/include/cannonFDIR.h"
+##include "wrappers/include/ballWrapper.h"
+##include "wrappers/include/cannonWrapper.h"
+
 
 class CannonSimObject : public Trick::SimObject {
 
     public:
         CANNON cannon;
-        FAILURE failure;
+        CANNONFAILURE cannonfailure;
+        
+        InputHeightValue inputH;
 
-        CannonSimObject() {
-            ("default_data") cannon_default_data( &cannon, &failure ) ;    
-            ("default_data") cannon_reset( &cannon, &failure ) ;
-            ("initialization") cannon_init( &cannon, &failure ) ;
-            (0.01, "scheduled") cannon_analytic( &cannon, &failure ) ;
-            ("shutdown") cannon_shutdown( &cannon ) ;
+        CannonSimObject() { 
+            ("default_data") cannon_default_data( &cannon) ;
+            ("initialization") cannon_init_wrapper( &cannon, &cannonfailure ) ;
+            (0.01, "scheduled") cannon_step_wrapper( &cannon, &cannonfailure, &inputH ) ;
         }
 } ;
 
@@ -40,16 +42,20 @@ class BallSimObject : public Trick::SimObject {
     public:
         BALL ball;
         FAILURE failure;
+        
+        InputHeightValue* pinputH;
 
-        BallSimObject() {
-            ("default_data") ball_default_data( &ball, &failure ) ;    
-            ("default_data") ball_reset( &ball, &failure ) ;
-            ("initialization") ball_init( &ball, &failure ) ;
-            (0.01, "scheduled") ball_analytic( &ball, &failure ) ;
-            ("shutdown") ball_shutdown( &ball ) ;
+        BallSimObject() { 
+            ("default_data") ball_default_data( &ball) ;
+            ("initialization") ball_init_wrapper( &ball, &failure ) ;
+            (0.01, "scheduled") ball_step_wrapper( &ball, &failure , pinputH) ;
         }
 } ;
 
-CannonSimObject dyn ;
 
+CannonSimObject dyn ;
 BallSimObject dyn1 ;
+
+void create_connections(){
+    dyn1.pinputH = &dyn.inputH ;
+}

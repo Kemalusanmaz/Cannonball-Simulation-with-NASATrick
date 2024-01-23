@@ -155,9 +155,12 @@ def _swig_setattr(self,class_type,name,value):
     return _swig_setattr_nondynamic(self,class_type,name,value,1)
 
 import sim_services
+import mcb62551ceabae12d33639a84d366a7f8
+import m2d8eef0b3fff52621a7fd7f4385f78f7
 import m603684d0070f1ec4ddac5f3ffee06468
-import m221c37067f1f2af7f60b6148345ae2f7
 import m945e1f079631c9de55bdd1d760eded56
+import m5a945cb755bb698f6b45072873cc40ff
+import ma750df08e2d9fd33879d7d7313be3144
 class SimEnvironment(sim_services.Environment):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -1164,7 +1167,8 @@ class CannonSimObject(sim_services.SimObject):
     __setattr__ = _swig_setattr_nondynamic_instance_variable(object.__setattr__)
 
     cannon = property(_m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.CannonSimObject_cannon_get, _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.CannonSimObject_cannon_set)
-    failure = property(_m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.CannonSimObject_failure_get, _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.CannonSimObject_failure_set)
+    cannonfailure = property(_m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.CannonSimObject_cannonfailure_get, _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.CannonSimObject_cannonfailure_set)
+    inputH = property(_m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.CannonSimObject_inputH_get, _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.CannonSimObject_inputH_set)
 
     def __init__(self, **kwargs):
         import _sim_services
@@ -1208,6 +1212,7 @@ class BallSimObject(sim_services.SimObject):
 
     ball = property(_m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_ball_get, _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_ball_set)
     failure = property(_m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_failure_get, _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_failure_set)
+    pinputH = property(_m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_pinputH_get, _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_pinputH_set)
 
     def __init__(self, **kwargs):
         import _sim_services

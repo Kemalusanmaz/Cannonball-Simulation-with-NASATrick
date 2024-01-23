@@ -1,8 +1,6 @@
-/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_init.c
-/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_analytic.c
-/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_shutdown.c
-/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_reset.c
-/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/src/ball_init.c
-/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/src/ball_analytic.c
-/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/src/ball_shutdown.c
-/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/src/ball_reset.c
+/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/src/ball.c
+/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon.c
+/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/wrappers/src/ballWrapper.c
+/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/wrappers/src/cannonWrapper.c
+/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_FDIR.c
+/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/src/ball_FDIR.c

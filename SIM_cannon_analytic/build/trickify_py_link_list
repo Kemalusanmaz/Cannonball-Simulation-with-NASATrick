@@ -1,4 +1,7 @@
 build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source_py.o
+build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/ballFDIR_py.o
+build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/cannonFDIR_py.o
 build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/include/ball_py.o
 build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon_py.o
-build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/failure/include/failure_py.o
+build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/wrappers/include/ballWrapper_py.o
+build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/wrappers/include/cannonWrapper_py.o

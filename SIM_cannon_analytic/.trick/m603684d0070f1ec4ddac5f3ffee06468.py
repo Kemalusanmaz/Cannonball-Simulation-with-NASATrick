@@ -154,7 +154,7 @@ def _swig_setattr_nondynamic(self,class_type,name,value,static=1):
 def _swig_setattr(self,class_type,name,value):
     return _swig_setattr_nondynamic(self,class_type,name,value,1)
 
-import m221c37067f1f2af7f60b6148345ae2f7
+import m945e1f079631c9de55bdd1d760eded56
 class BALL(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -204,13 +204,7 @@ def ball_default_data(*args):
 def ball_init(*args):
     return _m603684d0070f1ec4ddac5f3ffee06468.ball_init(*args)
 
-def ball_analytic(*args):
-    return _m603684d0070f1ec4ddac5f3ffee06468.ball_analytic(*args)
-
-def ball_reset(*args):
-    return _m603684d0070f1ec4ddac5f3ffee06468.ball_reset(*args)
-
-def ball_shutdown(*args):
-    return _m603684d0070f1ec4ddac5f3ffee06468.ball_shutdown(*args)
+def ball_step(*args):
+    return _m603684d0070f1ec4ddac5f3ffee06468.ball_step(*args)
 
 

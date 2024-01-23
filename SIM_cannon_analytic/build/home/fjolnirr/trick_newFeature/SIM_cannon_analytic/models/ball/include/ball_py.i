@@ -18,7 +18,9 @@
 
 #ifndef BALL_H
 #define BALL_H
-%import "build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/failure/include/failure_py.i"
+
+%import "build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon_py.i"
+
 
 typedef struct {
 
@@ -46,18 +48,18 @@ typedef struct {
 
     double impactTime;  
 
-
-
+    
 } BALL ;
+
+
+
 
 #ifdef __cplusplus
 extern "C" {
 #endif
-    int ball_default_data(BALL*,FAILURE*) ;
-    int ball_init(BALL*,FAILURE*) ;
-    int ball_analytic(BALL*, FAILURE*) ;
-    int ball_reset(BALL*,FAILURE*) ;
-    int ball_shutdown(BALL*) ;
+    void ball_default_data(BALL*) ;
+    void ball_init(BALL*) ;
+    void ball_step(BALL*, InputHeightValue*) ;
 #ifdef __cplusplus
 }
 #endif

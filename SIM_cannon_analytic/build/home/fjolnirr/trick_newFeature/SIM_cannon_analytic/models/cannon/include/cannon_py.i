@@ -13,12 +13,12 @@
 %}
 
 %trick_swig_class_typemap(CANNON, CANNON)
+%trick_swig_class_typemap(InputHeightValue, InputHeightValue)
 
 
 
 #ifndef CANNON_H
 #define CANNON_H
-%import "build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/failure/include/failure_py.i"
 
 
 typedef struct {
@@ -48,18 +48,23 @@ typedef struct {
     double impactTime;  
 
 
-
+    double receiveHeight;
+    
 } CANNON ;
+
+typedef struct{
+    double height;
+}InputHeightValue;
+
+
 
 
 #ifdef __cplusplus
 extern "C" {
 #endif
-    int cannon_default_data(CANNON*,FAILURE*) ;
-    int cannon_init(CANNON*,FAILURE*) ;
-    int cannon_analytic(CANNON*, FAILURE*) ;
-    int cannon_reset(CANNON*,FAILURE*) ;
-    int cannon_shutdown(CANNON*) ;
+    void cannon_default_data(CANNON*) ;
+    void cannon_init(CANNON*) ;
+    void cannon_step(CANNON*,InputHeightValue*) ;
 #ifdef __cplusplus
 }
 #endif
@@ -68,4 +73,7 @@ extern "C" {
 
 #ifdef TRICK_SWIG_DEFINED_CANNON
 %trick_cast_as(CANNON, CANNON)
+#endif
+#ifdef TRICK_SWIG_DEFINED_InputHeightValue
+%trick_cast_as(InputHeightValue, InputHeightValue)
 #endif

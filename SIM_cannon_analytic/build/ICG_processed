@@ -1,4 +1,11 @@
 /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh
+/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/ballFDIR.h
+/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/cannonFDIR.h
 /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/include/ball.h
 /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon.h
-/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/failure/include/failure.h
+/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/ballFDIR.h
+/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/cannonFDIR.h
+/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/include/ball.h
+/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon.h
+/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/wrappers/include/ballWrapper.h
+/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/wrappers/include/cannonWrapper.h

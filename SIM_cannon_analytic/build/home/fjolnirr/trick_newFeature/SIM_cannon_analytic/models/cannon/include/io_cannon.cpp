@@ -71,6 +71,11 @@ ATTRIBUTES attrCANNON[] = {
   15,TRICK_DOUBLE, sizeof(double), 0, 0, Language_CPP, 0,
   112, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
   NULL, NULL, NULL, NULL},
+{"receiveHeight", "double", "1", "", "",
+  "",
+  15,TRICK_DOUBLE, sizeof(double), 0, 0, Language_CPP, 0,
+  120, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
 {"", "", "1", "", "",
   "",
   15,TRICK_VOID, 0, 0, 0, Language_CPP, 0,
@@ -125,6 +130,63 @@ struct UnitsMapCANNON {
         units_map_ptr->add_param("CANNON_time", "s") ;
         units_map_ptr->add_param("CANNON_impact", "1") ;
         units_map_ptr->add_param("CANNON_impactTime", "s") ;
+        units_map_ptr->add_param("CANNON_receiveHeight", "1") ;
     }
 } umCANNON;
+
+extern "C" {
+
+ATTRIBUTES attrInputHeightValue[] = {
+{"height", "double", "1", "", "",
+  "",
+  15,TRICK_DOUBLE, sizeof(double), 0, 0, Language_CPP, 0,
+  0, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"", "", "1", "", "",
+  "",
+  15,TRICK_VOID, 0, 0, 0, Language_CPP, 0,
+  0, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL} };
+
+} //extern "C"
+
+
+void init_attrInputHeightValue() {
+
+    static int initialized ;
+    if (initialized) {
+        return;
+    }
+    initialized = 1;
+
+}
+
+extern "C" {
+
+void init_attrInputHeightValue_c_intf() {
+    init_attrInputHeightValue() ;
+}
+
+size_t io_src_sizeof_InputHeightValue() {
+    return sizeof(InputHeightValue) ;
+}
+
+void* io_src_allocate_InputHeightValue(int num) {
+    InputHeightValue* temp = (InputHeightValue*)calloc(num, sizeof(InputHeightValue));
+    return (void*)temp;
+}
+
+void io_src_destruct_InputHeightValue(void* address __attribute__((unused)), int num __attribute__((unused))) {
+}
+
+void io_src_delete_InputHeightValue(void* address __attribute__((unused))) {}
+
+} //extern "C"
+
+struct UnitsMapInputHeightValue {
+    UnitsMapInputHeightValue() {
+        Trick::UnitsMap* units_map_ptr = Trick::UnitsMap::units_map();
+        units_map_ptr->add_param("InputHeightValue_height", "1") ;
+    }
+} umInputHeightValue;
 

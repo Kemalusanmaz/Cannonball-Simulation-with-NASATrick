@@ -154,7 +154,6 @@ def _swig_setattr_nondynamic(self,class_type,name,value,static=1):
 def _swig_setattr(self,class_type,name,value):
     return _swig_setattr_nondynamic(self,class_type,name,value,1)
 
-import m221c37067f1f2af7f60b6148345ae2f7
 class CANNON(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -174,6 +173,7 @@ class CANNON(object):
     time = property(_m945e1f079631c9de55bdd1d760eded56.CANNON_time_get, _m945e1f079631c9de55bdd1d760eded56.CANNON_time_set)
     impact = property(_m945e1f079631c9de55bdd1d760eded56.CANNON_impact_get, _m945e1f079631c9de55bdd1d760eded56.CANNON_impact_set)
     impactTime = property(_m945e1f079631c9de55bdd1d760eded56.CANNON_impactTime_get, _m945e1f079631c9de55bdd1d760eded56.CANNON_impactTime_set)
+    receiveHeight = property(_m945e1f079631c9de55bdd1d760eded56.CANNON_receiveHeight_get, _m945e1f079631c9de55bdd1d760eded56.CANNON_receiveHeight_set)
 
     def __init__(self, **kwargs):
         import _sim_services
@@ -197,6 +197,39 @@ class CANNON(object):
 # Register CANNON in _m945e1f079631c9de55bdd1d760eded56:
 _m945e1f079631c9de55bdd1d760eded56.CANNON_swigregister(CANNON)
 
+class InputHeightValue(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __getitem__(self, *args):
+        return _m945e1f079631c9de55bdd1d760eded56.InputHeightValue___getitem__(self, *args)
+
+    def __len__(self, *args):
+        return _m945e1f079631c9de55bdd1d760eded56.InputHeightValue___len__(self, *args)
+    height = property(_m945e1f079631c9de55bdd1d760eded56.InputHeightValue_height_get, _m945e1f079631c9de55bdd1d760eded56.InputHeightValue_height_set)
+
+    def __init__(self, **kwargs):
+        import _sim_services
+        this = _m945e1f079631c9de55bdd1d760eded56.new_InputHeightValue()
+        try: self.this.append(this)
+        except: self.this = this
+        if 'TMMName' in kwargs:
+            self.this.own(0)
+            isThisInMM = _sim_services.get_alloc_info_at(this)
+            if isThisInMM:
+                _sim_services.set_alloc_name_at(this, kwargs['TMMName'])
+            else:
+                _sim_services.TMM_declare_ext_var(this, _sim_services.TRICK_STRUCTURED, "InputHeightValue", 0, kwargs['TMMName'], 0, None)
+            alloc_info = _sim_services.get_alloc_info_at(this)
+            alloc_info.stcl = _sim_services.TRICK_LOCAL
+            alloc_info.alloc_type = _sim_services.TRICK_ALLOC_NEW
+
+
+    __swig_destroy__ = _m945e1f079631c9de55bdd1d760eded56.delete_InputHeightValue
+
+# Register InputHeightValue in _m945e1f079631c9de55bdd1d760eded56:
+_m945e1f079631c9de55bdd1d760eded56.InputHeightValue_swigregister(InputHeightValue)
+
 
 def cannon_default_data(*args):
     return _m945e1f079631c9de55bdd1d760eded56.cannon_default_data(*args)
@@ -204,13 +237,7 @@ def cannon_default_data(*args):
 def cannon_init(*args):
     return _m945e1f079631c9de55bdd1d760eded56.cannon_init(*args)
 
-def cannon_analytic(*args):
-    return _m945e1f079631c9de55bdd1d760eded56.cannon_analytic(*args)
-
-def cannon_reset(*args):
-    return _m945e1f079631c9de55bdd1d760eded56.cannon_reset(*args)
-
-def cannon_shutdown(*args):
-    return _m945e1f079631c9de55bdd1d760eded56.cannon_shutdown(*args)
+def cannon_step(*args):
+    return _m945e1f079631c9de55bdd1d760eded56.cannon_step(*args)
 
 

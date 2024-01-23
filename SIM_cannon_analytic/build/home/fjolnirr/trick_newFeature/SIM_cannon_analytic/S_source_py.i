@@ -128,9 +128,12 @@ extern "C" {
 %import(module="sim_services") "trick/memorymanager_c_intf.h"
 %import(module="sim_services") "trick/montecarlo_c_intf.h"
 %import(module="sim_services") "trick/trick_tests.h"
+%import "build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/ballFDIR_py.i"
+%import "build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/cannonFDIR_py.i"
 %import "build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/include/ball_py.i"
 %import "build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon_py.i"
-%import "build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/failure/include/failure_py.i"
+%import "build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/wrappers/include/ballWrapper_py.i"
+%import "build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/wrappers/include/cannonWrapper_py.i"
 
 #ifdef __cplusplus
 }
@@ -1042,15 +1045,15 @@ class CannonSimObject : public Trick::SimObject {
 
     public:
         CANNON cannon;
-        FAILURE failure;
+        CANNONFAILURE cannonfailure;
+
+        InputHeightValue inputH;
 
         CannonSimObject() {
             Trick::JobData * job __attribute__((unused)) ;
             job = this->add_job(0, 0, "default_data", NULL, 1, "cannon_default_data", "", 60000) ;
-            job = this->add_job(0, 1, "default_data", NULL, 1, "cannon_reset", "", 60000) ;
-            job = this->add_job(0, 2, "initialization", NULL, 1, "cannon_init", "", 60000) ;
-            job = this->add_job(0, 3, "scheduled", NULL, 0.01, "cannon_analytic", "", 60000) ;
-            job = this->add_job(0, 4, "shutdown", NULL, 1, "cannon_shutdown", "", 60000) ;
+            job = this->add_job(0, 1, "initialization", NULL, 1, "cannon_init_wrapper", "", 60000) ;
+            job = this->add_job(0, 2, "scheduled", NULL, 0.01, "cannon_step_wrapper", "", 60000) ;
         }
 
     public:
@@ -1072,13 +1075,13 @@ class BallSimObject : public Trick::SimObject {
         BALL ball;
         FAILURE failure;
 
+        InputHeightValue* pinputH;
+
         BallSimObject() {
             Trick::JobData * job __attribute__((unused)) ;
             job = this->add_job(0, 0, "default_data", NULL, 1, "ball_default_data", "", 60000) ;
-            job = this->add_job(0, 1, "default_data", NULL, 1, "ball_reset", "", 60000) ;
-            job = this->add_job(0, 2, "initialization", NULL, 1, "ball_init", "", 60000) ;
-            job = this->add_job(0, 3, "scheduled", NULL, 0.01, "ball_analytic", "", 60000) ;
-            job = this->add_job(0, 4, "shutdown", NULL, 1, "ball_shutdown", "", 60000) ;
+            job = this->add_job(0, 1, "initialization", NULL, 1, "ball_init_wrapper", "", 60000) ;
+            job = this->add_job(0, 2, "scheduled", NULL, 0.01, "ball_step_wrapper", "", 60000) ;
         }
 
     public:

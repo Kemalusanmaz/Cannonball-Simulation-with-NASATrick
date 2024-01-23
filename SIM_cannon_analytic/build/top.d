@@ -133,9 +133,12 @@ build/top.cpp: \
   /home/fjolnirr/trick/include/trick/montecarlo_c_intf.h \
   /home/fjolnirr/trick/include/trick/tc_proto.h \
   /home/fjolnirr/trick/include/trick/trick_tests.h \
+  build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/ballFDIR_py.i \
+  build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/cannonFDIR_py.i \
   build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/include/ball_py.i \
-  build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/failure/include/failure_py.i \
-  build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon_py.i 
+  build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon_py.i \
+  build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/wrappers/include/ballWrapper_py.i \
+  build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/wrappers/include/cannonWrapper_py.i 
 
 build/top.i:
 
@@ -405,8 +408,14 @@ build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source_py.i:
 
 /home/fjolnirr/trick/include/trick/trick_tests.h:
 
+build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/ballFDIR_py.i:
+
+build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/cannonFDIR_py.i:
+
 build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/include/ball_py.i:
 
-build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/failure/include/failure_py.i:
-
 build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon_py.i:
+
+build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/wrappers/include/ballWrapper_py.i:
+
+build/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/wrappers/include/cannonWrapper_py.i:

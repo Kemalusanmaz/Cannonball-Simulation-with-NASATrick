@@ -3,7 +3,9 @@ PURPOSE: (Represent the state and initial conditions of a ball)
 **************************************************************************/
 #ifndef BALL_H
 #define BALL_H
-#include "../../failure/include/failure.h"
+
+#include "../../cannon/include/cannon.h"
+
 
 typedef struct {
 
@@ -21,18 +23,18 @@ typedef struct {
 
     int impact ;        /* -- Has impact occured? */
     double impactTime;  /* s Time of Impact */
-
-
+    
 } BALL ;
+
+
+
 
 #ifdef __cplusplus
 extern "C" {
 #endif
-    int ball_default_data(BALL*,FAILURE*) ;
-    int ball_init(BALL*,FAILURE*) ;
-    int ball_analytic(BALL*, FAILURE*) ;
-    int ball_reset(BALL*,FAILURE*) ;
-    int ball_shutdown(BALL*) ;
+    void ball_default_data(BALL*) ;
+    void ball_init(BALL*) ;
+    void ball_step(BALL*, InputHeightValue*) ;
 #ifdef __cplusplus
 }
 #endif

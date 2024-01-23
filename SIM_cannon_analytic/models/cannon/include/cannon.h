@@ -1,9 +1,8 @@
 /*************************************************************************
-PURPOSE: (Represent the state and initial conditions of a cannonball)
+PURPOSE: (Represent the state and initial conditions of a cannon ball)
 **************************************************************************/
 #ifndef CANNON_H
 #define CANNON_H
-#include "../../failure/include/failure.h"
 
 
 typedef struct {
@@ -23,18 +22,23 @@ typedef struct {
     int impact ;        /* -- Has impact occured? */
     double impactTime;  /* s Time of Impact */
 
-
+    double receiveHeight;
+    
 } CANNON ;
+
+typedef struct{
+    double height;
+}InputHeightValue;
+
+
 
 
 #ifdef __cplusplus
 extern "C" {
 #endif
-    int cannon_default_data(CANNON*,FAILURE*) ;
-    int cannon_init(CANNON*,FAILURE*) ;
-    int cannon_analytic(CANNON*, FAILURE*) ;
-    int cannon_reset(CANNON*,FAILURE*) ;
-    int cannon_shutdown(CANNON*) ;
+    void cannon_default_data(CANNON*) ;
+    void cannon_init(CANNON*) ;
+    void cannon_step(CANNON*,InputHeightValue*) ;
 #ifdef __cplusplus
 }
 #endif

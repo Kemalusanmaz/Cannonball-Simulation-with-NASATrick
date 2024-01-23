@@ -2132,10 +2132,15 @@ ATTRIBUTES attrCannonSimObject[] = {
   15,TRICK_STRUCTURED, 0, 0, 0, Language_CPP, 0,
   168, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
   NULL, NULL, NULL, NULL},
-{"failure", "FAILURE", "1", "", "",
+{"cannonfailure", "CANNONFAILURE", "1", "", "",
   "",
   15,TRICK_STRUCTURED, 0, 0, 0, Language_CPP, 0,
-  288, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  296, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"inputH", "InputHeightValue", "1", "", "",
+  "",
+  15,TRICK_STRUCTURED, 0, 0, 0, Language_CPP, 0,
+  304, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
   NULL, NULL, NULL, NULL},
 {"", "", "1", "", "",
   "",
@@ -2156,6 +2161,7 @@ void init_attrCannonSimObject() {
 
     trick_MM->add_attr_info(std::string(attrCannonSimObject[3].type_name) , &attrCannonSimObject[3], __FILE__ , __LINE__ ) ;
     trick_MM->add_attr_info(std::string(attrCannonSimObject[4].type_name) , &attrCannonSimObject[4], __FILE__ , __LINE__ ) ;
+    trick_MM->add_attr_info(std::string(attrCannonSimObject[5].type_name) , &attrCannonSimObject[5], __FILE__ , __LINE__ ) ;
 
     ATTRIBUTES temp_attr ;
 
@@ -2200,7 +2206,8 @@ struct UnitsMapCannonSimObject {
         units_map_ptr->add_param("CannonSimObject_id", "1") ;
         units_map_ptr->add_param("CannonSimObject_object_disabled", "1") ;
         units_map_ptr->add_param("CannonSimObject_cannon", "1") ;
-        units_map_ptr->add_param("CannonSimObject_failure", "1") ;
+        units_map_ptr->add_param("CannonSimObject_cannonfailure", "1") ;
+        units_map_ptr->add_param("CannonSimObject_inputH", "1") ;
     }
 } umCannonSimObject;
 
@@ -2232,6 +2239,11 @@ ATTRIBUTES attrBallSimObject[] = {
   15,TRICK_STRUCTURED, 0, 0, 0, Language_CPP, 0,
   288, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
   NULL, NULL, NULL, NULL},
+{"pinputH", "InputHeightValue", "1", "", "",
+  "",
+  15,TRICK_STRUCTURED, 0, 0, 0, Language_CPP, 0,
+  296, NULL, 1, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
 {"", "", "1", "", "",
   "",
   15,TRICK_VOID, 0, 0, 0, Language_CPP, 0,
@@ -2251,6 +2263,7 @@ void init_attrBallSimObject() {
 
     trick_MM->add_attr_info(std::string(attrBallSimObject[3].type_name) , &attrBallSimObject[3], __FILE__ , __LINE__ ) ;
     trick_MM->add_attr_info(std::string(attrBallSimObject[4].type_name) , &attrBallSimObject[4], __FILE__ , __LINE__ ) ;
+    trick_MM->add_attr_info(std::string(attrBallSimObject[5].type_name) , &attrBallSimObject[5], __FILE__ , __LINE__ ) ;
 
     ATTRIBUTES temp_attr ;
 
@@ -2296,6 +2309,7 @@ struct UnitsMapBallSimObject {
         units_map_ptr->add_param("BallSimObject_object_disabled", "1") ;
         units_map_ptr->add_param("BallSimObject_ball", "1") ;
         units_map_ptr->add_param("BallSimObject_failure", "1") ;
+        units_map_ptr->add_param("BallSimObject_pinputH", "1") ;
     }
 } umBallSimObject;
 

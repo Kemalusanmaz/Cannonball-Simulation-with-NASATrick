@@ -14,15 +14,21 @@ void populate_class_map() {
 
     Trick::AttributesMap * class_attribute_map = Trick::AttributesMap::attributes_map();
 
-    // /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/failure/include/failure.h
+    // /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/ballFDIR.h
     extern ATTRIBUTES  attrFAILURE[] ;
     class_attribute_map->add_attr("FAILURE" , attrFAILURE) ;
-    // /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/include/ball.h
-    extern ATTRIBUTES  attrBALL[] ;
-    class_attribute_map->add_attr("BALL" , attrBALL) ;
+    // /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/cannonFDIR.h
+    extern ATTRIBUTES  attrCANNONFAILURE[] ;
+    class_attribute_map->add_attr("CANNONFAILURE" , attrCANNONFAILURE) ;
     // /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon.h
     extern ATTRIBUTES  attrCANNON[] ;
     class_attribute_map->add_attr("CANNON" , attrCANNON) ;
+    // /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/include/cannon.h
+    extern ATTRIBUTES  attrInputHeightValue[] ;
+    class_attribute_map->add_attr("InputHeightValue" , attrInputHeightValue) ;
+    // /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/include/ball.h
+    extern ATTRIBUTES  attrBALL[] ;
+    class_attribute_map->add_attr("BALL" , attrBALL) ;
     // /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/S_source.hh
     extern ATTRIBUTES  attrSimEnvironment[] ;
     class_attribute_map->add_attr("SimEnvironment" , attrSimEnvironment) ;

@@ -1,5 +1,5 @@
 
-/* Created 2024/01/17 15:14:20 fjolnirr $ */
+/* Created 2024/01/23 09:42:58 fjolnirr $ */
 #include "../S_source.hh"
 
 
@@ -1013,19 +1013,13 @@ int CannonSimObject::call_function ( Trick::JobData * curr_job ) {
 
     switch ( curr_job->id ) {
         case 0:
-            cannon_default_data( &cannon, &failure ) ;
+            cannon_default_data( &cannon) ;
             break ;
         case 1:
-            cannon_reset( &cannon, &failure ) ;
+            cannon_init_wrapper( &cannon, &cannonfailure ) ;
             break ;
         case 2:
-            cannon_init( &cannon, &failure ) ;
-            break ;
-        case 3:
-            cannon_analytic( &cannon, &failure ) ;
-            break ;
-        case 4:
-            cannon_shutdown( &cannon ) ;
+            cannon_step_wrapper( &cannon, &cannonfailure, &inputH ) ;
             break ;
         default:
             trick_ret = -1 ;
@@ -1056,19 +1050,13 @@ int BallSimObject::call_function ( Trick::JobData * curr_job ) {
 
     switch ( curr_job->id ) {
         case 0:
-            ball_default_data( &ball, &failure ) ;
+            ball_default_data( &ball) ;
             break ;
         case 1:
-            ball_reset( &ball, &failure ) ;
+            ball_init_wrapper( &ball, &failure ) ;
             break ;
         case 2:
-            ball_init( &ball, &failure ) ;
-            break ;
-        case 3:
-            ball_analytic( &ball, &failure ) ;
-            break ;
-        case 4:
-            ball_shutdown( &ball ) ;
+            ball_step_wrapper( &ball, &failure , pinputH) ;
             break ;
         default:
             trick_ret = -1 ;
@@ -1206,8 +1194,8 @@ Trick::ClassSizeCheck * Trick::ClassSizeCheck::pInstance = NULL ;
 void memory_init( void ) {
 
     ALLOC_INFO * ai ;
-    exec_set_version_date_tag( "@(#)CP Version 19.7.0-beta, Wed Jan 17 15:14:20 2024" ) ;
-    exec_set_build_date( "Wed Jan 17 15:14:20 2024" ) ;
+    exec_set_version_date_tag( "@(#)CP Version 19.7.0-beta, Tue Jan 23 09:42:58 2024" ) ;
+    exec_set_build_date( "Tue Jan 23 09:42:58 2024" ) ;
     exec_set_current_version( "19.7.0-beta" ) ;
 
     populate_sim_services_class_map() ;
@@ -1346,6 +1334,8 @@ void memory_init( void ) {
     }
     // Add Integration Loop Sim Object(s) JMP
 
+
+    dyn1.pinputH = &dyn.inputH ;
 
     Trick::ClassSizeCheck::class_size_check()->print_nonzero_diffs() ;
     Trick::ClassSizeCheck::reset_instance() ;

@@ -2697,7 +2697,7 @@ SWIGINTERN PyObject *SWIG_PyStaticMethod_New(PyObject *SWIGUNUSEDPARM(self), PyO
 /* -------- TYPES TABLE (BEGIN) -------- */
 
 #define SWIGTYPE_p_CANNON swig_types[0]
-#define SWIGTYPE_p_FAILURE swig_types[1]
+#define SWIGTYPE_p_InputHeightValue swig_types[1]
 #define SWIGTYPE_p_char swig_types[2]
 #define SWIGTYPE_p_double swig_types[3]
 #define SWIGTYPE_p_std__invalid_argument swig_types[4]
@@ -3419,6 +3419,27 @@ SWIGINTERN PyObject *CANNON___getitem__(CANNON *self,int ii){
         return(resultobj) ;
     }
 SWIGINTERN PyObject *CANNON___len__(CANNON *self){
+        // get_size only works if "self" was an allocated pointer
+        return PyInt_FromLong(get_size((char *)self)) ;
+    }
+SWIGINTERN PyObject *InputHeightValue___getitem__(InputHeightValue *self,int ii){
+
+        PyObject *resultobj ;
+        int array_size = (int) get_size((char *)self) ;
+
+        if ( ii < 0 ) {
+            ii += array_size ;
+        }
+
+        if ( (array_size > 0) and (ii > array_size) ) {
+            return NULL ;
+        }
+
+        //std::cout << "HERE in class __getitem__!!!" << std::endl ;
+        resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(&self[ii]), SWIG_TypeQuery("InputHeightValue *"), 0);
+        return(resultobj) ;
+    }
+SWIGINTERN PyObject *InputHeightValue___len__(InputHeightValue *self){
         // get_size only works if "self" was an allocated pointer
         return PyInt_FromLong(get_size((char *)self)) ;
     }
@@ -5471,6 +5492,101 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_CANNON_receiveHeight_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  CANNON *arg1 = (CANNON *) 0 ;
+  double arg2 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "CANNON_receiveHeight_set", 2, 2, swig_obj)) SWIG_fail;
+  {
+    // CANNON *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_CANNON, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< CANNON * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< CANNON * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< CANNON * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< CANNON * >(temp_ptr) ;
+    }
+  }
+  {
+    int ret ;
+    ret = typemap_in_scalar<double >( arg2 , swig_obj[1] , "CANNON_receiveHeight_set") ;
+    if ( ret != 0 ) {
+      SWIG_exception_fail(SWIG_TypeError,"Right hand side could not be converted proper scalar type");
+    }
+  }
+  if (arg1) (arg1)->receiveHeight = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_CANNON_receiveHeight_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  CANNON *arg1 = (CANNON *) 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  {
+    // CANNON *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_CANNON, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< CANNON * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< CANNON * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< CANNON * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< CANNON * >(temp_ptr) ;
+    }
+  }
+  result = (double) ((arg1)->receiveHeight);
+  {
+    // DOUBLE OUT
+    std::string temp_name ;
+    swig_double * t = new swig_double ;
+    t->value = (double)result ;
+    temp_name = "CANNON_receiveHeight_get" ;
+    temp_name.erase(temp_name.length() - 4) ;
+    //cout << "swig_double out looking for param " << temp_name << std::endl ;
+    t->units = Trick::UnitsMap::units_map()->get_units(temp_name) ;
+    //cout << "swig_double out found units " << t->units << std::endl ;
+    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(t), SWIG_TypeQuery("_p_swig_double"), SWIG_POINTER_OWN);
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_new_CANNON(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   CANNON *result = 0 ;
@@ -5533,303 +5649,252 @@ SWIGINTERN PyObject *CANNON_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *a
   return SWIG_Python_InitShadowInstance(args);
 }
 
+SWIGINTERN PyObject *_wrap_InputHeightValue___getitem__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  InputHeightValue *arg1 = (InputHeightValue *) 0 ;
+  int arg2 ;
+  PyObject *swig_obj[2] ;
+  PyObject *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "InputHeightValue___getitem__", 2, 2, swig_obj)) SWIG_fail;
+  {
+    // InputHeightValue *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_InputHeightValue, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< InputHeightValue * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< InputHeightValue * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< InputHeightValue * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< InputHeightValue * >(temp_ptr) ;
+    }
+  }
+  {
+    int ret ;
+    ret = typemap_in_scalar<int >( arg2 , swig_obj[1] , "InputHeightValue___getitem__") ;
+    if ( ret != 0 ) {
+      SWIG_exception_fail(SWIG_TypeError,"Right hand side could not be converted proper scalar type");
+    }
+  }
+  result = (PyObject *)InputHeightValue___getitem__(arg1,arg2);
+  resultobj = result;
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_InputHeightValue___len__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  InputHeightValue *arg1 = (InputHeightValue *) 0 ;
+  PyObject *swig_obj[1] ;
+  PyObject *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  {
+    // InputHeightValue *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_InputHeightValue, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< InputHeightValue * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< InputHeightValue * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< InputHeightValue * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< InputHeightValue * >(temp_ptr) ;
+    }
+  }
+  result = (PyObject *)InputHeightValue___len__(arg1);
+  resultobj = result;
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_InputHeightValue_height_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  InputHeightValue *arg1 = (InputHeightValue *) 0 ;
+  double arg2 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "InputHeightValue_height_set", 2, 2, swig_obj)) SWIG_fail;
+  {
+    // InputHeightValue *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_InputHeightValue, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< InputHeightValue * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< InputHeightValue * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< InputHeightValue * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< InputHeightValue * >(temp_ptr) ;
+    }
+  }
+  {
+    int ret ;
+    ret = typemap_in_scalar<double >( arg2 , swig_obj[1] , "InputHeightValue_height_set") ;
+    if ( ret != 0 ) {
+      SWIG_exception_fail(SWIG_TypeError,"Right hand side could not be converted proper scalar type");
+    }
+  }
+  if (arg1) (arg1)->height = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_InputHeightValue_height_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  InputHeightValue *arg1 = (InputHeightValue *) 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  {
+    // InputHeightValue *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_InputHeightValue, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< InputHeightValue * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< InputHeightValue * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< InputHeightValue * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< InputHeightValue * >(temp_ptr) ;
+    }
+  }
+  result = (double) ((arg1)->height);
+  {
+    // DOUBLE OUT
+    std::string temp_name ;
+    swig_double * t = new swig_double ;
+    t->value = (double)result ;
+    temp_name = "InputHeightValue_height_get" ;
+    temp_name.erase(temp_name.length() - 4) ;
+    //cout << "swig_double out looking for param " << temp_name << std::endl ;
+    t->units = Trick::UnitsMap::units_map()->get_units(temp_name) ;
+    //cout << "swig_double out found units " << t->units << std::endl ;
+    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(t), SWIG_TypeQuery("_p_swig_double"), SWIG_POINTER_OWN);
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_InputHeightValue(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  InputHeightValue *result = 0 ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "new_InputHeightValue", 0, 0, 0)) SWIG_fail;
+  result = (InputHeightValue *)new InputHeightValue();
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_InputHeightValue, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_InputHeightValue(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  InputHeightValue *arg1 = (InputHeightValue *) 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  {
+    // InputHeightValue *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_InputHeightValue, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< InputHeightValue * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< InputHeightValue * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< InputHeightValue * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< InputHeightValue * >(temp_ptr) ;
+    }
+  }
+  delete arg1;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *InputHeightValue_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_InputHeightValue, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *InputHeightValue_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  return SWIG_Python_InitShadowInstance(args);
+}
+
 SWIGINTERN PyObject *_wrap_cannon_default_data(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   CANNON *arg1 = (CANNON *) 0 ;
-  FAILURE *arg2 = (FAILURE *) 0 ;
-  PyObject *swig_obj[2] ;
-  int result;
-  
-  if (!SWIG_Python_UnpackTuple(args, "cannon_default_data", 2, 2, swig_obj)) SWIG_fail;
-  {
-    // CANNON *
-    void * temp_ptr ;
-    
-    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_CANNON, SWIG_POINTER_DISOWN)) ) {
-      arg1 = reinterpret_cast< CANNON * >(temp_ptr) ;
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
-      // Array to pointer assignment
-      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
-      if ( temp_swig_ref != NULL ) {
-        arg1 = reinterpret_cast< CANNON * >(temp_swig_ref->ref.address) ;
-      }
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
-      // We have an address coming in, we don't have to do any translation
-      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
-      if ( temp_ref != NULL ){
-        arg1 = reinterpret_cast< CANNON * >(temp_ref->address) ;
-      }
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
-      // We have an address coming in, we don't have to do any translation
-      arg1 = reinterpret_cast< CANNON * >(temp_ptr) ;
-    }
-  }
-  {
-    // FAILURE *
-    void * temp_ptr ;
-    
-    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIGTYPE_p_FAILURE, SWIG_POINTER_DISOWN)) ) {
-      arg2 = reinterpret_cast< FAILURE * >(temp_ptr) ;
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
-      // Array to pointer assignment
-      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
-      if ( temp_swig_ref != NULL ) {
-        arg2 = reinterpret_cast< FAILURE * >(temp_swig_ref->ref.address) ;
-      }
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
-      // We have an address coming in, we don't have to do any translation
-      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
-      if ( temp_ref != NULL ){
-        arg2 = reinterpret_cast< FAILURE * >(temp_ref->address) ;
-      }
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
-      // We have an address coming in, we don't have to do any translation
-      arg2 = reinterpret_cast< FAILURE * >(temp_ptr) ;
-    }
-  }
-  result = (int)cannon_default_data(arg1,arg2);
-  {
-    // INT OUT
-    std::string temp_name ;
-    swig_int * t = new swig_int ;
-    t->value = (long long)result ;
-    temp_name = "cannon_default_data" ;
-    temp_name.erase(temp_name.length() - 4) ;
-    //cout << "swig_int out looking for param " << temp_name << std::endl ;
-    t->units = Trick::UnitsMap::units_map()->get_units(temp_name) ;
-    //cout << "swig_int out found units " << t->units << std::endl ;
-    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(t), SWIG_TypeQuery("_p_swig_int"), SWIG_POINTER_OWN);
-  }
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_cannon_init(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  CANNON *arg1 = (CANNON *) 0 ;
-  FAILURE *arg2 = (FAILURE *) 0 ;
-  PyObject *swig_obj[2] ;
-  int result;
-  
-  if (!SWIG_Python_UnpackTuple(args, "cannon_init", 2, 2, swig_obj)) SWIG_fail;
-  {
-    // CANNON *
-    void * temp_ptr ;
-    
-    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_CANNON, SWIG_POINTER_DISOWN)) ) {
-      arg1 = reinterpret_cast< CANNON * >(temp_ptr) ;
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
-      // Array to pointer assignment
-      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
-      if ( temp_swig_ref != NULL ) {
-        arg1 = reinterpret_cast< CANNON * >(temp_swig_ref->ref.address) ;
-      }
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
-      // We have an address coming in, we don't have to do any translation
-      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
-      if ( temp_ref != NULL ){
-        arg1 = reinterpret_cast< CANNON * >(temp_ref->address) ;
-      }
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
-      // We have an address coming in, we don't have to do any translation
-      arg1 = reinterpret_cast< CANNON * >(temp_ptr) ;
-    }
-  }
-  {
-    // FAILURE *
-    void * temp_ptr ;
-    
-    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIGTYPE_p_FAILURE, SWIG_POINTER_DISOWN)) ) {
-      arg2 = reinterpret_cast< FAILURE * >(temp_ptr) ;
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
-      // Array to pointer assignment
-      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
-      if ( temp_swig_ref != NULL ) {
-        arg2 = reinterpret_cast< FAILURE * >(temp_swig_ref->ref.address) ;
-      }
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
-      // We have an address coming in, we don't have to do any translation
-      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
-      if ( temp_ref != NULL ){
-        arg2 = reinterpret_cast< FAILURE * >(temp_ref->address) ;
-      }
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
-      // We have an address coming in, we don't have to do any translation
-      arg2 = reinterpret_cast< FAILURE * >(temp_ptr) ;
-    }
-  }
-  result = (int)cannon_init(arg1,arg2);
-  {
-    // INT OUT
-    std::string temp_name ;
-    swig_int * t = new swig_int ;
-    t->value = (long long)result ;
-    temp_name = "cannon_init" ;
-    temp_name.erase(temp_name.length() - 4) ;
-    //cout << "swig_int out looking for param " << temp_name << std::endl ;
-    t->units = Trick::UnitsMap::units_map()->get_units(temp_name) ;
-    //cout << "swig_int out found units " << t->units << std::endl ;
-    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(t), SWIG_TypeQuery("_p_swig_int"), SWIG_POINTER_OWN);
-  }
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_cannon_analytic(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  CANNON *arg1 = (CANNON *) 0 ;
-  FAILURE *arg2 = (FAILURE *) 0 ;
-  PyObject *swig_obj[2] ;
-  int result;
-  
-  if (!SWIG_Python_UnpackTuple(args, "cannon_analytic", 2, 2, swig_obj)) SWIG_fail;
-  {
-    // CANNON *
-    void * temp_ptr ;
-    
-    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_CANNON, SWIG_POINTER_DISOWN)) ) {
-      arg1 = reinterpret_cast< CANNON * >(temp_ptr) ;
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
-      // Array to pointer assignment
-      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
-      if ( temp_swig_ref != NULL ) {
-        arg1 = reinterpret_cast< CANNON * >(temp_swig_ref->ref.address) ;
-      }
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
-      // We have an address coming in, we don't have to do any translation
-      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
-      if ( temp_ref != NULL ){
-        arg1 = reinterpret_cast< CANNON * >(temp_ref->address) ;
-      }
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
-      // We have an address coming in, we don't have to do any translation
-      arg1 = reinterpret_cast< CANNON * >(temp_ptr) ;
-    }
-  }
-  {
-    // FAILURE *
-    void * temp_ptr ;
-    
-    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIGTYPE_p_FAILURE, SWIG_POINTER_DISOWN)) ) {
-      arg2 = reinterpret_cast< FAILURE * >(temp_ptr) ;
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
-      // Array to pointer assignment
-      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
-      if ( temp_swig_ref != NULL ) {
-        arg2 = reinterpret_cast< FAILURE * >(temp_swig_ref->ref.address) ;
-      }
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
-      // We have an address coming in, we don't have to do any translation
-      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
-      if ( temp_ref != NULL ){
-        arg2 = reinterpret_cast< FAILURE * >(temp_ref->address) ;
-      }
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
-      // We have an address coming in, we don't have to do any translation
-      arg2 = reinterpret_cast< FAILURE * >(temp_ptr) ;
-    }
-  }
-  result = (int)cannon_analytic(arg1,arg2);
-  {
-    // INT OUT
-    std::string temp_name ;
-    swig_int * t = new swig_int ;
-    t->value = (long long)result ;
-    temp_name = "cannon_analytic" ;
-    temp_name.erase(temp_name.length() - 4) ;
-    //cout << "swig_int out looking for param " << temp_name << std::endl ;
-    t->units = Trick::UnitsMap::units_map()->get_units(temp_name) ;
-    //cout << "swig_int out found units " << t->units << std::endl ;
-    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(t), SWIG_TypeQuery("_p_swig_int"), SWIG_POINTER_OWN);
-  }
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_cannon_reset(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  CANNON *arg1 = (CANNON *) 0 ;
-  FAILURE *arg2 = (FAILURE *) 0 ;
-  PyObject *swig_obj[2] ;
-  int result;
-  
-  if (!SWIG_Python_UnpackTuple(args, "cannon_reset", 2, 2, swig_obj)) SWIG_fail;
-  {
-    // CANNON *
-    void * temp_ptr ;
-    
-    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_CANNON, SWIG_POINTER_DISOWN)) ) {
-      arg1 = reinterpret_cast< CANNON * >(temp_ptr) ;
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
-      // Array to pointer assignment
-      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
-      if ( temp_swig_ref != NULL ) {
-        arg1 = reinterpret_cast< CANNON * >(temp_swig_ref->ref.address) ;
-      }
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
-      // We have an address coming in, we don't have to do any translation
-      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
-      if ( temp_ref != NULL ){
-        arg1 = reinterpret_cast< CANNON * >(temp_ref->address) ;
-      }
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
-      // We have an address coming in, we don't have to do any translation
-      arg1 = reinterpret_cast< CANNON * >(temp_ptr) ;
-    }
-  }
-  {
-    // FAILURE *
-    void * temp_ptr ;
-    
-    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIGTYPE_p_FAILURE, SWIG_POINTER_DISOWN)) ) {
-      arg2 = reinterpret_cast< FAILURE * >(temp_ptr) ;
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
-      // Array to pointer assignment
-      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
-      if ( temp_swig_ref != NULL ) {
-        arg2 = reinterpret_cast< FAILURE * >(temp_swig_ref->ref.address) ;
-      }
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
-      // We have an address coming in, we don't have to do any translation
-      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
-      if ( temp_ref != NULL ){
-        arg2 = reinterpret_cast< FAILURE * >(temp_ref->address) ;
-      }
-    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
-      // We have an address coming in, we don't have to do any translation
-      arg2 = reinterpret_cast< FAILURE * >(temp_ptr) ;
-    }
-  }
-  result = (int)cannon_reset(arg1,arg2);
-  {
-    // INT OUT
-    std::string temp_name ;
-    swig_int * t = new swig_int ;
-    t->value = (long long)result ;
-    temp_name = "cannon_reset" ;
-    temp_name.erase(temp_name.length() - 4) ;
-    //cout << "swig_int out looking for param " << temp_name << std::endl ;
-    t->units = Trick::UnitsMap::units_map()->get_units(temp_name) ;
-    //cout << "swig_int out found units " << t->units << std::endl ;
-    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(t), SWIG_TypeQuery("_p_swig_int"), SWIG_POINTER_OWN);
-  }
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_cannon_shutdown(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  CANNON *arg1 = (CANNON *) 0 ;
   PyObject *swig_obj[1] ;
-  int result;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
@@ -5856,19 +5921,107 @@ SWIGINTERN PyObject *_wrap_cannon_shutdown(PyObject *SWIGUNUSEDPARM(self), PyObj
       arg1 = reinterpret_cast< CANNON * >(temp_ptr) ;
     }
   }
-  result = (int)cannon_shutdown(arg1);
+  cannon_default_data(arg1);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_cannon_init(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  CANNON *arg1 = (CANNON *) 0 ;
+  PyObject *swig_obj[1] ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
   {
-    // INT OUT
-    std::string temp_name ;
-    swig_int * t = new swig_int ;
-    t->value = (long long)result ;
-    temp_name = "cannon_shutdown" ;
-    temp_name.erase(temp_name.length() - 4) ;
-    //cout << "swig_int out looking for param " << temp_name << std::endl ;
-    t->units = Trick::UnitsMap::units_map()->get_units(temp_name) ;
-    //cout << "swig_int out found units " << t->units << std::endl ;
-    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(t), SWIG_TypeQuery("_p_swig_int"), SWIG_POINTER_OWN);
+    // CANNON *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_CANNON, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< CANNON * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< CANNON * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< CANNON * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< CANNON * >(temp_ptr) ;
+    }
   }
+  cannon_init(arg1);
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_cannon_step(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  CANNON *arg1 = (CANNON *) 0 ;
+  InputHeightValue *arg2 = (InputHeightValue *) 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "cannon_step", 2, 2, swig_obj)) SWIG_fail;
+  {
+    // CANNON *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_CANNON, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< CANNON * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< CANNON * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< CANNON * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< CANNON * >(temp_ptr) ;
+    }
+  }
+  {
+    // InputHeightValue *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIGTYPE_p_InputHeightValue, SWIG_POINTER_DISOWN)) ) {
+      arg2 = reinterpret_cast< InputHeightValue * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg2 = reinterpret_cast< InputHeightValue * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg2 = reinterpret_cast< InputHeightValue * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[1], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg2 = reinterpret_cast< InputHeightValue * >(temp_ptr) ;
+    }
+  }
+  cannon_step(arg1,arg2);
+  resultobj = SWIG_Py_Void();
   return resultobj;
 fail:
   return NULL;
@@ -5917,15 +6070,23 @@ static PyMethodDef SwigMethods[] = {
 	 { "CANNON_impact_get", _wrap_CANNON_impact_get, METH_O, NULL},
 	 { "CANNON_impactTime_set", _wrap_CANNON_impactTime_set, METH_VARARGS, NULL},
 	 { "CANNON_impactTime_get", _wrap_CANNON_impactTime_get, METH_O, NULL},
+	 { "CANNON_receiveHeight_set", _wrap_CANNON_receiveHeight_set, METH_VARARGS, NULL},
+	 { "CANNON_receiveHeight_get", _wrap_CANNON_receiveHeight_get, METH_O, NULL},
 	 { "new_CANNON", _wrap_new_CANNON, METH_NOARGS, NULL},
 	 { "delete_CANNON", _wrap_delete_CANNON, METH_O, NULL},
 	 { "CANNON_swigregister", CANNON_swigregister, METH_O, NULL},
 	 { "CANNON_swiginit", CANNON_swiginit, METH_VARARGS, NULL},
-	 { "cannon_default_data", _wrap_cannon_default_data, METH_VARARGS, NULL},
-	 { "cannon_init", _wrap_cannon_init, METH_VARARGS, NULL},
-	 { "cannon_analytic", _wrap_cannon_analytic, METH_VARARGS, NULL},
-	 { "cannon_reset", _wrap_cannon_reset, METH_VARARGS, NULL},
-	 { "cannon_shutdown", _wrap_cannon_shutdown, METH_O, NULL},
+	 { "InputHeightValue___getitem__", _wrap_InputHeightValue___getitem__, METH_VARARGS, NULL},
+	 { "InputHeightValue___len__", _wrap_InputHeightValue___len__, METH_O, NULL},
+	 { "InputHeightValue_height_set", _wrap_InputHeightValue_height_set, METH_VARARGS, NULL},
+	 { "InputHeightValue_height_get", _wrap_InputHeightValue_height_get, METH_O, NULL},
+	 { "new_InputHeightValue", _wrap_new_InputHeightValue, METH_NOARGS, NULL},
+	 { "delete_InputHeightValue", _wrap_delete_InputHeightValue, METH_O, NULL},
+	 { "InputHeightValue_swigregister", InputHeightValue_swigregister, METH_O, NULL},
+	 { "InputHeightValue_swiginit", InputHeightValue_swiginit, METH_VARARGS, NULL},
+	 { "cannon_default_data", _wrap_cannon_default_data, METH_O, NULL},
+	 { "cannon_init", _wrap_cannon_init, METH_O, NULL},
+	 { "cannon_step", _wrap_cannon_step, METH_VARARGS, NULL},
 	 { NULL, NULL, 0, NULL }
 };
 
@@ -5937,7 +6098,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 /* -------- TYPE CONVERSION AND EQUIVALENCE RULES (BEGIN) -------- */
 
 static swig_type_info _swigt__p_CANNON = {"_p_CANNON", "CANNON *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_FAILURE = {"_p_FAILURE", "FAILURE *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_InputHeightValue = {"_p_InputHeightValue", "InputHeightValue *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_char = {"_p_char", "char *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_double = {"_p_double", "double *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__invalid_argument = {"_p_std__invalid_argument", "std::invalid_argument *", 0, 0, (void*)0, 0};
@@ -5945,7 +6106,7 @@ static swig_type_info _swigt__p_swig__SwigPyIterator = {"_p_swig__SwigPyIterator
 
 static swig_type_info *swig_type_initial[] = {
   &_swigt__p_CANNON,
-  &_swigt__p_FAILURE,
+  &_swigt__p_InputHeightValue,
   &_swigt__p_char,
   &_swigt__p_double,
   &_swigt__p_std__invalid_argument,
@@ -5953,7 +6114,7 @@ static swig_type_info *swig_type_initial[] = {
 };
 
 static swig_cast_info _swigc__p_CANNON[] = {  {&_swigt__p_CANNON, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_FAILURE[] = {  {&_swigt__p_FAILURE, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_InputHeightValue[] = {  {&_swigt__p_InputHeightValue, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_double[] = {  {&_swigt__p_double, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__invalid_argument[] = {  {&_swigt__p_std__invalid_argument, 0, 0, 0},{0, 0, 0, 0}};
@@ -5961,7 +6122,7 @@ static swig_cast_info _swigc__p_swig__SwigPyIterator[] = {  {&_swigt__p_swig__Sw
 
 static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_CANNON,
-  _swigc__p_FAILURE,
+  _swigc__p_InputHeightValue,
   _swigc__p_char,
   _swigc__p_double,
   _swigc__p_std__invalid_argument,
