@@ -1,24 +1,24 @@
-|L   1|2024/01/23,10:30:21|TrickDev| |T 0|0.000000| Freeze ON. Simulation time holding at 0.000000 seconds.
-|L   1|2024/01/23,10:31:07|TrickDev| |T 0|0.000000| Freeze OFF.
-|L   1|2024/01/23,10:31:51|TrickDev| |T 0|44.400000| Freeze ON. Simulation time holding at 44.400000 seconds.
-|L   0|2024/01/23,10:31:52|TrickDev| |T 0|44.400000| 
+|L   1|2024/01/24,09:08:20|TrickDev| |T 0|0.000000| Freeze ON. Simulation time holding at 0.000000 seconds.
+|L   1|2024/01/24,09:08:25|TrickDev| |T 0|0.000000| Freeze OFF.
+|L   1|2024/01/24,09:09:14|TrickDev| |T 0|48.700000| Freeze ON. Simulation time holding at 48.700000 seconds.
+|L   0|2024/01/24,09:09:15|TrickDev| |T 0|48.700000| 
      REALTIME SHUTDOWN STATS:
-     REALTIME TOTAL OVERRUNS:            5
-            ACTUAL INIT TIME:        0.245
-         ACTUAL ELAPSED TIME:       91.686
-|L   0|2024/01/23,10:31:53|TrickDev| |T 0|44.400000| 
+     REALTIME TOTAL OVERRUNS:           14
+            ACTUAL INIT TIME:        0.271
+         ACTUAL ELAPSED TIME:       55.071
+|L   0|2024/01/24,09:09:16|TrickDev| |T 0|48.700000| 
 SIMULATION TERMINATED IN
   PROCESS: 0
   ROUTINE: Executive_freeze_loop.cpp:85
   DIAGNOSTIC: Sim control Shutdown
 
            SIMULATION START TIME:        0.000
-            SIMULATION STOP TIME:       44.400
-         SIMULATION ELAPSED TIME:       44.400
-              USER CPU TIME USED:        0.462
-            SYSTEM CPU TIME USED:        0.352
-           SIMULATION / CPU TIME:       54.550
-    INITIALIZATION USER CPU TIME:        0.210
-  INITIALIZATION SYSTEM CPU TIME:        0.025
-            SIMULATION RAM USAGE:       54.984MB
+            SIMULATION STOP TIME:       48.700
+         SIMULATION ELAPSED TIME:       48.700
+              USER CPU TIME USED:        0.550
+            SYSTEM CPU TIME USED:        0.386
+           SIMULATION / CPU TIME:       52.059
+    INITIALIZATION USER CPU TIME:        0.227
+  INITIALIZATION SYSTEM CPU TIME:        0.032
+            SIMULATION RAM USAGE:       55.836MB
       (External program RAM usage not included!)

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<trickView>
+    <cyclePeriod>0.5</cyclePeriod>
+    <variable>
+        <name>dyn1.fdir.warning.isPatching</name>
+        <tvBoolean>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:boolean">false</value>
+            <format>Boolean</format>
+        </tvBoolean>
+        <state>Valid</state>
+        <units>1</units>
+    </variable>
+    <variable>
+        <name>dyn1.fdir.warning.isMaintanence</name>
+        <tvBoolean>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:boolean">false</value>
+            <format>Boolean</format>
+        </tvBoolean>
+        <state>Valid</state>
+        <units>1</units>
+    </variable>
+    <variable>
+        <name>dyn1.fdir.warning.isRecovery</name>
+        <tvBoolean>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:boolean">false</value>
+            <format>Boolean</format>
+        </tvBoolean>
+        <state>Valid</state>
+        <units>1</units>
+    </variable>
+    <variable>
+        <name>dyn1.fdir.warning.isWarning</name>
+        <tvBoolean>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:boolean">false</value>
+            <format>Boolean</format>
+        </tvBoolean>
+        <state>Valid</state>
+        <units>1</units>
+    </variable>
+    <variable>
+        <name>dyn1.fdir.run.isOn</name>
+        <tvBoolean>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:boolean">false</value>
+            <format>Boolean</format>
+        </tvBoolean>
+        <state>Valid</state>
+        <units>1</units>
+    </variable>
+    <variable>
+        <name>dyn1.fdir.run.isRun</name>
+        <tvBoolean>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:boolean">false</value>
+            <format>Boolean</format>
+        </tvBoolean>
+        <state>Valid</state>
+        <units>1</units>
+    </variable>
+    <variable>
+        <name>dyn1.fdir.close.isOff</name>
+        <tvBoolean>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:boolean">false</value>
+            <format>Boolean</format>
+        </tvBoolean>
+        <state>Valid</state>
+        <units>1</units>
+    </variable>
+    <variable>
+        <name>dyn1.fdir.close.isClose</name>
+        <tvBoolean>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:boolean">false</value>
+            <format>Boolean</format>
+        </tvBoolean>
+        <state>Valid</state>
+        <units>1</units>
+    </variable>
+    <variable>
+        <name>dyn1.fdir.failure.isBroken</name>
+        <tvBoolean>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:boolean">false</value>
+            <format>Boolean</format>
+        </tvBoolean>
+        <state>Valid</state>
+        <units>1</units>
+    </variable>
+    <variable>
+        <name>dyn1.fdir.failure.isBug</name>
+        <tvBoolean>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:boolean">false</value>
+            <format>Boolean</format>
+        </tvBoolean>
+        <state>Valid</state>
+        <units>1</units>
+    </variable>
+    <variable>
+        <name>dyn1.fdir.failure.isCrashed</name>
+        <tvBoolean>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:boolean">false</value>
+            <format>Boolean</format>
+        </tvBoolean>
+        <state>Valid</state>
+        <units>1</units>
+    </variable>
+    <variable>
+        <name>dyn1.fdir.failure.isFailure</name>
+        <tvBoolean>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:boolean">false</value>
+            <format>Boolean</format>
+        </tvBoolean>
+        <state>Valid</state>
+        <units>1</units>
+    </variable>
+    <variable>
+        <name>dyn1.fdir.isFDIR</name>
+        <tvInteger>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:int">0</value>
+            <unsigned>false</unsigned>
+            <format>Decimal</format>
+        </tvInteger>
+        <state>Valid</state>
+        <units>1</units>
+    </variable>
+</trickView>

@@ -2234,7 +2234,7 @@ ATTRIBUTES attrBallSimObject[] = {
   15,TRICK_STRUCTURED, 0, 0, 0, Language_CPP, 0,
   168, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
   NULL, NULL, NULL, NULL},
-{"failure", "FAILURE", "1", "", "",
+{"fdir", "FDIR", "1", "", "",
   "",
   15,TRICK_STRUCTURED, 0, 0, 0, Language_CPP, 0,
   288, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
@@ -2242,7 +2242,7 @@ ATTRIBUTES attrBallSimObject[] = {
 {"pinputH", "InputHeightValue", "1", "", "",
   "",
   15,TRICK_STRUCTURED, 0, 0, 0, Language_CPP, 0,
-  296, NULL, 1, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  304, NULL, 1, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
   NULL, NULL, NULL, NULL},
 {"", "", "1", "", "",
   "",
@@ -2308,7 +2308,7 @@ struct UnitsMapBallSimObject {
         units_map_ptr->add_param("BallSimObject_id", "1") ;
         units_map_ptr->add_param("BallSimObject_object_disabled", "1") ;
         units_map_ptr->add_param("BallSimObject_ball", "1") ;
-        units_map_ptr->add_param("BallSimObject_failure", "1") ;
+        units_map_ptr->add_param("BallSimObject_fdir", "1") ;
         units_map_ptr->add_param("BallSimObject_pinputH", "1") ;
     }
 } umBallSimObject;

@@ -8,7 +8,7 @@ LIBRARY DEPENDENCIES:
       (wrappers/src/ballWrapper.c)
       (wrappers/src/cannonWrapper.c)
       (cannon/src/cannon_FDIR.c)
-      (ball/src/ball_FDIR.c)
+      (FDIR/src/ballFDIR.c)
 
     )
 *************************************************************/
@@ -41,17 +41,25 @@ class BallSimObject : public Trick::SimObject {
 
     public:
         BALL ball;
-        FAILURE failure;
+        FDIR fdir;
         
         InputHeightValue* pinputH;
 
         BallSimObject() { 
+            ("default_data") FDIR_default_data(&fdir);
             ("default_data") ball_default_data( &ball) ;
-            ("initialization") ball_init_wrapper( &ball, &failure ) ;
-            (0.01, "scheduled") ball_step_wrapper( &ball, &failure , pinputH) ;
+            ("initialization") ball_init_wrapper( &ball) ;
+            (0.01, "scheduled") ball_step_wrapper( &ball, pinputH) ;
+            (0.01, "get_mode") ball_getMode( &fdir) ;
         }
 } ;
 
+
+job_class_order {
+
+    get_mode,
+    scheduled
+};
 
 CannonSimObject dyn ;
 BallSimObject dyn1 ;

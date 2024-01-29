@@ -3,4 +3,4 @@
 /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/wrappers/src/ballWrapper.c
 /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/wrappers/src/cannonWrapper.c
 /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/cannon/src/cannon_FDIR.c
-/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/ball/src/ball_FDIR.c
+/home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/src/ballFDIR.c

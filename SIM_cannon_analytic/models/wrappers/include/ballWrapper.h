@@ -13,12 +13,11 @@ ICG IGNORE TYPES:
 #ifdef __cplusplus
 extern "C" {
 #endif
-void ball_step_wrapper(BALL*,FAILURE*,InputHeightValue*);
-void ball_init_wrapper(BALL*,FAILURE*);
-void ball_default_FDIR(FAILURE*);
-void ball_init_FDIR(BALL*,FAILURE*);
-void ball_step_FDIR(BALL*,FAILURE*,InputHeightValue*);
-//void AOCS_shutdown_FDIR();
+void ball_step_wrapper(BALL*, InputHeightValue*);
+void ball_init_wrapper(BALL*);
+// void ball_default_FDIR(FDIR*);
+// void ball_init_FDIR(BALL*,FDIR*);
+// void ball_step_FDIR(BALL*,FDIR*,InputHeightValue*);
 #ifdef __cplusplus
 }
 #endif

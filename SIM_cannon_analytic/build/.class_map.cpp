@@ -17,6 +17,18 @@ void populate_class_map() {
     // /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/ballFDIR.h
     extern ATTRIBUTES  attrFAILURE[] ;
     class_attribute_map->add_attr("FAILURE" , attrFAILURE) ;
+    // /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/ballFDIR.h
+    extern ATTRIBUTES  attrRUN[] ;
+    class_attribute_map->add_attr("RUN" , attrRUN) ;
+    // /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/ballFDIR.h
+    extern ATTRIBUTES  attrCLOSE[] ;
+    class_attribute_map->add_attr("CLOSE" , attrCLOSE) ;
+    // /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/ballFDIR.h
+    extern ATTRIBUTES  attrWARNING[] ;
+    class_attribute_map->add_attr("WARNING" , attrWARNING) ;
+    // /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/ballFDIR.h
+    extern ATTRIBUTES  attrFDIR[] ;
+    class_attribute_map->add_attr("FDIR" , attrFDIR) ;
     // /home/fjolnirr/trick_newFeature/SIM_cannon_analytic/models/FDIR/include/cannonFDIR.h
     extern ATTRIBUTES  attrCANNONFAILURE[] ;
     class_attribute_map->add_attr("CANNONFAILURE" , attrCANNONFAILURE) ;

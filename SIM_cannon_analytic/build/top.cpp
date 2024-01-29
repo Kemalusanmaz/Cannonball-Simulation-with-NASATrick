@@ -2699,85 +2699,89 @@ SWIGINTERN PyObject *SWIG_PyStaticMethod_New(PyObject *SWIGUNUSEDPARM(self), PyO
 #define SWIGTYPE_p_BallSimObject swig_types[7]
 #define SWIGTYPE_p_CANNON swig_types[8]
 #define SWIGTYPE_p_CANNONFAILURE swig_types[9]
-#define SWIGTYPE_p_CannonSimObject swig_types[10]
-#define SWIGTYPE_p_CheckPointRestartSimObject swig_types[11]
-#define SWIGTYPE_p_CommandLineArgumentsSimObject swig_types[12]
-#define SWIGTYPE_p_DataRecordDispatcherSimObject swig_types[13]
-#define SWIGTYPE_p_ENUM_ATTR swig_types[14]
-#define SWIGTYPE_p_ENUM_LIST swig_types[15]
-#define SWIGTYPE_p_EQUIV_ATTRIBUTES swig_types[16]
-#define SWIGTYPE_p_EventManagerSimObject swig_types[17]
-#define SWIGTYPE_p_FAILURE swig_types[18]
-#define SWIGTYPE_p_FrameLogSimObject swig_types[19]
-#define SWIGTYPE_p_INDEX swig_types[20]
-#define SWIGTYPE_p_InjectorSimObject swig_types[21]
-#define SWIGTYPE_p_InputHeightValue swig_types[22]
-#define SWIGTYPE_p_InputProcessorSimObject swig_types[23]
-#define SWIGTYPE_p_InstrumentationSimObject swig_types[24]
-#define SWIGTYPE_p_Integrator_type swig_types[25]
-#define SWIGTYPE_p_JITSimObject swig_types[26]
-#define SWIGTYPE_p_Language swig_types[27]
-#define SWIGTYPE_p_MESSAGE_TYPE swig_types[28]
-#define SWIGTYPE_p_MM_ERROR_TYPE swig_types[29]
-#define SWIGTYPE_p_MS_SIM_COMMAND swig_types[30]
-#define SWIGTYPE_p_MasterSlaveSimObject swig_types[31]
-#define SWIGTYPE_p_MemoryManagerSimObject swig_types[32]
-#define SWIGTYPE_p_MessageSimObject swig_types[33]
-#define SWIGTYPE_p_MonteCarloSimObject swig_types[34]
-#define SWIGTYPE_p_NAME_TO_ATTR swig_types[35]
-#define SWIGTYPE_p_REF2 swig_types[36]
-#define SWIGTYPE_p_REF_TYPE swig_types[37]
-#define SWIGTYPE_p_RTSyncSimObject swig_types[38]
-#define SWIGTYPE_p_SEND_ME swig_types[39]
-#define SWIGTYPE_p_SIM_COMMAND swig_types[40]
-#define SWIGTYPE_p_SIM_MODE swig_types[41]
-#define SWIGTYPE_p_SieSimObject swig_types[42]
-#define SWIGTYPE_p_SimObjectVector swig_types[43]
-#define SWIGTYPE_p_SysSimObject swig_types[44]
-#define SWIGTYPE_p_TCCommBlocking swig_types[45]
-#define SWIGTYPE_p_TCCommFlag swig_types[46]
-#define SWIGTYPE_p_TCDevice swig_types[47]
-#define SWIGTYPE_p_TIME_OFFSET swig_types[48]
-#define SWIGTYPE_p_TRICK_ALLOC_TYPE swig_types[49]
-#define SWIGTYPE_p_TRICK_STCL swig_types[50]
-#define SWIGTYPE_p_TRICK_TYPE swig_types[51]
-#define SWIGTYPE_p_TSMDevice swig_types[52]
-#define SWIGTYPE_p_TagsIterator swig_types[53]
-#define SWIGTYPE_p_TrickErrorLevel swig_types[54]
-#define SWIGTYPE_p_Trick__MSSharedMemData swig_types[55]
-#define SWIGTYPE_p_Trick__MonteVarCalculated swig_types[56]
-#define SWIGTYPE_p_Trick__MonteVarFile swig_types[57]
-#define SWIGTYPE_p_Trick__MonteVarFixed swig_types[58]
-#define SWIGTYPE_p_Trick__MonteVarRandom swig_types[59]
-#define SWIGTYPE_p_Trick__VarNameElement swig_types[60]
-#define SWIGTYPE_p_Trick__VarNameElementType swig_types[61]
-#define SWIGTYPE_p_UdUnitsSimObject swig_types[62]
-#define SWIGTYPE_p_UnitTestSimObject swig_types[63]
-#define SWIGTYPE_p_VALUE swig_types[64]
-#define SWIGTYPE_p_VALUE_LIST swig_types[65]
-#define SWIGTYPE_p_VAR_DECLARE swig_types[66]
-#define SWIGTYPE_p_VAR_LIST swig_types[67]
-#define SWIGTYPE_p_VS_COPY_MODE swig_types[68]
-#define SWIGTYPE_p_VS_MESSAGE_TYPE swig_types[69]
-#define SWIGTYPE_p_VS_WRITE_MODE swig_types[70]
-#define SWIGTYPE_p_V_DATA swig_types[71]
-#define SWIGTYPE_p_VariableServerSimObject swig_types[72]
-#define SWIGTYPE_p_ZeroconfSimObject swig_types[73]
-#define SWIGTYPE_p__DLLIST swig_types[74]
-#define SWIGTYPE_p__DLLNODE swig_types[75]
-#define SWIGTYPE_p__TrickErrorHndlr swig_types[76]
-#define SWIGTYPE_p_allocator_type swig_types[77]
-#define SWIGTYPE_p_char swig_types[78]
-#define SWIGTYPE_p_difference_type swig_types[79]
-#define SWIGTYPE_p_size_type swig_types[80]
-#define SWIGTYPE_p_std__mapT_std__string_ALLOC_INFO_p_std__lessT_std__string_t_std__allocatorT_std__pairT_std__string_const_ALLOC_INFO_p_t_t_t swig_types[81]
-#define SWIGTYPE_p_std__mapT_std__string_ALLOC_INFO_p_std__lessT_std__string_t_std__allocatorT_std__pairT_std__string_const_ALLOC_INFO_p_t_t_t__const_iterator swig_types[82]
-#define SWIGTYPE_p_std__mapT_std__string_ENUM_ATTR_p_std__lessT_std__string_t_std__allocatorT_std__pairT_std__string_const_ENUM_ATTR_p_t_t_t swig_types[83]
-#define SWIGTYPE_p_std__mapT_void_p_ALLOC_INFO_p_std__greaterT_void_p_t_std__allocatorT_std__pairT_void_pconst_ALLOC_INFO_p_t_t_t swig_types[84]
-#define SWIGTYPE_p_std__mapT_void_p_ALLOC_INFO_p_std__greaterT_void_p_t_std__allocatorT_std__pairT_void_pconst_ALLOC_INFO_p_t_t_t__const_iterator swig_types[85]
-#define SWIGTYPE_p_v_tree swig_types[86]
-static swig_type_info *swig_types[88];
-static swig_module_info swig_module = {swig_types, 87, 0, 0, 0, 0};
+#define SWIGTYPE_p_CLOSE swig_types[10]
+#define SWIGTYPE_p_CannonSimObject swig_types[11]
+#define SWIGTYPE_p_CheckPointRestartSimObject swig_types[12]
+#define SWIGTYPE_p_CommandLineArgumentsSimObject swig_types[13]
+#define SWIGTYPE_p_DataRecordDispatcherSimObject swig_types[14]
+#define SWIGTYPE_p_ENUM_ATTR swig_types[15]
+#define SWIGTYPE_p_ENUM_LIST swig_types[16]
+#define SWIGTYPE_p_EQUIV_ATTRIBUTES swig_types[17]
+#define SWIGTYPE_p_EventManagerSimObject swig_types[18]
+#define SWIGTYPE_p_FAILURE swig_types[19]
+#define SWIGTYPE_p_FDIR swig_types[20]
+#define SWIGTYPE_p_FrameLogSimObject swig_types[21]
+#define SWIGTYPE_p_INDEX swig_types[22]
+#define SWIGTYPE_p_InjectorSimObject swig_types[23]
+#define SWIGTYPE_p_InputHeightValue swig_types[24]
+#define SWIGTYPE_p_InputProcessorSimObject swig_types[25]
+#define SWIGTYPE_p_InstrumentationSimObject swig_types[26]
+#define SWIGTYPE_p_Integrator_type swig_types[27]
+#define SWIGTYPE_p_JITSimObject swig_types[28]
+#define SWIGTYPE_p_Language swig_types[29]
+#define SWIGTYPE_p_MESSAGE_TYPE swig_types[30]
+#define SWIGTYPE_p_MM_ERROR_TYPE swig_types[31]
+#define SWIGTYPE_p_MS_SIM_COMMAND swig_types[32]
+#define SWIGTYPE_p_MasterSlaveSimObject swig_types[33]
+#define SWIGTYPE_p_MemoryManagerSimObject swig_types[34]
+#define SWIGTYPE_p_MessageSimObject swig_types[35]
+#define SWIGTYPE_p_MonteCarloSimObject swig_types[36]
+#define SWIGTYPE_p_NAME_TO_ATTR swig_types[37]
+#define SWIGTYPE_p_REF2 swig_types[38]
+#define SWIGTYPE_p_REF_TYPE swig_types[39]
+#define SWIGTYPE_p_RTSyncSimObject swig_types[40]
+#define SWIGTYPE_p_RUN swig_types[41]
+#define SWIGTYPE_p_SEND_ME swig_types[42]
+#define SWIGTYPE_p_SIM_COMMAND swig_types[43]
+#define SWIGTYPE_p_SIM_MODE swig_types[44]
+#define SWIGTYPE_p_SieSimObject swig_types[45]
+#define SWIGTYPE_p_SimObjectVector swig_types[46]
+#define SWIGTYPE_p_SysSimObject swig_types[47]
+#define SWIGTYPE_p_TCCommBlocking swig_types[48]
+#define SWIGTYPE_p_TCCommFlag swig_types[49]
+#define SWIGTYPE_p_TCDevice swig_types[50]
+#define SWIGTYPE_p_TIME_OFFSET swig_types[51]
+#define SWIGTYPE_p_TRICK_ALLOC_TYPE swig_types[52]
+#define SWIGTYPE_p_TRICK_STCL swig_types[53]
+#define SWIGTYPE_p_TRICK_TYPE swig_types[54]
+#define SWIGTYPE_p_TSMDevice swig_types[55]
+#define SWIGTYPE_p_TagsIterator swig_types[56]
+#define SWIGTYPE_p_TrickErrorLevel swig_types[57]
+#define SWIGTYPE_p_Trick__MSSharedMemData swig_types[58]
+#define SWIGTYPE_p_Trick__MonteVarCalculated swig_types[59]
+#define SWIGTYPE_p_Trick__MonteVarFile swig_types[60]
+#define SWIGTYPE_p_Trick__MonteVarFixed swig_types[61]
+#define SWIGTYPE_p_Trick__MonteVarRandom swig_types[62]
+#define SWIGTYPE_p_Trick__VarNameElement swig_types[63]
+#define SWIGTYPE_p_Trick__VarNameElementType swig_types[64]
+#define SWIGTYPE_p_UdUnitsSimObject swig_types[65]
+#define SWIGTYPE_p_UnitTestSimObject swig_types[66]
+#define SWIGTYPE_p_VALUE swig_types[67]
+#define SWIGTYPE_p_VALUE_LIST swig_types[68]
+#define SWIGTYPE_p_VAR_DECLARE swig_types[69]
+#define SWIGTYPE_p_VAR_LIST swig_types[70]
+#define SWIGTYPE_p_VS_COPY_MODE swig_types[71]
+#define SWIGTYPE_p_VS_MESSAGE_TYPE swig_types[72]
+#define SWIGTYPE_p_VS_WRITE_MODE swig_types[73]
+#define SWIGTYPE_p_V_DATA swig_types[74]
+#define SWIGTYPE_p_VariableServerSimObject swig_types[75]
+#define SWIGTYPE_p_WARNING swig_types[76]
+#define SWIGTYPE_p_ZeroconfSimObject swig_types[77]
+#define SWIGTYPE_p__DLLIST swig_types[78]
+#define SWIGTYPE_p__DLLNODE swig_types[79]
+#define SWIGTYPE_p__TrickErrorHndlr swig_types[80]
+#define SWIGTYPE_p_allocator_type swig_types[81]
+#define SWIGTYPE_p_char swig_types[82]
+#define SWIGTYPE_p_difference_type swig_types[83]
+#define SWIGTYPE_p_size_type swig_types[84]
+#define SWIGTYPE_p_std__mapT_std__string_ALLOC_INFO_p_std__lessT_std__string_t_std__allocatorT_std__pairT_std__string_const_ALLOC_INFO_p_t_t_t swig_types[85]
+#define SWIGTYPE_p_std__mapT_std__string_ALLOC_INFO_p_std__lessT_std__string_t_std__allocatorT_std__pairT_std__string_const_ALLOC_INFO_p_t_t_t__const_iterator swig_types[86]
+#define SWIGTYPE_p_std__mapT_std__string_ENUM_ATTR_p_std__lessT_std__string_t_std__allocatorT_std__pairT_std__string_const_ENUM_ATTR_p_t_t_t swig_types[87]
+#define SWIGTYPE_p_std__mapT_void_p_ALLOC_INFO_p_std__greaterT_void_p_t_std__allocatorT_std__pairT_void_pconst_ALLOC_INFO_p_t_t_t swig_types[88]
+#define SWIGTYPE_p_std__mapT_void_p_ALLOC_INFO_p_std__greaterT_void_p_t_std__allocatorT_std__pairT_void_pconst_ALLOC_INFO_p_t_t_t__const_iterator swig_types[89]
+#define SWIGTYPE_p_v_tree swig_types[90]
+static swig_type_info *swig_types[92];
+static swig_module_info swig_module = {swig_types, 91, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -3512,6 +3516,7 @@ static swig_type_info _swigt__p_BC_INFO = {"_p_BC_INFO", "BC_INFO *", 0, 0, (voi
 static swig_type_info _swigt__p_BallSimObject = {"_p_BallSimObject", "BallSimObject *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_CANNON = {"_p_CANNON", "CANNON *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_CANNONFAILURE = {"_p_CANNONFAILURE", "CANNONFAILURE *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_CLOSE = {"_p_CLOSE", "CLOSE *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_CannonSimObject = {"_p_CannonSimObject", "CannonSimObject *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_CheckPointRestartSimObject = {"_p_CheckPointRestartSimObject", "CheckPointRestartSimObject *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_CommandLineArgumentsSimObject = {"_p_CommandLineArgumentsSimObject", "CommandLineArgumentsSimObject *", 0, 0, (void*)0, 0};
@@ -3521,6 +3526,7 @@ static swig_type_info _swigt__p_ENUM_LIST = {"_p_ENUM_LIST", "ENUM_LIST *", 0, 0
 static swig_type_info _swigt__p_EQUIV_ATTRIBUTES = {"_p_EQUIV_ATTRIBUTES", "EQUIV_ATTRIBUTES *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_EventManagerSimObject = {"_p_EventManagerSimObject", "EventManagerSimObject *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_FAILURE = {"_p_FAILURE", "FAILURE *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_FDIR = {"_p_FDIR", "FDIR *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_FrameLogSimObject = {"_p_FrameLogSimObject", "FrameLogSimObject *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_INDEX = {"_p_INDEX", "INDEX *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_InjectorSimObject = {"_p_InjectorSimObject", "InjectorSimObject *", 0, 0, (void*)0, 0};
@@ -3541,6 +3547,7 @@ static swig_type_info _swigt__p_NAME_TO_ATTR = {"_p_NAME_TO_ATTR", "NAME_TO_ATTR
 static swig_type_info _swigt__p_REF2 = {"_p_REF2", "REF2 *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_REF_TYPE = {"_p_REF_TYPE", "enum REF_TYPE *|REF_TYPE *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_RTSyncSimObject = {"_p_RTSyncSimObject", "RTSyncSimObject *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_RUN = {"_p_RUN", "RUN *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_SEND_ME = {"_p_SEND_ME", "SEND_ME *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_SIM_COMMAND = {"_p_SIM_COMMAND", "enum SIM_COMMAND *|SIM_COMMAND *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_SIM_MODE = {"_p_SIM_MODE", "enum SIM_MODE *|SIM_MODE *", 0, 0, (void*)0, 0};
@@ -3575,6 +3582,7 @@ static swig_type_info _swigt__p_VS_MESSAGE_TYPE = {"_p_VS_MESSAGE_TYPE", "enum V
 static swig_type_info _swigt__p_VS_WRITE_MODE = {"_p_VS_WRITE_MODE", "enum VS_WRITE_MODE *|VS_WRITE_MODE *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_V_DATA = {"_p_V_DATA", "V_DATA *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_VariableServerSimObject = {"_p_VariableServerSimObject", "VariableServerSimObject *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_WARNING = {"_p_WARNING", "WARNING *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_ZeroconfSimObject = {"_p_ZeroconfSimObject", "ZeroconfSimObject *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p__DLLIST = {"_p__DLLIST", "_DLLIST *|DLLIST *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p__DLLNODE = {"_p__DLLNODE", "_DLLNODE *|DLLNODE *", 0, 0, (void*)0, 0};
@@ -3601,6 +3609,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_BallSimObject,
   &_swigt__p_CANNON,
   &_swigt__p_CANNONFAILURE,
+  &_swigt__p_CLOSE,
   &_swigt__p_CannonSimObject,
   &_swigt__p_CheckPointRestartSimObject,
   &_swigt__p_CommandLineArgumentsSimObject,
@@ -3610,6 +3619,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_EQUIV_ATTRIBUTES,
   &_swigt__p_EventManagerSimObject,
   &_swigt__p_FAILURE,
+  &_swigt__p_FDIR,
   &_swigt__p_FrameLogSimObject,
   &_swigt__p_INDEX,
   &_swigt__p_InjectorSimObject,
@@ -3630,6 +3640,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_REF2,
   &_swigt__p_REF_TYPE,
   &_swigt__p_RTSyncSimObject,
+  &_swigt__p_RUN,
   &_swigt__p_SEND_ME,
   &_swigt__p_SIM_COMMAND,
   &_swigt__p_SIM_MODE,
@@ -3664,6 +3675,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_VS_WRITE_MODE,
   &_swigt__p_V_DATA,
   &_swigt__p_VariableServerSimObject,
+  &_swigt__p_WARNING,
   &_swigt__p_ZeroconfSimObject,
   &_swigt__p__DLLIST,
   &_swigt__p__DLLNODE,
@@ -3690,6 +3702,7 @@ static swig_cast_info _swigc__p_BC_INFO[] = {  {&_swigt__p_BC_INFO, 0, 0, 0},{0,
 static swig_cast_info _swigc__p_BallSimObject[] = {  {&_swigt__p_BallSimObject, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_CANNON[] = {  {&_swigt__p_CANNON, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_CANNONFAILURE[] = {  {&_swigt__p_CANNONFAILURE, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_CLOSE[] = {  {&_swigt__p_CLOSE, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_CannonSimObject[] = {  {&_swigt__p_CannonSimObject, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_CheckPointRestartSimObject[] = {  {&_swigt__p_CheckPointRestartSimObject, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_CommandLineArgumentsSimObject[] = {  {&_swigt__p_CommandLineArgumentsSimObject, 0, 0, 0},{0, 0, 0, 0}};
@@ -3699,6 +3712,7 @@ static swig_cast_info _swigc__p_ENUM_LIST[] = {  {&_swigt__p_ENUM_LIST, 0, 0, 0}
 static swig_cast_info _swigc__p_EQUIV_ATTRIBUTES[] = {  {&_swigt__p_EQUIV_ATTRIBUTES, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_EventManagerSimObject[] = {  {&_swigt__p_EventManagerSimObject, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_FAILURE[] = {  {&_swigt__p_FAILURE, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_FDIR[] = {  {&_swigt__p_FDIR, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_FrameLogSimObject[] = {  {&_swigt__p_FrameLogSimObject, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_INDEX[] = {  {&_swigt__p_INDEX, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_InjectorSimObject[] = {  {&_swigt__p_InjectorSimObject, 0, 0, 0},{0, 0, 0, 0}};
@@ -3719,6 +3733,7 @@ static swig_cast_info _swigc__p_NAME_TO_ATTR[] = {  {&_swigt__p_NAME_TO_ATTR, 0,
 static swig_cast_info _swigc__p_REF2[] = {  {&_swigt__p_REF2, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_REF_TYPE[] = {  {&_swigt__p_REF_TYPE, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_RTSyncSimObject[] = {  {&_swigt__p_RTSyncSimObject, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_RUN[] = {  {&_swigt__p_RUN, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_SEND_ME[] = {  {&_swigt__p_SEND_ME, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_SIM_COMMAND[] = {  {&_swigt__p_SIM_COMMAND, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_SIM_MODE[] = {  {&_swigt__p_SIM_MODE, 0, 0, 0},{0, 0, 0, 0}};
@@ -3753,6 +3768,7 @@ static swig_cast_info _swigc__p_VS_MESSAGE_TYPE[] = {  {&_swigt__p_VS_MESSAGE_TY
 static swig_cast_info _swigc__p_VS_WRITE_MODE[] = {  {&_swigt__p_VS_WRITE_MODE, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_V_DATA[] = {  {&_swigt__p_V_DATA, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_VariableServerSimObject[] = {  {&_swigt__p_VariableServerSimObject, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_WARNING[] = {  {&_swigt__p_WARNING, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_ZeroconfSimObject[] = {  {&_swigt__p_ZeroconfSimObject, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p__DLLIST[] = {  {&_swigt__p__DLLIST, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p__DLLNODE[] = {  {&_swigt__p__DLLNODE, 0, 0, 0},{0, 0, 0, 0}};
@@ -3779,6 +3795,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_BallSimObject,
   _swigc__p_CANNON,
   _swigc__p_CANNONFAILURE,
+  _swigc__p_CLOSE,
   _swigc__p_CannonSimObject,
   _swigc__p_CheckPointRestartSimObject,
   _swigc__p_CommandLineArgumentsSimObject,
@@ -3788,6 +3805,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_EQUIV_ATTRIBUTES,
   _swigc__p_EventManagerSimObject,
   _swigc__p_FAILURE,
+  _swigc__p_FDIR,
   _swigc__p_FrameLogSimObject,
   _swigc__p_INDEX,
   _swigc__p_InjectorSimObject,
@@ -3808,6 +3826,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_REF2,
   _swigc__p_REF_TYPE,
   _swigc__p_RTSyncSimObject,
+  _swigc__p_RUN,
   _swigc__p_SEND_ME,
   _swigc__p_SIM_COMMAND,
   _swigc__p_SIM_MODE,
@@ -3842,6 +3861,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_VS_WRITE_MODE,
   _swigc__p_V_DATA,
   _swigc__p_VariableServerSimObject,
+  _swigc__p_WARNING,
   _swigc__p_ZeroconfSimObject,
   _swigc__p__DLLIST,
   _swigc__p__DLLNODE,

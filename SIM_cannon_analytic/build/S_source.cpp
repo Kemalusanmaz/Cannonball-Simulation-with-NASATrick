@@ -1,5 +1,5 @@
 
-/* Created 2024/01/23 09:42:58 fjolnirr $ */
+/* Created 2024/01/23 17:01:00 fjolnirr $ */
 #include "../S_source.hh"
 
 
@@ -1050,13 +1050,19 @@ int BallSimObject::call_function ( Trick::JobData * curr_job ) {
 
     switch ( curr_job->id ) {
         case 0:
-            ball_default_data( &ball) ;
+            FDIR_default_data(&fdir) ;
             break ;
         case 1:
-            ball_init_wrapper( &ball, &failure ) ;
+            ball_default_data( &ball) ;
             break ;
         case 2:
-            ball_step_wrapper( &ball, &failure , pinputH) ;
+            ball_init_wrapper( &ball) ;
+            break ;
+        case 3:
+            ball_step_wrapper( &ball, pinputH) ;
+            break ;
+        case 4:
+            ball_getMode( &fdir) ;
             break ;
         default:
             trick_ret = -1 ;
@@ -1194,8 +1200,8 @@ Trick::ClassSizeCheck * Trick::ClassSizeCheck::pInstance = NULL ;
 void memory_init( void ) {
 
     ALLOC_INFO * ai ;
-    exec_set_version_date_tag( "@(#)CP Version 19.7.0-beta, Tue Jan 23 09:42:58 2024" ) ;
-    exec_set_build_date( "Tue Jan 23 09:42:58 2024" ) ;
+    exec_set_version_date_tag( "@(#)CP Version 19.7.0-beta, Tue Jan 23 17:01:00 2024" ) ;
+    exec_set_build_date( "Tue Jan 23 17:01:00 2024" ) ;
     exec_set_current_version( "19.7.0-beta" ) ;
 
     populate_sim_services_class_map() ;
@@ -1204,16 +1210,8 @@ void memory_init( void ) {
     populate_enum_map() ;
 
     exec_add_scheduled_job_class("automatic") ;
-    exec_add_scheduled_job_class("random") ;
-    exec_add_scheduled_job_class("environment") ;
-    exec_add_scheduled_job_class("sensor") ;
-    exec_add_scheduled_job_class("sensor_emitter") ;
-    exec_add_scheduled_job_class("sensor_reflector") ;
-    exec_add_scheduled_job_class("sensor_receiver") ;
+    exec_add_scheduled_job_class("get_mode") ;
     exec_add_scheduled_job_class("scheduled") ;
-    exec_add_scheduled_job_class("effector") ;
-    exec_add_scheduled_job_class("effector_emitter") ;
-    exec_add_scheduled_job_class("effector_receiver") ;
     exec_add_scheduled_job_class("automatic_last") ;
     exec_add_scheduled_job_class("logging") ;
     exec_add_scheduled_job_class("data_record") ;

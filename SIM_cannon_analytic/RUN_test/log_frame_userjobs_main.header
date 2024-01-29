@@ -1,4 +1,5 @@
 log_frame_userjobs_main byte_order is little_endian
 log_frame_userjobs_main	double	     s	sys.exec.out.time
 log_frame_userjobs_main	long_long	     s	JOB_dyn.cannon_step_wrapper.21.02(scheduled_0.010)
-log_frame_userjobs_main	long_long	     s	JOB_dyn1.ball_step_wrapper.22.02(scheduled_0.010)
+log_frame_userjobs_main	long_long	     s	JOB_dyn1.ball_step_wrapper.22.03(scheduled_0.010)
+log_frame_userjobs_main	long_long	     s	JOB_dyn1.ball_getMode.22.04(get_mode_0.010)

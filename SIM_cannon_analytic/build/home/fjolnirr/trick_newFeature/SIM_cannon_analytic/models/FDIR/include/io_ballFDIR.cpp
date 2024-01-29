@@ -26,15 +26,20 @@ ATTRIBUTES attrFAILURE[] = {
   15,TRICK_BOOLEAN, sizeof(bool), 0, 0, Language_CPP, 0,
   0, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
   NULL, NULL, NULL, NULL},
-{"isOpen", "bool", "1", "", "",
+{"isBug", "bool", "1", "", "",
   "",
   15,TRICK_BOOLEAN, sizeof(bool), 0, 0, Language_CPP, 0,
   1, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
   NULL, NULL, NULL, NULL},
-{"isReset", "bool", "1", "", "",
+{"isCrashed", "bool", "1", "", "",
   "",
   15,TRICK_BOOLEAN, sizeof(bool), 0, 0, Language_CPP, 0,
   2, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"isFailure", "bool", "1", "", "",
+  "",
+  15,TRICK_BOOLEAN, sizeof(bool), 0, 0, Language_CPP, 0,
+  3, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
   NULL, NULL, NULL, NULL},
 {"", "", "1", "", "",
   "",
@@ -81,8 +86,291 @@ struct UnitsMapFAILURE {
     UnitsMapFAILURE() {
         Trick::UnitsMap* units_map_ptr = Trick::UnitsMap::units_map();
         units_map_ptr->add_param("FAILURE_isBroken", "1") ;
-        units_map_ptr->add_param("FAILURE_isOpen", "1") ;
-        units_map_ptr->add_param("FAILURE_isReset", "1") ;
+        units_map_ptr->add_param("FAILURE_isBug", "1") ;
+        units_map_ptr->add_param("FAILURE_isCrashed", "1") ;
+        units_map_ptr->add_param("FAILURE_isFailure", "1") ;
     }
 } umFAILURE;
+
+extern "C" {
+
+ATTRIBUTES attrRUN[] = {
+{"isOn", "bool", "1", "", "",
+  "",
+  15,TRICK_BOOLEAN, sizeof(bool), 0, 0, Language_CPP, 0,
+  0, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"isRun", "bool", "1", "", "",
+  "",
+  15,TRICK_BOOLEAN, sizeof(bool), 0, 0, Language_CPP, 0,
+  1, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"", "", "1", "", "",
+  "",
+  15,TRICK_VOID, 0, 0, 0, Language_CPP, 0,
+  0, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL} };
+
+} //extern "C"
+
+
+void init_attrRUN() {
+
+    static int initialized ;
+    if (initialized) {
+        return;
+    }
+    initialized = 1;
+
+}
+
+extern "C" {
+
+void init_attrRUN_c_intf() {
+    init_attrRUN() ;
+}
+
+size_t io_src_sizeof_RUN() {
+    return sizeof(RUN) ;
+}
+
+void* io_src_allocate_RUN(int num) {
+    RUN* temp = (RUN*)calloc(num, sizeof(RUN));
+    return (void*)temp;
+}
+
+void io_src_destruct_RUN(void* address __attribute__((unused)), int num __attribute__((unused))) {
+}
+
+void io_src_delete_RUN(void* address __attribute__((unused))) {}
+
+} //extern "C"
+
+struct UnitsMapRUN {
+    UnitsMapRUN() {
+        Trick::UnitsMap* units_map_ptr = Trick::UnitsMap::units_map();
+        units_map_ptr->add_param("RUN_isOn", "1") ;
+        units_map_ptr->add_param("RUN_isRun", "1") ;
+    }
+} umRUN;
+
+extern "C" {
+
+ATTRIBUTES attrCLOSE[] = {
+{"isOff", "bool", "1", "", "",
+  "",
+  15,TRICK_BOOLEAN, sizeof(bool), 0, 0, Language_CPP, 0,
+  0, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"isClose", "bool", "1", "", "",
+  "",
+  15,TRICK_BOOLEAN, sizeof(bool), 0, 0, Language_CPP, 0,
+  1, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"", "", "1", "", "",
+  "",
+  15,TRICK_VOID, 0, 0, 0, Language_CPP, 0,
+  0, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL} };
+
+} //extern "C"
+
+
+void init_attrCLOSE() {
+
+    static int initialized ;
+    if (initialized) {
+        return;
+    }
+    initialized = 1;
+
+}
+
+extern "C" {
+
+void init_attrCLOSE_c_intf() {
+    init_attrCLOSE() ;
+}
+
+size_t io_src_sizeof_CLOSE() {
+    return sizeof(CLOSE) ;
+}
+
+void* io_src_allocate_CLOSE(int num) {
+    CLOSE* temp = (CLOSE*)calloc(num, sizeof(CLOSE));
+    return (void*)temp;
+}
+
+void io_src_destruct_CLOSE(void* address __attribute__((unused)), int num __attribute__((unused))) {
+}
+
+void io_src_delete_CLOSE(void* address __attribute__((unused))) {}
+
+} //extern "C"
+
+struct UnitsMapCLOSE {
+    UnitsMapCLOSE() {
+        Trick::UnitsMap* units_map_ptr = Trick::UnitsMap::units_map();
+        units_map_ptr->add_param("CLOSE_isOff", "1") ;
+        units_map_ptr->add_param("CLOSE_isClose", "1") ;
+    }
+} umCLOSE;
+
+extern "C" {
+
+ATTRIBUTES attrWARNING[] = {
+{"isPatching", "bool", "1", "", "",
+  "",
+  15,TRICK_BOOLEAN, sizeof(bool), 0, 0, Language_CPP, 0,
+  0, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"isMaintanence", "bool", "1", "", "",
+  "",
+  15,TRICK_BOOLEAN, sizeof(bool), 0, 0, Language_CPP, 0,
+  1, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"isRecovery", "bool", "1", "", "",
+  "",
+  15,TRICK_BOOLEAN, sizeof(bool), 0, 0, Language_CPP, 0,
+  2, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"isWarning", "bool", "1", "", "",
+  "",
+  15,TRICK_BOOLEAN, sizeof(bool), 0, 0, Language_CPP, 0,
+  3, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"", "", "1", "", "",
+  "",
+  15,TRICK_VOID, 0, 0, 0, Language_CPP, 0,
+  0, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL} };
+
+} //extern "C"
+
+
+void init_attrWARNING() {
+
+    static int initialized ;
+    if (initialized) {
+        return;
+    }
+    initialized = 1;
+
+}
+
+extern "C" {
+
+void init_attrWARNING_c_intf() {
+    init_attrWARNING() ;
+}
+
+size_t io_src_sizeof_WARNING() {
+    return sizeof(WARNING) ;
+}
+
+void* io_src_allocate_WARNING(int num) {
+    WARNING* temp = (WARNING*)calloc(num, sizeof(WARNING));
+    return (void*)temp;
+}
+
+void io_src_destruct_WARNING(void* address __attribute__((unused)), int num __attribute__((unused))) {
+}
+
+void io_src_delete_WARNING(void* address __attribute__((unused))) {}
+
+} //extern "C"
+
+struct UnitsMapWARNING {
+    UnitsMapWARNING() {
+        Trick::UnitsMap* units_map_ptr = Trick::UnitsMap::units_map();
+        units_map_ptr->add_param("WARNING_isPatching", "1") ;
+        units_map_ptr->add_param("WARNING_isMaintanence", "1") ;
+        units_map_ptr->add_param("WARNING_isRecovery", "1") ;
+        units_map_ptr->add_param("WARNING_isWarning", "1") ;
+    }
+} umWARNING;
+
+extern "C" {
+
+ATTRIBUTES attrFDIR[] = {
+{"warning", "WARNING", "1", "", "",
+  "",
+  15,TRICK_STRUCTURED, 0, 0, 0, Language_CPP, 0,
+  0, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"run", "RUN", "1", "", "",
+  "",
+  15,TRICK_STRUCTURED, 0, 0, 0, Language_CPP, 0,
+  4, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"close", "CLOSE", "1", "", "",
+  "",
+  15,TRICK_STRUCTURED, 0, 0, 0, Language_CPP, 0,
+  6, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"failure", "FAILURE", "1", "", "",
+  "",
+  15,TRICK_STRUCTURED, 0, 0, 0, Language_CPP, 0,
+  8, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"isFDIR", "int", "1", "", "",
+  "",
+  15,TRICK_INTEGER, sizeof(int), 0, 0, Language_CPP, 0,
+  12, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
+{"", "", "1", "", "",
+  "",
+  15,TRICK_VOID, 0, 0, 0, Language_CPP, 0,
+  0, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL} };
+
+} //extern "C"
+
+
+void init_attrFDIR() {
+
+    static int initialized ;
+    if (initialized) {
+        return;
+    }
+    initialized = 1;
+
+    trick_MM->add_attr_info(std::string(attrFDIR[0].type_name) , &attrFDIR[0], __FILE__ , __LINE__ ) ;
+    trick_MM->add_attr_info(std::string(attrFDIR[1].type_name) , &attrFDIR[1], __FILE__ , __LINE__ ) ;
+    trick_MM->add_attr_info(std::string(attrFDIR[2].type_name) , &attrFDIR[2], __FILE__ , __LINE__ ) ;
+    trick_MM->add_attr_info(std::string(attrFDIR[3].type_name) , &attrFDIR[3], __FILE__ , __LINE__ ) ;
+}
+
+extern "C" {
+
+void init_attrFDIR_c_intf() {
+    init_attrFDIR() ;
+}
+
+size_t io_src_sizeof_FDIR() {
+    return sizeof(FDIR) ;
+}
+
+void* io_src_allocate_FDIR(int num) {
+    FDIR* temp = (FDIR*)calloc(num, sizeof(FDIR));
+    return (void*)temp;
+}
+
+void io_src_destruct_FDIR(void* address __attribute__((unused)), int num __attribute__((unused))) {
+}
+
+void io_src_delete_FDIR(void* address __attribute__((unused))) {}
+
+} //extern "C"
+
+struct UnitsMapFDIR {
+    UnitsMapFDIR() {
+        Trick::UnitsMap* units_map_ptr = Trick::UnitsMap::units_map();
+        units_map_ptr->add_param("FDIR_warning", "1") ;
+        units_map_ptr->add_param("FDIR_run", "1") ;
+        units_map_ptr->add_param("FDIR_close", "1") ;
+        units_map_ptr->add_param("FDIR_failure", "1") ;
+        units_map_ptr->add_param("FDIR_isFDIR", "1") ;
+    }
+} umFDIR;
 

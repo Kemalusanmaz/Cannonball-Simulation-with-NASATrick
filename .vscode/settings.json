@@ -2,6 +2,12 @@
     "files.associations": {
         "failure.h": "c",
         "cannon.h": "c",
-        "cannon_analytic.h": "c"
+        "cannon_analytic.h": "c",
+        "s_define": "cpp",
+        "fdir.h": "c",
+        "ball.h": "c",
+        "cannonfdir.h": "c",
+        "ballfdir.h": "c",
+        "ballwrapper.h": "c"
     }
 }

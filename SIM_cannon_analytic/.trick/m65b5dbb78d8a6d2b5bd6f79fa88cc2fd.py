@@ -1211,7 +1211,7 @@ class BallSimObject(sim_services.SimObject):
     __setattr__ = _swig_setattr_nondynamic_instance_variable(object.__setattr__)
 
     ball = property(_m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_ball_get, _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_ball_set)
-    failure = property(_m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_failure_get, _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_failure_set)
+    fdir = property(_m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_fdir_get, _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_fdir_set)
     pinputH = property(_m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_pinputH_get, _m65b5dbb78d8a6d2b5bd6f79fa88cc2fd.BallSimObject_pinputH_set)
 
     def __init__(self, **kwargs):

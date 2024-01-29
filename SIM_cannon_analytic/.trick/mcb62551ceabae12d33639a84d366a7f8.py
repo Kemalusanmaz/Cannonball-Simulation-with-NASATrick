@@ -164,8 +164,9 @@ class FAILURE(object):
     def __len__(self, *args):
         return _mcb62551ceabae12d33639a84d366a7f8.FAILURE___len__(self, *args)
     isBroken = property(_mcb62551ceabae12d33639a84d366a7f8.FAILURE_isBroken_get, _mcb62551ceabae12d33639a84d366a7f8.FAILURE_isBroken_set)
-    isOpen = property(_mcb62551ceabae12d33639a84d366a7f8.FAILURE_isOpen_get, _mcb62551ceabae12d33639a84d366a7f8.FAILURE_isOpen_set)
-    isReset = property(_mcb62551ceabae12d33639a84d366a7f8.FAILURE_isReset_get, _mcb62551ceabae12d33639a84d366a7f8.FAILURE_isReset_set)
+    isBug = property(_mcb62551ceabae12d33639a84d366a7f8.FAILURE_isBug_get, _mcb62551ceabae12d33639a84d366a7f8.FAILURE_isBug_set)
+    isCrashed = property(_mcb62551ceabae12d33639a84d366a7f8.FAILURE_isCrashed_get, _mcb62551ceabae12d33639a84d366a7f8.FAILURE_isCrashed_set)
+    isFailure = property(_mcb62551ceabae12d33639a84d366a7f8.FAILURE_isFailure_get, _mcb62551ceabae12d33639a84d366a7f8.FAILURE_isFailure_set)
 
     def __init__(self, **kwargs):
         import _sim_services
@@ -189,5 +190,164 @@ class FAILURE(object):
 # Register FAILURE in _mcb62551ceabae12d33639a84d366a7f8:
 _mcb62551ceabae12d33639a84d366a7f8.FAILURE_swigregister(FAILURE)
 
+class RUN(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __getitem__(self, *args):
+        return _mcb62551ceabae12d33639a84d366a7f8.RUN___getitem__(self, *args)
+
+    def __len__(self, *args):
+        return _mcb62551ceabae12d33639a84d366a7f8.RUN___len__(self, *args)
+    isOn = property(_mcb62551ceabae12d33639a84d366a7f8.RUN_isOn_get, _mcb62551ceabae12d33639a84d366a7f8.RUN_isOn_set)
+    isRun = property(_mcb62551ceabae12d33639a84d366a7f8.RUN_isRun_get, _mcb62551ceabae12d33639a84d366a7f8.RUN_isRun_set)
+
+    def __init__(self, **kwargs):
+        import _sim_services
+        this = _mcb62551ceabae12d33639a84d366a7f8.new_RUN()
+        try: self.this.append(this)
+        except: self.this = this
+        if 'TMMName' in kwargs:
+            self.this.own(0)
+            isThisInMM = _sim_services.get_alloc_info_at(this)
+            if isThisInMM:
+                _sim_services.set_alloc_name_at(this, kwargs['TMMName'])
+            else:
+                _sim_services.TMM_declare_ext_var(this, _sim_services.TRICK_STRUCTURED, "RUN", 0, kwargs['TMMName'], 0, None)
+            alloc_info = _sim_services.get_alloc_info_at(this)
+            alloc_info.stcl = _sim_services.TRICK_LOCAL
+            alloc_info.alloc_type = _sim_services.TRICK_ALLOC_NEW
+
+
+    __swig_destroy__ = _mcb62551ceabae12d33639a84d366a7f8.delete_RUN
+
+# Register RUN in _mcb62551ceabae12d33639a84d366a7f8:
+_mcb62551ceabae12d33639a84d366a7f8.RUN_swigregister(RUN)
+
+class CLOSE(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __getitem__(self, *args):
+        return _mcb62551ceabae12d33639a84d366a7f8.CLOSE___getitem__(self, *args)
+
+    def __len__(self, *args):
+        return _mcb62551ceabae12d33639a84d366a7f8.CLOSE___len__(self, *args)
+    isOff = property(_mcb62551ceabae12d33639a84d366a7f8.CLOSE_isOff_get, _mcb62551ceabae12d33639a84d366a7f8.CLOSE_isOff_set)
+    isClose = property(_mcb62551ceabae12d33639a84d366a7f8.CLOSE_isClose_get, _mcb62551ceabae12d33639a84d366a7f8.CLOSE_isClose_set)
+
+    def __init__(self, **kwargs):
+        import _sim_services
+        this = _mcb62551ceabae12d33639a84d366a7f8.new_CLOSE()
+        try: self.this.append(this)
+        except: self.this = this
+        if 'TMMName' in kwargs:
+            self.this.own(0)
+            isThisInMM = _sim_services.get_alloc_info_at(this)
+            if isThisInMM:
+                _sim_services.set_alloc_name_at(this, kwargs['TMMName'])
+            else:
+                _sim_services.TMM_declare_ext_var(this, _sim_services.TRICK_STRUCTURED, "CLOSE", 0, kwargs['TMMName'], 0, None)
+            alloc_info = _sim_services.get_alloc_info_at(this)
+            alloc_info.stcl = _sim_services.TRICK_LOCAL
+            alloc_info.alloc_type = _sim_services.TRICK_ALLOC_NEW
+
+
+    __swig_destroy__ = _mcb62551ceabae12d33639a84d366a7f8.delete_CLOSE
+
+# Register CLOSE in _mcb62551ceabae12d33639a84d366a7f8:
+_mcb62551ceabae12d33639a84d366a7f8.CLOSE_swigregister(CLOSE)
+
+class WARNING(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __getitem__(self, *args):
+        return _mcb62551ceabae12d33639a84d366a7f8.WARNING___getitem__(self, *args)
+
+    def __len__(self, *args):
+        return _mcb62551ceabae12d33639a84d366a7f8.WARNING___len__(self, *args)
+    isPatching = property(_mcb62551ceabae12d33639a84d366a7f8.WARNING_isPatching_get, _mcb62551ceabae12d33639a84d366a7f8.WARNING_isPatching_set)
+    isMaintanence = property(_mcb62551ceabae12d33639a84d366a7f8.WARNING_isMaintanence_get, _mcb62551ceabae12d33639a84d366a7f8.WARNING_isMaintanence_set)
+    isRecovery = property(_mcb62551ceabae12d33639a84d366a7f8.WARNING_isRecovery_get, _mcb62551ceabae12d33639a84d366a7f8.WARNING_isRecovery_set)
+    isWarning = property(_mcb62551ceabae12d33639a84d366a7f8.WARNING_isWarning_get, _mcb62551ceabae12d33639a84d366a7f8.WARNING_isWarning_set)
+
+    def __init__(self, **kwargs):
+        import _sim_services
+        this = _mcb62551ceabae12d33639a84d366a7f8.new_WARNING()
+        try: self.this.append(this)
+        except: self.this = this
+        if 'TMMName' in kwargs:
+            self.this.own(0)
+            isThisInMM = _sim_services.get_alloc_info_at(this)
+            if isThisInMM:
+                _sim_services.set_alloc_name_at(this, kwargs['TMMName'])
+            else:
+                _sim_services.TMM_declare_ext_var(this, _sim_services.TRICK_STRUCTURED, "WARNING", 0, kwargs['TMMName'], 0, None)
+            alloc_info = _sim_services.get_alloc_info_at(this)
+            alloc_info.stcl = _sim_services.TRICK_LOCAL
+            alloc_info.alloc_type = _sim_services.TRICK_ALLOC_NEW
+
+
+    __swig_destroy__ = _mcb62551ceabae12d33639a84d366a7f8.delete_WARNING
+
+# Register WARNING in _mcb62551ceabae12d33639a84d366a7f8:
+_mcb62551ceabae12d33639a84d366a7f8.WARNING_swigregister(WARNING)
+
+class FDIR(object):
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __getitem__(self, *args):
+        return _mcb62551ceabae12d33639a84d366a7f8.FDIR___getitem__(self, *args)
+
+    def __len__(self, *args):
+        return _mcb62551ceabae12d33639a84d366a7f8.FDIR___len__(self, *args)
+    warning = property(_mcb62551ceabae12d33639a84d366a7f8.FDIR_warning_get, _mcb62551ceabae12d33639a84d366a7f8.FDIR_warning_set)
+    run = property(_mcb62551ceabae12d33639a84d366a7f8.FDIR_run_get, _mcb62551ceabae12d33639a84d366a7f8.FDIR_run_set)
+    close = property(_mcb62551ceabae12d33639a84d366a7f8.FDIR_close_get, _mcb62551ceabae12d33639a84d366a7f8.FDIR_close_set)
+    failure = property(_mcb62551ceabae12d33639a84d366a7f8.FDIR_failure_get, _mcb62551ceabae12d33639a84d366a7f8.FDIR_failure_set)
+    isFDIR = property(_mcb62551ceabae12d33639a84d366a7f8.FDIR_isFDIR_get, _mcb62551ceabae12d33639a84d366a7f8.FDIR_isFDIR_set)
+
+    def __init__(self, **kwargs):
+        import _sim_services
+        this = _mcb62551ceabae12d33639a84d366a7f8.new_FDIR()
+        try: self.this.append(this)
+        except: self.this = this
+        if 'TMMName' in kwargs:
+            self.this.own(0)
+            isThisInMM = _sim_services.get_alloc_info_at(this)
+            if isThisInMM:
+                _sim_services.set_alloc_name_at(this, kwargs['TMMName'])
+            else:
+                _sim_services.TMM_declare_ext_var(this, _sim_services.TRICK_STRUCTURED, "FDIR", 0, kwargs['TMMName'], 0, None)
+            alloc_info = _sim_services.get_alloc_info_at(this)
+            alloc_info.stcl = _sim_services.TRICK_LOCAL
+            alloc_info.alloc_type = _sim_services.TRICK_ALLOC_NEW
+
+
+    __swig_destroy__ = _mcb62551ceabae12d33639a84d366a7f8.delete_FDIR
+
+# Register FDIR in _mcb62551ceabae12d33639a84d366a7f8:
+_mcb62551ceabae12d33639a84d366a7f8.FDIR_swigregister(FDIR)
+
+
+def FDIR_default_data(*args):
+    return _mcb62551ceabae12d33639a84d366a7f8.FDIR_default_data(*args)
+
+def ball_run(*args):
+    return _mcb62551ceabae12d33639a84d366a7f8.ball_run(*args)
+
+def ball_close(*args):
+    return _mcb62551ceabae12d33639a84d366a7f8.ball_close(*args)
+
+def ball_failure(*args):
+    return _mcb62551ceabae12d33639a84d366a7f8.ball_failure(*args)
+
+def ball_warning(*args):
+    return _mcb62551ceabae12d33639a84d366a7f8.ball_warning(*args)
+
+def ball_getMode(*args):
+    return _mcb62551ceabae12d33639a84d366a7f8.ball_getMode(*args)
 
 

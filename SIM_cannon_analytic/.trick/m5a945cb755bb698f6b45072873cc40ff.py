@@ -164,13 +164,4 @@ def ball_step_wrapper(*args):
 def ball_init_wrapper(*args):
     return _m5a945cb755bb698f6b45072873cc40ff.ball_init_wrapper(*args)
 
-def ball_default_FDIR(*args):
-    return _m5a945cb755bb698f6b45072873cc40ff.ball_default_FDIR(*args)
-
-def ball_init_FDIR(*args):
-    return _m5a945cb755bb698f6b45072873cc40ff.ball_init_FDIR(*args)
-
-def ball_step_FDIR(*args):
-    return _m5a945cb755bb698f6b45072873cc40ff.ball_step_FDIR(*args)
-
 

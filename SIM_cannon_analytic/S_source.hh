@@ -866,15 +866,17 @@ class BallSimObject : public Trick::SimObject {
 
     public:
         BALL ball;
-        FAILURE failure;
+        FDIR fdir;
 
         InputHeightValue* pinputH;
 
         BallSimObject() {
             Trick::JobData * job __attribute__((unused)) ;
-            job = this->add_job(0, 0, "default_data", NULL, 1, "ball_default_data", "", 60000) ;
-            job = this->add_job(0, 1, "initialization", NULL, 1, "ball_init_wrapper", "", 60000) ;
-            job = this->add_job(0, 2, "scheduled", NULL, 0.01, "ball_step_wrapper", "", 60000) ;
+            job = this->add_job(0, 0, "default_data", NULL, 1, "FDIR_default_data", "", 60000) ;
+            job = this->add_job(0, 1, "default_data", NULL, 1, "ball_default_data", "", 60000) ;
+            job = this->add_job(0, 2, "initialization", NULL, 1, "ball_init_wrapper", "", 60000) ;
+            job = this->add_job(0, 3, "scheduled", NULL, 0.01, "ball_step_wrapper", "", 60000) ;
+            job = this->add_job(0, 4, "get_mode", NULL, 0.01, "ball_getMode", "", 60000) ;
         }
 
     public:
